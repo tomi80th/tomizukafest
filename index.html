@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof. Masayoshi Tomizuka's 80th Birthday Celebration</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-dark': '#2A2522', // Warm Charcoal
+                        'brand-light': '#F9F8F6', // Soft Cream
+                        'brand-accent': '#B38A58', // Warm Soft Gold
+                        'brand-accent-light': '#EFE8DE',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Warm elegant background for the hero section */
+        .hero-bg {
+            background-image: linear-gradient(rgba(42, 37, 34, 0.7), rgba(42, 37, 34, 0.8)), url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-brand-light flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-brand-accent-light">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="font-serif font-bold text-xl text-brand-dark tracking-wide">Tomizuka 80th</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-brand-accent transition-colors">About</a>
+                    <a href="#details" class="text-gray-600 hover:text-brand-accent transition-colors">Event Details</a>
+                    <a href="#program" class="text-gray-600 hover:text-brand-accent transition-colors">Program</a>
+                    <a href="#rsvp" class="bg-brand-dark text-brand-light px-5 py-2 rounded hover:bg-black transition-colors shadow-sm">RSVP Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg text-brand-light pt-32 pb-40 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <span class="text-brand-accent font-medium tracking-[0.2em] uppercase text-sm mb-6 block">You are warmly invited to</span>
+            <h1 class="text-4xl md:text-6xl font-serif mb-6 leading-tight">
+                Celebrating the 80th Birthday of <br>
+                <span class="text-brand-accent italic">Prof. Masayoshi Tomizuka</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 mb-12 max-w-2xl mx-auto font-light leading-relaxed">
+                Honoring a half-century legacy in mechanical engineering, control theory, and robotics.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+                <a href="#rsvp" class="bg-brand-accent text-white font-medium px-8 py-3 rounded hover:bg-[#9E7A4E] transition-all w-full sm:w-auto text-center shadow-lg hover:shadow-xl">
+                    Reserve Your Spot
+                </a>
+                <a href="#details" class="bg-transparent text-white border border-brand-accent font-medium px-8 py-3 rounded hover:bg-brand-accent/10 transition-colors w-full sm:w-auto text-center">
+                    View Event Details
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        
+        <!-- Event Details Cards -->
+        <section id="details" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 -mt-20 relative z-20">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Date Card -->
+                <div class="bg-white rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-10 border border-brand-accent-light flex flex-col items-center text-center hover:-translate-y-1 transition-transform duration-300">
+                    <div class="text-brand-accent mb-6">
+                        <i class="ph ph-calendar-blank text-4xl"></i>
+                    </div>
+                    <h3 class="font-serif text-xl text-brand-dark mb-3">Date & Time</h3>
+                    <p class="text-gray-600 font-medium">[Month DD, YYYY]</p>
+                    <p class="text-gray-500 text-sm mt-1">[00:00 AM] - [00:00 PM]</p>
+                </div>
+
+                <!-- Venue Card -->
+                <div class="bg-white rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-10 border border-brand-accent-light flex flex-col items-center text-center hover:-translate-y-1 transition-transform duration-300">
+                    <div class="text-brand-accent mb-6">
+                        <i class="ph ph-map-pin text-4xl"></i>
+                    </div>
+                    <h3 class="font-serif text-xl text-brand-dark mb-3">Location</h3>
+                    <p class="text-gray-600 font-medium">[Venue Name Placeholder]</p>
+                    <p class="text-gray-500 text-sm mt-1">[Street Address, City, State]</p>
+                    <a href="#" class="text-brand-accent text-sm mt-4 hover:underline uppercase tracking-wider text-xs font-semibold">Map & Directions &rarr;</a>
+                </div>
+
+                <!-- Format Card -->
+                <div class="bg-white rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.04)] p-10 border border-brand-accent-light flex flex-col items-center text-center hover:-translate-y-1 transition-transform duration-300">
+                    <div class="text-brand-accent mb-6">
+                        <i class="ph ph-martini text-4xl"></i>
+                    </div>
+                    <h3 class="font-serif text-xl text-brand-dark mb-3">Event Format</h3>
+                    <p class="text-gray-600 font-medium">[e.g., Symposium & Banquet]</p>
+                    <p class="text-gray-500 text-sm mt-1">Attire: [Business Casual / Formal]</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-24 bg-brand-light">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row items-center gap-16">
+                    <div class="w-full md:w-2/5 flex justify-center">
+                        <!-- Placeholder for Portrait Image -->
+                        <div class="w-72 h-72 bg-brand-accent-light rounded-full border-8 border-white shadow-2xl flex items-center justify-center overflow-hidden relative">
+                            <i class="ph ph-user text-6xl text-brand-accent"></i>
+                            <!-- Note: Replace the icon above with an img tag once you have a photo:
+                            <img src="path/to/tomizuka-photo.jpg" alt="Prof. Masayoshi Tomizuka" class="w-full h-full object-cover"> -->
+                        </div>
+                    </div>
+                    <div class="w-full md:w-3/5">
+                        <span class="text-brand-accent font-medium tracking-widest uppercase text-sm mb-3 block">Our Guest of Honor</span>
+                        <h2 class="text-3xl md:text-4xl font-serif text-brand-dark mb-8">Honoring a Lifetime of Achievement</h2>
+                        <div class="space-y-5 text-gray-600 leading-relaxed font-light text-lg">
+                            <p>
+                                Join us in celebrating the 80th birthday of Professor Masayoshi Tomizuka. This special occasion gathers alumni, colleagues, students, and friends from around the world to honor his monumental contributions to the fields of mechanical systems, control theory, and robotics.
+                            </p>
+                            <p>
+                                Affectionately known as "Tomi" by many of his students, Professor Tomizuka has mentored generations of engineers and researchers throughout his distinguished career. This event will serve as a wonderful opportunity to reconnect, share memories, and celebrate his enduring legacy.
+                            </p>
+                            <p class="font-medium text-brand-dark">
+                                Please save the date! More detailed information regarding the program and registration will be announced soon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tentative Program Section -->
+        <section id="program" class="py-24 bg-white">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <span class="text-brand-accent font-medium tracking-widest uppercase text-sm mb-3 block">Itinerary</span>
+                    <h2 class="text-3xl md:text-4xl font-serif text-brand-dark mb-4">Tentative Schedule</h2>
+                    <p class="text-gray-500 font-light text-lg">The program details are currently being finalized. Check back soon for updates.</p>
+                </div>
+                
+                <div class="border-l border-brand-accent/30 ml-4 md:ml-0 pl-8 space-y-12">
+                    <!-- Schedule Item Placeholder -->
+                    <div class="relative">
+                        <div class="absolute -left-[37px] bg-brand-light rounded-full border border-brand-accent w-3 h-3 mt-1.5"></div>
+                        <h4 class="font-serif text-xl text-brand-dark">[00:00 PM] - Welcome & Registration</h4>
+                        <p class="text-gray-600 mt-2 font-light">Arrival, check-in, and light refreshments.</p>
+                    </div>
+                    <!-- Schedule Item Placeholder -->
+                    <div class="relative">
+                        <div class="absolute -left-[37px] bg-brand-light rounded-full border border-brand-accent w-3 h-3 mt-1.5"></div>
+                        <h4 class="font-serif text-xl text-brand-dark">[00:00 PM] - Academic Symposium</h4>
+                        <p class="text-gray-600 mt-2 font-light">Presentations from distinguished alumni and colleagues celebrating Prof. Tomizuka's research impact.</p>
+                    </div>
+                    <!-- Schedule Item Placeholder -->
+                    <div class="relative">
+                        <div class="absolute -left-[37px] bg-brand-accent rounded-full border border-brand-accent w-3 h-3 mt-1.5 shadow-[0_0_10px_rgba(179,138,88,0.5)]"></div>
+                        <h4 class="font-serif text-xl text-brand-dark">[00:00 PM] - Banquet Dinner & Speeches</h4>
+                        <p class="text-gray-600 mt-2 font-light">Dinner service followed by keynote speeches and open mic for sharing memories.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP / Call to Action -->
+        <section id="rsvp" class="py-24 bg-brand-dark text-brand-light text-center relative">
+            <!-- Decorative subtle overlay for luxury feel -->
+            <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-10"></div>
+            
+            <div class="max-w-3xl mx-auto px-4 relative z-10">
+                <h2 class="text-3xl md:text-4xl font-serif mb-6 text-white">We Hope You Can Join Us</h2>
+                <p class="mb-10 text-gray-300 text-lg font-light leading-relaxed">
+                    Please let us know if you plan to attend so we can ensure proper arrangements. 
+                    Formal invitations and a detailed registration form will follow.
+                </p>
+                <div class="bg-white/5 p-10 rounded-xl backdrop-blur-sm border border-brand-accent/20">
+                    <p class="font-serif text-brand-accent text-xl mb-6">RSVP Deadline: [Month DD, YYYY]</p>
+                    <!-- Replace with actual Google Form / Eventbrite link -->
+                    <a href="#" class="inline-block bg-brand-accent text-white font-medium px-10 py-4 rounded hover:bg-[#9E7A4E] transition-colors shadow-lg tracking-wide uppercase text-sm">
+                        Fill out the RSVP Form
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#1A1715] text-gray-400 py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <span class="font-serif text-2xl text-white block mb-6">Tomizuka 80th</span>
+                <p class="text-sm font-light leading-relaxed">
+                    A celebration of Professor Masayoshi Tomizuka's 80th birthday and his lifelong contributions to engineering.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-medium mb-6 uppercase tracking-wider text-sm">Quick Links</h4>
+                <ul class="space-y-3 text-sm font-light">
+                    <li><a href="#about" class="hover:text-brand-accent transition-colors">About the Event</a></li>
+                    <li><a href="#details" class="hover:text-brand-accent transition-colors">Location & Time</a></li>
+                    <li><a href="#program" class="hover:text-brand-accent transition-colors">Schedule</a></li>
+                    <li><a href="#rsvp" class="hover:text-brand-accent transition-colors">RSVP</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-medium mb-6 uppercase tracking-wider text-sm">Contact Organizing Committee</h4>
+                <p class="text-sm mb-4 font-light">Have questions? Reach out to us:</p>
+                <a href="mailto:organizer@example.com" class="text-brand-accent hover:text-white transition-colors flex items-center gap-3">
+                    <i class="ph ph-envelope-simple text-xl"></i>
+                    [organizer-email@example.edu]
+                </a>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 pt-8 border-t border-white/10 text-xs font-light text-center md:text-left flex flex-col md:flex-row justify-between items-center text-gray-500">
+            <p>&copy; 2024 Tomizuka 80th Birthday Organizing Committee. All rights reserved.</p>
+            <p class="mt-2 md:mt-0">Hosted on GitHub Pages</p>
+        </div>
+    </footer>
+
+</body>
+</html>
