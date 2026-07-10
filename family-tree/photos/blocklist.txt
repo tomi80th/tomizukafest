@@ -1,0 +1,4 @@
+# Photo blocklist — one person-id per line.
+# Adding an id here deletes photos/<id>.jpg on the next auto-update and
+# prevents it from ever being re-ingested from the survey.
+# Person ids are shown on photos.html (the weekly audit page).

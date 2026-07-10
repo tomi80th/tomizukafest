@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Photo audit · Tomizuka Academic Family Tree</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --page: #f9f8f6; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #706e68; --grid: #e1e0d9; --border: rgba(11,11,11,0.10);
+    --accent: #B38A58; --accent-deep: #8f6b3d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #fff; --ink-2: #c3c2b7;
+      --muted: #898781; --grid: #2c2c2a; --border: rgba(255,255,255,0.10);
+      --accent-deep: #d9b98a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif; font-weight: 300;
+  }
+  a { color: var(--accent-deep); }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 36px 24px 80px; }
+  h1 { font-family: 'Playfair Display', serif; font-size: 28px; margin: 0 0 8px; }
+  .sub { color: var(--ink-2); font-size: 14px; line-height: 1.6; max-width: 760px; }
+  .sub code { background: var(--surface); border: 1px solid var(--grid); border-radius: 4px; padding: 1px 5px; font-size: 12px; }
+  .count { color: var(--muted); font-size: 13px; margin: 18px 0 12px; }
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 12px; text-align: center; font-size: 12px; color: var(--ink-2);
+  }
+  .card img {
+    width: 96px; height: 96px; border-radius: 50%; object-fit: cover;
+    border: 2px solid var(--accent);
+  }
+  .card .n { font-weight: 500; color: var(--ink); margin-top: 8px; font-size: 13px; }
+  .card .m { color: var(--muted); margin-top: 2px; }
+  .card .id {
+    font-family: ui-monospace, monospace; font-size: 10.5px; color: var(--muted);
+    margin-top: 6px; word-break: break-all; user-select: all;
+  }
+  .card .src { margin-top: 4px; font-size: 11px; }
+  .badge {
+    display: inline-block; margin-top: 6px; font-size: 10px; font-weight: 500;
+    letter-spacing: .04em; color: var(--accent-deep);
+    border: 1px solid var(--accent); border-radius: 4px; padding: 1px 5px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Photo audit</h1>
+  <p class="sub">Weekly check: scan the faces below — wrong person, bad crop, or anything
+    inappropriate → copy the <code>id</code> under the card and add it as a line to
+    <a href="https://github.com/ThomasChen98/tomizuka-family-tree/edit/gh-pages/photos/blocklist.txt">photos/blocklist.txt</a>.
+    The next auto-update (≤6&nbsp;h, or run the
+    <a href="https://github.com/ThomasChen98/tomizuka-family-tree/actions">Action</a> manually)
+    deletes the photo and never re-ingests it.
+    Survey-submitted photos are tagged <span class="badge">SELF-SUBMITTED</span> — check those first.
+    <a href="index.html">← back to the tree</a></p>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+</div>
+
+<script>
+async function initAudit() {
+  'use strict';
+  const bust = Math.floor(Date.now() / 300000);
+  let manifest = {};
+  try { manifest = await (await fetch('photos/manifest.json?v=' + bust)).json(); } catch (e) {}
+
+  const flat = [];
+  (function walk(list, gen) {
+    (list || []).forEach(p => { flat.push({ p, gen }); walk(p.children, gen + 1); });
+  })(window.TREE_DATA.children, 1);
+
+  const withPhoto = flat.filter(r => r.p.photo);
+  // survey-submitted first, then by generation
+  withPhoto.sort((a, b) => {
+    const sa = ((manifest[a.p.id] || {}).confidence || '').includes('self') ? 0 : 1;
+    const sb = ((manifest[b.p.id] || {}).confidence || '').includes('self') ? 0 : 1;
+    return sa - sb || a.gen - b.gen;
+  });
+
+  document.getElementById('count').textContent =
+    `${withPhoto.length} photos · ${flat.length} people on the tree`;
+
+  const grid = document.getElementById('grid');
+  withPhoto.forEach(({ p, gen }) => {
+    const m = manifest[p.id] || {};
+    const card = document.createElement('div');
+    card.className = 'card';
+    const img = document.createElement('img');
+    img.src = p.photo;
+    img.alt = p.name;
+    img.loading = 'lazy';
+    card.appendChild(img);
+    const n = document.createElement('div');
+    n.className = 'n';
+    n.textContent = p.name;
+    card.appendChild(n);
+    const meta = document.createElement('div');
+    meta.className = 'm';
+    meta.textContent = `${p.batch} · G${gen}`;
+    card.appendChild(meta);
+    if ((m.confidence || '').includes('self')) {
+      const b = document.createElement('span');
+      b.className = 'badge';
+      b.textContent = 'SELF-SUBMITTED';
+      card.appendChild(b);
+    }
+    const id = document.createElement('div');
+    id.className = 'id';
+    id.textContent = p.id;
+    card.appendChild(id);
+    if (m.source) {
+      const src = document.createElement('div');
+      src.className = 'src';
+      const a = document.createElement('a');
+      try { a.textContent = new URL(m.source).hostname; } catch (e) { a.textContent = 'source'; }
+      a.href = m.source;
+      a.rel = 'noopener';
+      a.target = '_blank';
+      src.appendChild(a);
+      card.appendChild(src);
+    }
+    grid.appendChild(card);
+  });
+}
+(function () {
+  const s = document.createElement('script');
+  s.src = 'data/tree.js?v=' + Math.floor(Date.now() / 300000);
+  s.onload = initAudit;
+  document.head.appendChild(s);
+})();
+</script>
+</body>
+</html>

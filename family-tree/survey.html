@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join the Tomizuka Academic Family Tree</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --page: #f9f8f6; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e;
+    --muted: #706e68; --grid: #e1e0d9; --border: rgba(11,11,11,0.10);
+    --accent: #B38A58; --accent-deep: #8f6b3d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+      --muted: #898781; --grid: #2c2c2a; --border: rgba(255,255,255,0.10);
+      --accent: #B38A58; --accent-deep: #d9b98a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif; font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent-deep); }
+  nav {
+    position: sticky; top: 0; z-index: 40; background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-inner {
+    max-width: 760px; margin: 0 auto; padding: 0 24px; height: 60px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-brand { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 19px; }
+  .nav-inner a { text-decoration: none; font-size: 13.5px; color: var(--ink-2); }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 40px 24px 80px; }
+  h1 { font-family: 'Playfair Display', serif; font-weight: 600; font-size: 32px; margin: 18px 0 10px; }
+  .sub { color: var(--ink-2); line-height: 1.6; margin-bottom: 30px; }
+  form {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 28px;
+  }
+  label { display: block; font-size: 13px; font-weight: 500; margin: 18px 0 6px; }
+  label:first-child { margin-top: 0; }
+  .req::after { content: " *"; color: var(--accent-deep); }
+  input[type="text"], input[type="email"], input[type="url"], select, textarea {
+    width: 100%; background: var(--page); border: 1px solid var(--border); border-radius: 6px;
+    color: var(--ink); font: inherit; font-size: 14px; padding: 9px 12px;
+  }
+  input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 560px) { .row { grid-template-columns: 1fr; } }
+  .checkline {
+    display: flex; gap: 10px; align-items: flex-start; margin: 22px 0 0;
+    padding: 14px; border: 1px solid var(--accent); border-radius: 8px;
+    background: color-mix(in srgb, var(--accent) 7%, transparent);
+  }
+  .checkline input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--accent-deep); }
+  .checkline .t { font-size: 14px; font-weight: 500; }
+  .checkline .d { font-size: 12.5px; color: var(--ink-2); margin-top: 3px; line-height: 1.5; }
+  #profFields { display: none; border-left: 2px solid var(--accent); padding-left: 16px; margin-top: 6px; }
+  #profFields.on { display: block; }
+  .forward-note {
+    font-size: 13px; color: var(--ink-2); background: var(--page);
+    border: 1px dashed var(--accent); border-radius: 6px; padding: 12px; margin-top: 16px;
+    line-height: 1.6;
+  }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  button[type="submit"] {
+    margin-top: 26px; width: 100%; background: var(--accent); border: none; color: #fff;
+    font: inherit; font-size: 15px; font-weight: 500; padding: 12px; border-radius: 6px;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover { background: var(--accent-deep); }
+  #done {
+    display: none; background: var(--surface); border: 1px solid var(--accent);
+    border-radius: 10px; padding: 28px; line-height: 1.7;
+  }
+  #done h2 { font-family: 'Playfair Display', serif; margin-top: 0; }
+  #preview {
+    white-space: pre-wrap; font-family: ui-monospace, monospace; font-size: 12px;
+    background: var(--page); border: 1px solid var(--grid); border-radius: 6px; padding: 12px;
+  }
+  footer { text-align: center; color: var(--muted); font-size: 12.5px; padding: 30px 0; }
+</style>
+</head>
+<body>
+<nav><div class="nav-inner">
+  <span class="nav-brand">Tomizuka Academic Family Tree</span>
+  <a href="index.html">← Back to the tree</a>
+</div></nav>
+
+<div class="wrap">
+  <h1>Add yourself to the tree</h1>
+  <p class="sub">One short card for Professor Tomizuka's 80th birthday. Your entry appears
+    on the <a href="index.html">family tree</a> under your advisor.
+    Email addresses are never published.</p>
+
+  <form id="f">
+    <label class="req" for="name">Full name</label>
+    <input type="text" id="name" name="name" required autocomplete="name">
+
+    <label class="req" for="email">Email (for questions only — never published)</label>
+    <input type="email" id="email" name="email" required autocomplete="email">
+
+    <label class="req" for="advisor">Your PhD advisor</label>
+    <input type="text" id="advisor" name="advisor" list="advisors" required
+           placeholder="e.g. Masayoshi Tomizuka">
+    <datalist id="advisors"></datalist>
+    <p class="hint">Start typing — professors already on the tree are suggested.
+      If your advisor isn't listed yet, type their name anyway.</p>
+
+    <div class="row">
+      <div>
+        <label class="req" for="status">Status</label>
+        <select id="status" name="status">
+          <option value="graduated">Graduated (PhD)</option>
+          <option value="current">Current PhD student</option>
+        </select>
+      </div>
+      <div>
+        <label for="grad_year">PhD year (if graduated)</label>
+        <input type="text" id="grad_year" name="grad_year" inputmode="numeric" placeholder="e.g. 2015">
+      </div>
+    </div>
+
+    <label for="note">Where are you now? (one line)</label>
+    <input type="text" id="note" name="note" placeholder="e.g. Staff Engineer at NVIDIA">
+
+    <label for="bio">Short bio (optional, 1–2 sentences)</label>
+    <textarea id="bio" name="bio" rows="2"></textarea>
+
+    <label for="homepage">Personal homepage (shown publicly on your card)</label>
+    <input type="url" id="homepage" name="homepage" placeholder="https://your-site.github.io">
+
+    <label for="photo_file">Portrait photo</label>
+    <input type="file" id="photo_file" accept="image/*">
+    <p class="hint" id="photoHint">Upload directly (resized in your browser before sending) —
+      or paste an image link below.</p>
+    <input type="url" id="photo_url" name="photo_url" placeholder="https://… (optional if you uploaded)">
+    <p class="hint">Faculty pages and personal sites work as links; LinkedIn profile links can't be
+      read automatically.</p>
+
+    <div class="checkline">
+      <input type="checkbox" id="is_professor" name="is_professor" value="yes">
+      <div>
+        <div class="t">I am (or was) a professor supervising PhD students</div>
+        <div class="d">Checking this opens your own branch on the tree — your students,
+          and their students after them, can hang below you.</div>
+      </div>
+    </div>
+
+    <div id="profFields">
+      <label for="affiliation">University / institution</label>
+      <input type="text" id="affiliation" name="affiliation" placeholder="e.g. Carnegie Mellon University">
+      <label for="title">Title</label>
+      <input type="text" id="title" name="title" placeholder="e.g. Associate Professor">
+      <div class="forward-note">
+        <strong>One more step after you submit:</strong> forward this survey link to your own
+        PhD students and alumni. Every card they fill lands in your branch —
+        that's how the tree grows one generation at a time.
+      </div>
+    </div>
+
+    <button type="submit">Add me to the tree</button>
+  </form>
+
+  <div id="done">
+    <h2>ありがとうございます — thank you!</h2>
+    <p id="doneMsg">Your card has been recorded. The tree rebuilds regularly, so
+      your entry appears within a day.</p>
+    <p id="forwardMsg" style="display:none"><strong>You checked "professor"</strong> — please
+      forward this page's link to your own PhD students and alumni so your branch fills in:</p>
+    <p id="shareLink" style="display:none"><code></code></p>
+    <div id="previewWrap" style="display:none">
+      <p><em>Note: the response backend isn't wired up yet, so nothing was sent.
+        Please copy the card below into an email to the organizers:</em></p>
+      <div id="preview"></div>
+    </div>
+    <p><a href="index.html">← Back to the tree</a></p>
+  </div>
+</div>
+
+<footer>Tomizuka Fest · August 7, 2026 · UC Berkeley</footer>
+
+<script src="data/tree.js"></script>
+<script>
+(function () {
+  'use strict';
+  // Google Apps Script web-app backend (scripts/apps_script.gs)
+  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbySDN3D1KwLilKY6UTPxc7KcDDij6wzHmeQYr9fndSeOjLvgBc96P5PGOs7sYaomVM/exec';
+
+  // advisor suggestions: Tomizuka + every professor already on the tree
+  const dl = document.getElementById('advisors');
+  const names = ['Masayoshi Tomizuka'];
+  (function walk(list) {
+    (list || []).forEach(p => { if (p.educator) names.push(p.name); walk(p.children); });
+  })(window.TREE_DATA ? window.TREE_DATA.children : []);
+  names.forEach(n => {
+    const o = document.createElement('option');
+    o.value = n;
+    dl.appendChild(o);
+  });
+
+  const cb = document.getElementById('is_professor');
+  const pf = document.getElementById('profFields');
+  cb.addEventListener('change', () => pf.classList.toggle('on', cb.checked));
+
+  // browser-side resize so uploads are ~100 KB, not a 10 MB phone photo
+  function loadImage(file) {
+    return new Promise((res, rej) => {
+      const url = URL.createObjectURL(file);
+      const img = new Image();
+      img.onload = () => res(img);
+      img.onerror = rej;
+      img.src = url;
+    });
+  }
+  async function fileToJpegDataURL(file, max) {
+    const img = await loadImage(file);
+    const scale = Math.min(1, max / Math.max(img.naturalWidth, img.naturalHeight));
+    const c = document.createElement('canvas');
+    c.width = Math.max(1, Math.round(img.naturalWidth * scale));
+    c.height = Math.max(1, Math.round(img.naturalHeight * scale));
+    c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+    return c.toDataURL('image/jpeg', 0.88);
+  }
+
+  document.getElementById('f').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const btn = form.querySelector('button[type="submit"]');
+    if (btn.disabled) return;          // no double/triple submissions
+    btn.disabled = true;
+    btn.textContent = 'Submitting…';
+    const data = new FormData(form);
+    if (!cb.checked) data.set('is_professor', 'no');
+    data.set('source', 'survey');
+    const photoFile = document.getElementById('photo_file').files[0];
+    if (photoFile) {
+      try {
+        data.set('photo_data', await fileToJpegDataURL(photoFile, 600));
+      } catch (err) {
+        alert('Could not read that image — please try another file or paste a link instead.');
+        btn.disabled = false;
+        btn.textContent = 'Add me to the tree';
+        return;
+      }
+    }
+
+    if (APPS_SCRIPT_URL) {
+      try {
+        await fetch(APPS_SCRIPT_URL, { method: 'POST', mode: 'no-cors', body: data });
+      } catch (err) { /* opaque response expected; errors surface as network failures */ }
+    } else {
+      const lines = [];
+      data.forEach((v, k) => {
+        if (v) lines.push(k === 'photo_data' ? 'photo: [attached image]' : k + ': ' + v);
+      });
+      document.getElementById('preview').textContent = lines.join('\n');
+      document.getElementById('previewWrap').style.display = 'block';
+    }
+
+    form.style.display = 'none';
+    const done = document.getElementById('done');
+    done.style.display = 'block';
+    if (cb.checked) {
+      document.getElementById('forwardMsg').style.display = 'block';
+      const share = document.getElementById('shareLink');
+      share.style.display = 'block';
+      share.querySelector('code').textContent = location.href.split('#')[0];
+    }
+    done.scrollIntoView({ behavior: 'smooth' });
+  });
+})();
+</script>
+</body>
+</html>

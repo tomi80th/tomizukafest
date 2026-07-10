@@ -1,0 +1,111 @@
+name: Update Tomizuka family tree
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'   # every 10 minutes (GitHub may add a few minutes of jitter)
+  workflow_dispatch: {}       # manual "refresh now" button
+  push:
+    branches: [main]          # site edits deploy through here too
+
+concurrency:
+  group: tree-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      # Google Apps Script web-app URL — GET returns responses as CSV (no emails)
+      SURVEY_CSV_URL: 'https://script.google.com/macros/s/AKfycbySDN3D1KwLilKY6UTPxc7KcDDij6wzHmeQYr9fndSeOjLvgBc96P5PGOs7sYaomVM/exec'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull live survey responses
+        run: |
+          if [ -n "$SURVEY_CSV_URL" ]; then
+            curl -sL --max-time 60 "$SURVEY_CSV_URL" -o /tmp/live_responses.csv || true
+            echo "live rows: $(wc -l < /tmp/live_responses.csv 2>/dev/null || echo 0)"
+          else
+            echo "SURVEY_CSV_URL not set — committed data only."
+          fi
+
+      - name: Rebuild tree data
+        working-directory: family-tree
+        run: |
+          ARGS="--base data/base.json --survey data/additions.csv --survey data/gen_crawl.csv --survey data/sample_responses.csv"
+          if [ -s /tmp/live_responses.csv ]; then
+            ARGS="$ARGS --survey /tmp/live_responses.csv"
+          fi
+          # curator corrections merge LAST so they beat self-reports
+          ARGS="$ARGS --survey data/overrides.csv"
+          echo "BUILD_ARGS=$ARGS" >> "$GITHUB_ENV"
+          python3 scripts/build_data.py $ARGS
+
+      - name: Ingest survey photos (blocklist enforced)
+        working-directory: family-tree
+        run: |
+          pip3 install --quiet pillow
+          if [ -s /tmp/live_responses.csv ]; then
+            python3 scripts/ingest_photos.py data/additions.csv data/gen_crawl.csv /tmp/live_responses.csv data/overrides.csv
+          else
+            python3 scripts/ingest_photos.py data/additions.csv data/gen_crawl.csv data/overrides.csv
+          fi
+          # photo files may have changed -> refresh photo paths in the data
+          python3 scripts/build_data.py $BUILD_ARGS
+
+      - name: Commit if changed
+        run: |
+          git config user.name "tomi-tree-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add family-tree/data/tree.js family-tree/photos
+          git add family-tree/data/needs-review.md 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Auto-update family tree data"
+            git push
+          fi
+
+      # GITHUB_TOKEN pushes do NOT trigger the branch-based Pages build,
+      # so this workflow deploys the whole fest site itself (Pages source:
+      # GitHub Actions). Human pushes to main also land here via the push
+      # trigger, so normal edits keep deploying exactly as before.
+      # configure-pages does not flip an existing site from "deploy from
+      # branch" to "GitHub Actions" — set build_type explicitly first.
+      - name: Ensure Pages deploys from Actions
+        run: |
+          curl -sf -X PUT \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages" \
+            -d '{"build_type":"workflow"}' \
+            && echo "Pages build_type set to workflow" \
+            || echo "WARNING could not set build_type (may already be workflow)"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      # Pages occasionally answers "Deployment failed, try again later" —
+      # one in-run retry rides out the transient
+      - name: Retry deploy once
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4

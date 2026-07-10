@@ -1,0 +1,12 @@
+name,advisor,status,grad_year,is_professor,affiliation,title,bio,note,source,in_memoriam
+C. S. Lin,Masayoshi Tomizuka,graduated,1983,no,,,,,bootstrap,
+Huei Peng,Masayoshi Tomizuka,graduated,1992,yes,University of Michigan,Roger L. McCarthy Professor of Mechanical Engineering,,Mcity Director 2016–2021 · in memoriam 2022,bootstrap,yes
+Hwan Hur,Masayoshi Tomizuka,graduated,2005,no,,,,,bootstrap,
+Chung-Yen Lin,Masayoshi Tomizuka,graduated,2016,no,,,,"now at Apple (Senior Manager, ML & Robotics)",bootstrap,
+Yu-Chu Huang,Masayoshi Tomizuka,graduated,2019,no,,,,,bootstrap,
+Wenjie Li,Masayoshi Tomizuka,current,,no,UC Berkeley,,,entered Fall 2024,bootstrap,
+Jen-Wei Wang,Masayoshi Tomizuka,graduated,2026,no,,,,,survey,
+Keita Kobashi,Masayoshi Tomizuka,graduated,2026,no,,,,,survey,
+Wei-Jer Chang,Masayoshi Tomizuka,graduated,2026,no,,,,,survey,
+Yichen Xie,Masayoshi Tomizuka,graduated,2026,no,,,,,survey,
+Yiheng Li,Masayoshi Tomizuka,graduated,2026,no,,,,,survey,

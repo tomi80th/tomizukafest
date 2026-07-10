@@ -1,0 +1,46 @@
+name,advisor,status,grad_year,is_professor,affiliation,title,bio,note,source
+Ruixuan Liu,Changliu Liu,current,,no,,,,"RI PhD, started Fall 2021",bootstrap
+Yifan Sun,Changliu Liu,current,,no,,,,"RI PhD, started Fall 2024 (prev. MS in lab)",bootstrap
+Peiqi Yu,Changliu Liu,current,,no,,,,"ECE PhD, started Fall 2024",bootstrap
+Hanjiang Hu,Changliu Liu,graduated,2026,no,,,,PhD Summer 2026,bootstrap
+Tairan He,Changliu Liu,graduated,2026,no,,,,now at OpenAI,bootstrap
+Rui Chen,Changliu Liu,graduated,2026,no,,,,now at Instinct Robotics,bootstrap
+Ravi Pandya,Changliu Liu,graduated,2025,no,,,,now at Nuro,bootstrap
+Simin Liu,Changliu Liu,graduated,2025,no,,,,PhD Summer 2025,bootstrap
+Abulikemu Abuduweili,Changliu Liu,graduated,2025,no,,,,now at Apple,bootstrap
+Tianhao Wei,Changliu Liu,graduated,2024,no,,,,now at Instinct Robotics,bootstrap
+Weiye Zhao,Changliu Liu,graduated,2024,no,,,,now at Instinct Robotics,bootstrap
+Jaskaran Grover,Changliu Liu,graduated,2023,no,,,,now at Amazon Robotics,bootstrap
+Sanguk Choi,Kyoungchul Kong,current,,no,,,,"PhD student, KAIST EXO Lab",bootstrap
+Jeongsu Park,Kyoungchul Kong,current,,no,,,,"PhD student, KAIST EXO Lab",bootstrap
+Jongwon Kim,Kyoungchul Kong,current,,no,,,,"PhD student, KAIST EXO Lab",bootstrap
+Chanyoung Ko,Kyoungchul Kong,current,,no,,,,"PhD student, KAIST EXO Lab",bootstrap
+Jimin Youn,Kyoungchul Kong,current,,no,,,,"PhD student, lab manager, KAIST EXO Lab",bootstrap
+Gunhee Lee,Kyoungchul Kong,current,,no,,,,"PhD student, KAIST EXO Lab",bootstrap
+Hyojun An,Kyoungchul Kong,current,,no,,,,"PhD student, KAIST EXO Lab",bootstrap
+Abhiraj Singh,Kyoungchul Kong,current,,no,,,,"PhD student, KAIST EXO Lab",bootstrap
+Jinsu Park,Kyoungchul Kong,current,,no,,,,"PhD student, KAIST EXO Lab",bootstrap
+Taeyeon Kim,Kyoungchul Kong,graduated,2025,no,,,,now postdoc at Yonsei University College of Medicine,bootstrap
+Hyeongjun Kim,Kyoungchul Kong,graduated,2025,no,,,,now at Angel Robotics,bootstrap
+Mingoo Jeong,Kyoungchul Kong,graduated,2024,no,,,,now at Humanics,bootstrap
+Gwangtae Kim,Kyoungchul Kong,graduated,2024,no,,,,now at Agency for Defense Development (ADD),bootstrap
+Jungsoo Cho,Kyoungchul Kong,graduated,2020,no,,,,current position not listed,bootstrap
+Hanseung Woo,Kyoungchul Kong,graduated,2019,no,,,,now at Agency for Defense Development (ADD),bootstrap
+Pyeong-gook Jung,Kyoungchul Kong,graduated,2019,no,,,,now at Samsung Electronics,bootstrap
+Hyunjin Choi,Kyoungchul Kong,graduated,2019,yes,Sangmyung University,Assistant Professor,,now at Sangmyung University,bootstrap
+Byeonghun Na,Kyoungchul Kong,graduated,2019,no,,,,now at Angel Robotics,bootstrap
+Jungsu Choi,Kyoungchul Kong,graduated,2018,yes,Yeungnam University,Associate Professor,,now at Yeungnam University,bootstrap
+Thomas Lee Chu,Xu Chen,current,,no,,,,"PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Xiaohai Hu,Xu Chen,current,,no,,,,"(Bob) PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Jonas Beachy,Xu Chen,current,,no,,,,"PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Zidong Liu,Xu Chen,current,,no,,,,"PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Yusen Wan,Xu Chen,current,,no,,,,"PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Richard Lu,Xu Chen,current,,no,,,,"PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Colin E. Acton,Xu Chen,current,,no,,,,"PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Zhongchun Yu,Xu Chen,current,,no,,,,"PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Antara Banerjee,Xu Chen,current,,no,,,,"PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Justin Li,Xu Chen,current,,no,,,,"PhD student, Mechanical Engineering, MACS Lab UW",bootstrap
+Feifei Yang,Xu Chen,graduated,2022,no,,,,"PhD Autumn 2022, MACS Lab",bootstrap
+Tianyu Jiang,Xu Chen,graduated,2021,no,,,,"PhD Summer 2021, MACS Lab",bootstrap
+Hui Xiao,Xu Chen,graduated,2021,no,,,,"PhD Summer 2021, MACS Lab",bootstrap
+Dan Wang,Xu Chen,graduated,2021,no,,,,"PhD Summer 2021, MACS Lab",bootstrap
