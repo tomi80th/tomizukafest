@@ -20196,6 +20196,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "qingzhou-lu",
+     "name": "Qingzhou Lu",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/qingzhou-lu.jpg",
+     "bio": null,
+     "note": "IIIS, Tsinghua University",
+     "homepage": "https://me.axell.top/",
+     "provisional": false,
+     "children": []
+    },
+    {
      "id": "xiang-ji",
      "name": "Xiang Ji",
      "batch": "PhD Candidate",
