@@ -20244,9 +20244,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/xiang-zhu.jpg",
      "bio": null,
-     "note": "PhD at IIIS advised by Prof. Jianyu Chen per own homepage (canva4.github.io); contact-rich manipulation (IROS 2022)",
-     "homepage": null,
-     "provisional": true,
+     "note": "PhD student at Tsinghua University",
+     "homepage": "https://canva4.github.io/",
+     "provisional": false,
      "children": []
     },
     {
