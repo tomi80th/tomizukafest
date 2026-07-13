@@ -19509,20 +19509,6 @@ window.TREE_DATA = {
    "children": []
   },
   {
-   "id": "tang-te",
-   "name": "Te Tang",
-   "batch": "PhD 2016",
-   "kind": "phd",
-   "year": 2016,
-   "decade": "2010s",
-   "educator": false,
-   "affiliation": null,
-   "title": null,
-   "inMemoriam": false,
-   "photo": "photos/tang-te.jpg",
-   "children": []
-  },
-  {
    "id": "liu-changliu",
    "name": "Changliu Liu",
    "batch": "PhD 2017",
@@ -19995,6 +19981,24 @@ window.TREE_DATA = {
    "inMemoriam": false,
    "photo": "photos/lin-hsien-chung.jpg",
    "children": []
+  },
+  {
+   "id": "tang-te",
+   "name": "Te Tang",
+   "batch": "PhD 2018",
+   "kind": "phd",
+   "year": 2018,
+   "decade": "2010s",
+   "educator": false,
+   "affiliation": null,
+   "title": null,
+   "inMemoriam": false,
+   "photo": "photos/tang-te.jpg",
+   "children": [],
+   "provisional": false,
+   "bio": "Founding member of FANUC Advanced Research Lab. Co-founder and CEO of Anyware Robotics.",
+   "note": "CEO of Anyware Robotics",
+   "homepage": "https://thomas-tang.com/"
   },
   {
    "id": "yu-xiaowen",
@@ -20655,7 +20659,26 @@ window.TREE_DATA = {
    "title": "Assistant Professor",
    "inMemoriam": false,
    "photo": "photos/tang-chen.jpg",
-   "children": [],
+   "children": [
+    {
+     "id": "ruopeng-huang",
+     "name": "Ruopeng Huang",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/ruopeng-huang.jpg",
+     "bio": "I am a PhD student working on robotics at UCLA, advised by Professor Chen Tang.",
+     "note": "Phd student at UCLA",
+     "homepage": "https://huangruopeng.github.io/",
+     "provisional": false,
+     "children": []
+    }
+   ],
    "provisional": false,
    "note": null,
    "homepage": "https://chentangmark.github.io"

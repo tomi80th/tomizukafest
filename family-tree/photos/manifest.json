@@ -292,8 +292,9 @@
   "confidence": "high (MSC lab site)"
  },
  "tang-te": {
-  "source": "https://msc.berkeley.edu/assets/images/people/te.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1kuR79Sn6As6I4fTXxYuO4QRjgI16K2jh",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  },
  "yu-xiaowen": {
   "source": "https://msc.berkeley.edu/assets/images/people/Alice.jpg",
@@ -2665,6 +2666,11 @@
  },
  "dong-nancy": {
   "source": "https://drive.google.com/uc?export=download&id=1B5rj5dvirtmwBUXYfMCOFS-wR9F-Dcwf",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
+ },
+ "ruopeng-huang": {
+  "source": "https://drive.google.com/uc?export=download&id=1pDtLDKZNzBYIvLhKOU6V-oadyBlEPv11",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-13"
  }
