@@ -384,8 +384,9 @@
   "confidence": "high (MSC lab site)"
  },
  "mishra-sandipan": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Sandi.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1aiTHPyDYR8tIPJRbacf6OL00GflyG1vu",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  },
  "jeon-soo": {
   "source": "https://msc.berkeley.edu/assets/images/people/Soo.jpg",
@@ -2646,5 +2647,10 @@
   "source": "https://drive.google.com/uc?export=download&id=1ZQMgrmZqqqYNlvlW5SsgN7dUAFtkuQaa",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-11"
+ },
+ "catherine-weaver": {
+  "source": "https://drive.google.com/uc?export=download&id=1m9auaRrthSuiT-BGMV0x0OcYYOg5-DYT",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  }
 }

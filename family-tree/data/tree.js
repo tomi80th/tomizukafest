@@ -16821,9 +16821,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "Tailsitter/helicopter trajectory control; now at Garmin",
+     "note": "Senior Flight Control Systems Engineer at Garmin",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
@@ -16953,6 +16953,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "grace-yu",
+     "name": "Grace Yu",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": null,
+     "bio": "Electrical Engineering PhD student co-advised by Prof. Sandipan Mishra and Prof. Franck Djeumou at RPI. My research focus is shared autonomy vehicles in extreme conditions.",
+     "note": "Rensselaer Polytechnic Institute",
+     "homepage": "https://graceyurpi.github.io/",
+     "provisional": false,
+     "children": []
+    },
+    {
      "id": "jinhan-ren",
      "name": "Jinhan Ren",
      "batch": "PhD Candidate",
@@ -17007,6 +17025,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "nathaniel-d-mcquiston",
+     "name": "Nathaniel D McQuiston",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": null,
+     "bio": null,
+     "note": "RPI",
+     "homepage": null,
+     "provisional": false,
+     "children": []
+    },
+    {
      "id": "rene-mai",
      "name": "Rene Mai",
      "batch": "PhD Candidate",
@@ -17023,8 +17059,28 @@ window.TREE_DATA = {
      "homepage": null,
      "provisional": true,
      "children": []
+    },
+    {
+     "id": "sanjaya-senarathna",
+     "name": "Sanjaya Senarathna",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": null,
+     "bio": null,
+     "note": null,
+     "homepage": null,
+     "provisional": false,
+     "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null
   },
   {
    "id": "wu-shang-chen",
@@ -19875,7 +19931,10 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null,
+   "homepage": "https://zh.engr.tamu.edu/"
   },
   {
    "id": "zhou-shiying",
@@ -20671,6 +20730,24 @@ window.TREE_DATA = {
    "children": []
   },
   {
+   "id": "catherine-weaver",
+   "name": "Catherine Weaver",
+   "batch": "PhD 2024",
+   "kind": "phd",
+   "year": 2024,
+   "decade": "2020s",
+   "educator": false,
+   "affiliation": null,
+   "title": null,
+   "inMemoriam": false,
+   "photo": "photos/catherine-weaver.jpg",
+   "bio": null,
+   "note": "Scale AI",
+   "homepage": "https://www.linkedin.com/in/cwj22",
+   "provisional": false,
+   "children": []
+  },
+  {
    "id": "li-jinning",
    "name": "Jinning Li",
    "batch": "PhD 2024",
@@ -20947,7 +21024,9 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/wang-pengcheng.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "homepage": "https://outsider86.github.io/"
   },
   {
    "id": "qian-qiyang",
