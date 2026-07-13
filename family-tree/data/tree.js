@@ -16777,6 +16777,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "md-hossain-toufiq-imam",
+     "name": "Md Hossain Toufiq Imam",
+     "batch": "PhD 2019",
+     "kind": "phd",
+     "year": 2019,
+     "decade": "2010s",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/md-hossain-toufiq-imam.jpg",
+     "bio": null,
+     "note": "Principle Design Engineer at ASML",
+     "homepage": null,
+     "provisional": false,
+     "children": []
+    },
+    {
      "id": "toufiq-imam",
      "name": "Toufiq Imam",
      "batch": "PhD 2019",
@@ -16882,6 +16900,24 @@ window.TREE_DATA = {
      "note": "Quadrotor biplane tailsitter control; doctoral student 2018-2023",
      "homepage": null,
      "provisional": true,
+     "children": []
+    },
+    {
+     "id": "rene-mai",
+     "name": "Rene Mai",
+     "batch": "PhD 2026",
+     "kind": "phd",
+     "year": 2026,
+     "decade": "2020s",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/rene-mai.jpg",
+     "bio": null,
+     "note": "Postdoctoral Scholar, University of Michigan",
+     "homepage": "https://relisemai.github.io/",
+     "provisional": false,
      "children": []
     },
     {
@@ -17044,24 +17080,6 @@ window.TREE_DATA = {
      "note": "RPI",
      "homepage": null,
      "provisional": false,
-     "children": []
-    },
-    {
-     "id": "rene-mai",
-     "name": "Rene Mai",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/rene-mai.jpg",
-     "bio": null,
-     "note": "Human-autonomy teaming / human modeling for urban air mobility",
-     "homepage": null,
-     "provisional": true,
      "children": []
     },
     {
@@ -18588,7 +18606,7 @@ window.TREE_DATA = {
   },
   {
    "id": "yu-shu-wen",
-   "name": "Shu-Wen Yu",
+   "name": "Shuwen Yu",
    "batch": "PhD 2011",
    "kind": "phd",
    "year": 2011,
@@ -18598,7 +18616,9 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/yu-shu-wen.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "note": "Staff Engineer at Intuitive"
   },
   {
    "id": "kim-sanggyum",
@@ -20081,7 +20101,11 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/fan-yongxiang.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "bio": "Pre-FANUC Sr. Research Scientist, \nCofounder and CTO of Anyware Robotics, building general purpose robot for industrial applications",
+   "note": "CTO at Anyware Robotics",
+   "homepage": "https://www.linkedin.com/in/bruce-fan-9a949487"
   },
   {
    "id": "yu-chu-huang",
@@ -20626,7 +20650,10 @@ window.TREE_DATA = {
    "title": "Assistant Professor",
    "inMemoriam": false,
    "photo": "photos/tang-chen.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "note": null,
+   "homepage": "https://chentangmark.github.io"
   },
   {
    "id": "leu-jessica",

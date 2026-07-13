@@ -141,8 +141,9 @@
   "confidence": "high"
  },
  "yu-shu-wen": {
-  "source": "https://web.archive.org/web/20240704021518/https://msc.berkeley.edu/old3/people/photos/Emma.jpg",
-  "confidence": "high"
+  "source": "https://drive.google.com/uc?export=download&id=1NbrJVx7Yms-ayBpr6-k0xfzHtioOHJm2",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  },
  "reynoso-mosa-pedro": {
   "source": "https://web.archive.org/web/20240628042811/https://msc.berkeley.edu/old3/people/photos/Pedro.jpg",
@@ -214,8 +215,9 @@
   "confidence": "high (MSC lab site)"
  },
  "tang-chen": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Chen.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=11r7VmCq3qdOK2gVQiWWcM724KiQqxAwe",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  },
  "jin-shiyu": {
   "source": "https://msc.berkeley.edu/assets/images/people/ShiyuJin.jpg",
@@ -272,8 +274,9 @@
   "confidence": "high (MSC lab site)"
  },
  "fan-yongxiang": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Yongxiang.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1VL6S5i2hyC8ncwjHCTymbrN2N1i16sPW",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  },
  "peng-cheng": {
   "source": "https://msc.berkeley.edu/assets/images/people/Cheng.jpg",
@@ -980,9 +983,9 @@
   "ingested": "2026-07-05"
  },
  "rene-mai": {
-  "source": "https://rpi-isaac-lab.github.io/assets/profiles/renemai.jpg",
+  "source": "https://drive.google.com/uc?export=download&id=1HzyZmAa0h0QWZKybRAZe8QGyq546FSzl",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-05"
+  "ingested": "2026-07-13"
  },
  "arnab-joardar": {
   "source": "https://uwaterloo.ca/waterloo-mechanical-systems-control-lab/sites/default/files/uploads/images/arnab_joardar.jpg",
@@ -2651,6 +2654,11 @@
  },
  "catherine-weaver": {
   "source": "https://drive.google.com/uc?export=download&id=1m9auaRrthSuiT-BGMV0x0OcYYOg5-DYT",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
+ },
+ "md-hossain-toufiq-imam": {
+  "source": "https://drive.google.com/uc?export=download&id=1EZ81MavHVEa4S6t3SBOZuNZ2kHJQ4r-p",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-13"
  }
