@@ -354,8 +354,9 @@
   "confidence": "high (MSC lab site)"
  },
  "chen-xu": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Chenxu.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1tJf_qsIYnaxkceTg8kQE6G6tJaVMLUp3",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  },
  "chang-siu-evan": {
   "source": "https://msc.berkeley.edu/assets/images/people/Evan.jpg",
@@ -2676,6 +2677,11 @@
  },
  "wenhao-ding": {
   "source": "https://drive.google.com/uc?export=download&id=1MDm310hpG2WwaqqMWlwBLpmIOeiz6mMp",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
+ },
+ "seunghun-oh": {
+  "source": "https://drive.google.com/uc?export=download&id=1KSPrCGxll_eUsRcuqnbt-h4r9ylmmkpO",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-13"
  }

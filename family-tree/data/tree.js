@@ -18723,7 +18723,7 @@ window.TREE_DATA = {
    "decade": "2010s",
    "educator": true,
    "affiliation": "University of Washington",
-   "title": "Associate Professor",
+   "title": "Professor",
    "inMemoriam": false,
    "photo": "photos/chen-xu.jpg",
    "children": [
@@ -18979,7 +18979,11 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null,
+   "bio": "Xu Chen is the Bryan T. McMinn Endowed Professor of Mechanical Engineering at the University of Washington, Seattle. His research encompasses dynamic systems, robotics, AI, and additive manufacturing. He currently directs the Boeing Advanced Research Collaboration (BARC) at UW, and advises UK’s EPSRC Centre for Doctoral Training in Digital Engineering. His accolades include the NSF CAREER Award, 2024 ARM Champion Award, 2022 SME Sandra L. Bouckley Outstanding Young Manufacturing Engineer Award, and the 2022 IFAC Mechatronic Systems Outstanding Young Researcher Award. He has served to organize major domain conferences for over 10 times.",
+   "homepage": "https://faculty.washington.edu/chx/"
   },
   {
    "id": "tsai-chi-shen",
@@ -20694,6 +20698,24 @@ window.TREE_DATA = {
      "bio": "I am a PhD student working on robotics at UCLA, advised by Professor Chen Tang.",
      "note": "Phd student at UCLA",
      "homepage": "https://huangruopeng.github.io/",
+     "provisional": false,
+     "children": []
+    },
+    {
+     "id": "seunghun-oh",
+     "name": "Seunghun Oh",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/seunghun-oh.jpg",
+     "bio": "Researching Safe Physical AI to enable trustworthy robots in real-world environments.",
+     "note": "Ph.D. student at UCLA CEE",
+     "homepage": "https://alvin0808.github.io",
      "provisional": false,
      "children": []
     }
