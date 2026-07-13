@@ -15877,7 +15877,11 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null,
+   "bio": "My research interests encompass wireless networking and communications, wireless sensing, localization, tracking, and human gesture detection.",
+   "homepage": "https://sites.google.com/nycu.edu.tw/mintlab/"
   },
   {
    "id": "ozaki-motoyoshi",
@@ -16893,9 +16897,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/abigail-rolen.jpg",
      "bio": null,
-     "note": "Aerospace eng; control, modeling/simulation, sustainability (3rd year)",
-     "homepage": null,
-     "provisional": true,
+     "note": "PhD student at RPI",
+     "homepage": "https://www.linkedin.com/in/abigail-rolen-784904201/",
+     "provisional": false,
      "children": []
     },
     {

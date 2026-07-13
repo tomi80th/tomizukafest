@@ -92,8 +92,9 @@
   "confidence": "high"
  },
  "feng-kai-ten": {
-  "source": "https://dee.nycu.edu.tw/teachers.php?pa=getItem&teacher_id=46&locale=en",
-  "confidence": "high"
+  "source": "https://drive.google.com/uc?export=download&id=1k_ESEvFDwHSPh4TICm0OA9cGvVTsCzkN",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  },
  "ibaraki-soichi": {
   "source": "https://seeds.office.hiroshima-u.ac.jp/profile/en.32f5c3316e553dcb520e17560c007669.html",
