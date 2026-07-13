@@ -10808,9 +10808,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/ding-zhao.jpg",
      "bio": null,
-     "note": null,
-     "homepage": null,
-     "provisional": true,
+     "note": "Carnegie Mellon University",
+     "homepage": "https://safeai-lab.github.io/",
+     "provisional": false,
      "children": [
       {
        "id": "wenhao-ding",
@@ -19048,7 +19048,10 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null,
+   "homepage": "https://www.linkedin.com/in/cong-wang-6721a01a"
   },
   {
    "id": "kanjanapas-kan",
