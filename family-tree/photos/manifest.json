@@ -129,8 +129,9 @@
   "confidence": "high"
  },
  "wu-guoyuan": {
-  "source": "https://www.cert.ucr.edu/image/dr-guoyuan-wu-headshot",
-  "confidence": "high"
+  "source": "https://drive.google.com/uc?export=download&id=1YxMvCufHxNGw45gLViFeB6m4jR2yxCII",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  },
  "pan-liang": {
   "source": "https://engineering.purdue.edu/ME/People/ptProfile?resource_id=80190",
@@ -978,9 +979,9 @@
   "ingested": "2026-07-05"
  },
  "john-marcotte": {
-  "source": "https://rpi-isaac-lab.github.io/assets/profiles/johnmarcotte.jpg",
+  "source": "https://drive.google.com/uc?export=download&id=1QHRd9yGZRy8aQ5LeaPF1IW_giKQXU0T0",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-05"
+  "ingested": "2026-07-13"
  },
  "rene-mai": {
   "source": "https://drive.google.com/uc?export=download&id=1HzyZmAa0h0QWZKybRAZe8QGyq546FSzl",
@@ -2659,6 +2660,11 @@
  },
  "md-hossain-toufiq-imam": {
   "source": "https://drive.google.com/uc?export=download&id=1EZ81MavHVEa4S6t3SBOZuNZ2kHJQ4r-p",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
+ },
+ "dong-nancy": {
+  "source": "https://drive.google.com/uc?export=download&id=1B5rj5dvirtmwBUXYfMCOFS-wR9F-Dcwf",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-13"
  }

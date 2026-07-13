@@ -17040,10 +17040,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/john-marcotte.jpg",
-     "bio": null,
-     "note": "Robotics and control for advanced manufacturing",
-     "homepage": null,
-     "provisional": true,
+     "bio": "I am a PhD student at RPI doing research on wire arc additive manufacturing (WAAM) process control.",
+     "note": "Rensselaer Polytechnic Institute",
+     "homepage": "https://www.linkedin.com/in/jmarcotte227/",
+     "provisional": false,
      "children": []
     },
     {
@@ -17539,8 +17539,8 @@ window.TREE_DATA = {
    "year": 2010,
    "decade": "2010s",
    "educator": true,
-   "affiliation": "UC Riverside",
-   "title": "Adjunct Professor, Research Faculty",
+   "affiliation": "University of California at Riverside",
+   "title": "Adjunct Professor and Researcher",
    "inMemoriam": false,
    "photo": "photos/wu-guoyuan.jpg",
    "children": [
@@ -17634,7 +17634,10 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null,
+   "homepage": "https://profiles.ucr.edu/app/home/profile/guoyuanw"
   },
   {
    "id": "cheng-haifei",
@@ -18601,8 +18604,10 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": null,
-   "children": []
+   "photo": "photos/dong-nancy.jpg",
+   "children": [],
+   "provisional": false,
+   "note": "Chief Algorithms Officer at Amptron Medical"
   },
   {
    "id": "yu-shu-wen",

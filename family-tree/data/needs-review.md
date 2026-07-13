@@ -14,3 +14,4 @@ If a real namesake: re-add the row with distinct=yes. If co-advised: safe to ign
 - John Viljoen (row advisor: 'Negar Mehr', current )
 - Dongjun (DJ) Lee (row advisor: 'Perry Y. Li', graduated 2004)
 - Chen Zhang (row advisor: 'Z.X. Sun', graduated 2017)
+- Aleksandr Shkoruta (row advisor: 'sandipa', graduated 2021)
