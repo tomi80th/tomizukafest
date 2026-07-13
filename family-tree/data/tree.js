@@ -4779,9 +4779,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "senior research engineer at Apple",
+     "note": "Apple",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
@@ -10811,7 +10811,26 @@ window.TREE_DATA = {
      "note": null,
      "homepage": null,
      "provisional": true,
-     "children": []
+     "children": [
+      {
+       "id": "wenhao-ding",
+       "name": "Wenhao Ding",
+       "batch": "PhD 2024",
+       "kind": "phd",
+       "year": 2024,
+       "decade": "2020s",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": "photos/wenhao-ding.jpg",
+       "bio": "I am a Senior Research Scientist at the Autonomous Vehicle Group of NVIDIA Research. I work on reasoning foundation models for autonomous systems.",
+       "note": "NVIDIA",
+       "homepage": "https://wenhao.pub/",
+       "provisional": false,
+       "children": []
+      }
+     ]
     },
     {
      "id": "yuxiao-chen",
