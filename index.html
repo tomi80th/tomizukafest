@@ -48,31 +48,43 @@
     <!-- Navigation -->
     <nav class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-brand-accent-light">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
+            <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
                     <span class="font-serif font-bold text-xl text-brand-dark tracking-wide">Tomizuka Fest</span>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
                     <!-- <a href="#about" class="text-gray-600 hover:text-brand-accent transition-colors">About</a> -->
                     <!-- <a href="#program" class="text-gray-600 hover:text-brand-accent transition-colors">Program</a> -->
-                    <a href="family-tree/" class="bg-brand-dark text-brand-light px-5 py-2 rounded hover:bg-black transition-colors shadow-sm">Tomizuka Academic Family Tree</a>
+                    <a href="family-tree/index.html" class="bg-brand-dark text-brand-light px-5 py-2 rounded hover:bg-black transition-colors shadow-sm">Tomizuka Academic Family Tree</a>
                     <a href="https://na.eventscloud.com/tomizukafest" target="_blank" rel="noopener noreferrer" class="bg-brand-accent text-brand-light px-5 py-2 rounded hover:bg-[#9E7A4E] transition-colors shadow-sm">Register Now</a>
                 </div>
+                <!-- Mobile menu toggle (shown below md breakpoint) -->
+                <button id="mobile-menu-button" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle menu"
+                        class="md:hidden inline-flex items-center justify-center p-2 -mr-2 rounded text-brand-dark hover:text-brand-accent transition-colors">
+                    <i class="ph ph-list text-3xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu panel -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-brand-accent-light bg-white/95 backdrop-blur-md">
+            <div class="px-4 py-4 space-y-3">
+                <a href="family-tree/" class="block bg-brand-dark text-brand-light px-5 py-3 rounded hover:bg-black transition-colors shadow-sm text-center">Tomizuka Academic Family Tree</a>
+                <a href="https://na.eventscloud.com/tomizukafest" target="_blank" rel="noopener noreferrer" class="block bg-brand-accent text-brand-light px-5 py-3 rounded hover:bg-[#9E7A4E] transition-colors shadow-sm text-center">Register Now</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero-bg text-brand-light pt-32 pb-40 relative overflow-hidden">
+    <header class="hero-bg text-brand-light pt-20 pb-32 md:pt-32 md:pb-40 relative overflow-hidden">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <span class="text-brand-accent font-medium tracking-[0.2em] uppercase text-sm mb-6 block">You are warmly invited to</span>
-            <h1 class="text-4xl md:text-6xl font-serif mb-6 leading-tight">
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-serif mb-6 leading-tight">
                 Mechanical Systems Control Workshop <br>
             </h1>
-            <h1 class="text-4xl md:text-4xl font-serif mb-6 leading-tight text-berkeley-gold italic">
+            <h1 class="text-3xl sm:text-4xl font-serif mb-6 leading-tight text-berkeley-gold italic">
                 <span>Tomizuka Fest</span>
             </h1>
-            <p class="text-xl md:text-2xl text-gray-200 mb-12 max-w-6xl mx-auto font-light leading-relaxed">
+            <p class="text-lg sm:text-xl md:text-2xl text-gray-200 mb-12 max-w-6xl mx-auto font-light leading-relaxed">
                 Honoring Professor Masayoshi Tomizuka's half-century legacy
             </p>
             <!--
@@ -132,12 +144,12 @@
         </section>
 
         <!-- About Section -->
-        <section id="about" class="py-24 bg-brand-light">
+        <section id="about" class="py-16 md:py-24 bg-brand-light">
             <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="flex flex-col md:flex-row items-center gap-10 md:gap-16">
                     <div class="w-full md:w-2/5 flex justify-center">
                         <!-- Placeholder for Portrait Image -->
-                        <div class="w-72 h-72 bg-brand-accent-light rounded-full border-8 border-white shadow-2xl flex items-center justify-center overflow-hidden relative">
+                        <div class="w-56 h-56 sm:w-72 sm:h-72 bg-brand-accent-light rounded-full border-8 border-white shadow-2xl flex items-center justify-center overflow-hidden relative">
                             <img src="tomizuka_sm.jpg" alt="Prof. Masayoshi Tomizuka" class="w-full h-full object-cover">
                         </div>
                     </div>
@@ -157,7 +169,7 @@
         </section>
 
         <!-- Tentative Program Section -->
-        <section id="program" class="py-24 bg-white">
+        <section id="program" class="py-16 md:py-24 bg-white">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
                     <!-- <span class="text-brand-accent font-medium tracking-widest uppercase text-sm mb-3 block">Itinerary</span> -->
@@ -183,7 +195,7 @@
         </section>
 
         <!-- RSVP / Call to Action -->
-        <section id="rsvp" class="py-24 bg-brand-dark text-brand-light text-center relative">
+        <section id="rsvp" class="py-16 md:py-24 bg-brand-dark text-brand-light text-center relative">
             <!-- Decorative subtle overlay for luxury feel -->
             <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-10"></div>
             
@@ -192,7 +204,7 @@
                 <p class="mb-4 text-gray-300 text-lg font-light leading-relaxed text-left">
                     Registration Fees:
                 </p>
-                <div class="mb-6 text-gray-300 text-lg font-light leading-relaxed grid grid-cols-[auto_auto] gap-x-6 justify-start text-left">
+                <div class="mb-6 text-gray-300 text-lg font-light leading-relaxed grid grid-cols-[auto_auto] gap-x-4 sm:gap-x-6 justify-start text-left">
                     <span>Dinner and Workshop</span><span>- USD 350</span>
                     <span>Dinner Only</span><span>- USD 250</span>
                     <span>Workshop Only</span><span>- USD 150</span>
@@ -268,6 +280,19 @@
         </div>
         -->
     </footer>
+
+    <script>
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuButton.addEventListener('click', () => {
+            const isOpen = !mobileMenu.classList.toggle('hidden');
+            menuButton.setAttribute('aria-expanded', isOpen);
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            menuButton.setAttribute('aria-expanded', 'false');
+        }));
+    </script>
 
 </body>
 </html>
