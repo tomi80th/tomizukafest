@@ -305,8 +305,9 @@
   "confidence": "high (MSC lab site)"
  },
  "liu-changliu": {
-  "source": "https://msc.berkeley.edu/assets/images/people/changliu.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://icontrol.ri.cmu.edu/assets/images/people/cliu6.jpg",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
  },
  "zheng-minghui": {
   "source": "https://msc.berkeley.edu/assets/images/people/minghui.jpg",
@@ -793,9 +794,9 @@
   "ingested": "2026-07-05"
  },
  "jeongsoo-lee": {
-  "source": "https://birc.korea.ac.kr/images/J_Lee.jpg",
+  "source": "https://drive.google.com/uc?export=download&id=1N7LdWO1EVbQ6g69wfPCOzv61tvbXMxMC",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-05"
+  "ingested": "2026-07-14"
  },
  "bokeon-kwak": {
   "source": "https://birc.korea.ac.kr/images/Bokeon%20Kwak.jpeg",

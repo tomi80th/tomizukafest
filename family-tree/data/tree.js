@@ -16489,6 +16489,24 @@ window.TREE_DATA = {
    "children": []
   },
   {
+   "id": "erwin-satrya-budiman",
+   "name": "Erwin Satrya Budiman",
+   "batch": "PhD 2001",
+   "kind": "phd",
+   "year": 2001,
+   "decade": "2000s",
+   "educator": false,
+   "affiliation": null,
+   "title": null,
+   "inMemoriam": false,
+   "photo": null,
+   "bio": "Head of sensor algorithm development for Abbott's percutaneous sensing platform ( FreeStyle Libre Continuous Glucose Monitoring family of systems, Lingo, etc.)",
+   "note": "Research Fellow / Director at Abbott Diabetes Care",
+   "homepage": "https://www.linkedin.com/in/erwinsatryabudiman/",
+   "provisional": false,
+   "children": []
+  },
+  {
    "id": "tai-meihua",
    "name": "Meihua Tai",
    "batch": "PhD 2001",
@@ -18515,10 +18533,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/jeongsoo-lee.jpg",
-     "bio": null,
-     "note": "now at LG Electronics",
+     "bio": "Design and Control of Wearable Hand Systems and Humanoid Hands",
+     "note": "Staff Engineer at Samsung Electronics",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
@@ -20163,7 +20181,10 @@ window.TREE_DATA = {
      "provisional": false,
      "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null,
+   "homepage": "https://icontrol.ri.cmu.edu/people/changliu.html"
   },
   {
    "id": "chan-chen-yu",
