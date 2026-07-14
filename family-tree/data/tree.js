@@ -10936,7 +10936,62 @@ window.TREE_DATA = {
        "note": null,
        "homepage": "https://mxu34.github.io/",
        "provisional": false,
-       "children": []
+       "children": [
+        {
+         "id": "chenyu-zhang",
+         "name": "Chenyu Zhang",
+         "batch": "PhD Candidate",
+         "kind": "current",
+         "year": null,
+         "decade": "Current",
+         "educator": false,
+         "affiliation": null,
+         "title": null,
+         "inMemoriam": false,
+         "photo": "photos/chenyu-zhang.jpg",
+         "bio": "PhD student at Tsinghua IIIS since 2025.",
+         "note": "PhD Student, Tsinghua University IIIS",
+         "homepage": "https://chenyuzhangx.github.io/",
+         "provisional": false,
+         "children": []
+        },
+        {
+         "id": "liu-cao",
+         "name": "Liu Cao",
+         "batch": "PhD Candidate",
+         "kind": "current",
+         "year": null,
+         "decade": "Current",
+         "educator": false,
+         "affiliation": null,
+         "title": null,
+         "inMemoriam": false,
+         "photo": "photos/liu-cao.jpg",
+         "bio": "PhD student at Tsinghua IIIS since 2025.",
+         "note": "PhD Student, Tsinghua University IIIS",
+         "homepage": "https://xiaohu-art.github.io/",
+         "provisional": false,
+         "children": []
+        },
+        {
+         "id": "ruoqu-chen",
+         "name": "Ruoqu Chen",
+         "batch": "PhD Candidate",
+         "kind": "current",
+         "year": null,
+         "decade": "Current",
+         "educator": false,
+         "affiliation": null,
+         "title": null,
+         "inMemoriam": false,
+         "photo": "photos/ruoqu-chen.jpg",
+         "bio": "PhD student at Tsinghua IIIS since 2026.",
+         "note": "PhD Student, Tsinghua University IIIS",
+         "homepage": "https://gcfy63821.github.io/",
+         "provisional": false,
+         "children": []
+        }
+       ]
       },
       {
        "id": "miao-li",
@@ -18353,7 +18408,7 @@ window.TREE_DATA = {
    "year": 2011,
    "decade": "2010s",
    "educator": true,
-   "affiliation": "UNIST",
+   "affiliation": "Korea University",
    "title": "Professor",
    "inMemoriam": false,
    "photo": "photos/bae-joonbum.jpg",
@@ -18916,7 +18971,10 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null,
+   "homepage": "https://birc.korea.ac.kr/"
   },
   {
    "id": "dong-nancy",
@@ -19062,11 +19120,11 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
+     "photo": "photos/hui-xiao.jpg",
      "bio": null,
-     "note": "PhD Summer 2021, MACS Lab",
-     "homepage": null,
-     "provisional": true,
+     "note": "Software Engineer at Medtronic",
+     "homepage": "https://www.linkedin.com/in/hui-xiao/",
+     "provisional": false,
      "children": []
     },
     {

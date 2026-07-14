@@ -372,8 +372,9 @@
   "confidence": "high (MSC lab site)"
  },
  "bae-joonbum": {
-  "source": "https://msc.berkeley.edu/assets/images/people/JB.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1gbMQZihhBOB8Vc_yn4vxl4mV2Bub0kST",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
  },
  "cheng-haifei": {
   "source": "https://msc.berkeley.edu/assets/images/people/Haifei.jpg",
@@ -2788,6 +2789,26 @@
  },
  "shuan-cheng": {
   "source": "https://drive.google.com/uc?export=download&id=1apAApa3yLgN__oK_ZPXDAoShLEmwK55P",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
+ },
+ "liu-cao": {
+  "source": "https://www.mengdixu.me/group/liu.jpeg",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
+ },
+ "chenyu-zhang": {
+  "source": "https://www.mengdixu.me/group/chenyu.jpeg",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
+ },
+ "ruoqu-chen": {
+  "source": "https://www.mengdixu.me/group/ruoqu.jpg",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
+ },
+ "hui-xiao": {
+  "source": "https://drive.google.com/uc?export=download&id=1DypysWo5gHLxWxiAZ6InMM2HQLE27pPU",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-14"
  }
