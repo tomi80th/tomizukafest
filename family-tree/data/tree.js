@@ -18497,10 +18497,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/bokeon-kwak.jpg",
-     "bio": null,
-     "note": "now postdoc at Laboratory of Intelligent Systems, EPFL",
+     "bio": "Soft roboticist",
+     "note": "Postdoc at EPFL",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
@@ -18680,7 +18680,7 @@ window.TREE_DATA = {
      "bio": null,
      "note": "combined MS/PhD track; B.S. UNIST",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
