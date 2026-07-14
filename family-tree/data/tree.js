@@ -10829,6 +10829,24 @@ window.TREE_DATA = {
        "homepage": "https://wenhao.pub/",
        "provisional": false,
        "children": []
+      },
+      {
+       "id": "yuyou-zhang",
+       "name": "Yuyou Zhang",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": "photos/yuyou-zhang.jpg",
+       "bio": null,
+       "note": null,
+       "homepage": "https://zhangyuyou-10.github.io/",
+       "provisional": false,
+       "children": []
       }
      ]
     },
@@ -16753,10 +16771,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": null,
-     "bio": null,
-     "note": null,
+     "bio": "I am the Motion team leader for XYZ Robotics. I am responsible for developing motion planning algorithms at XYZ Robotics.",
+     "note": "Software Engineer at XYZ Robotics (Inc)",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
@@ -18800,6 +18818,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "xiaohai-hu",
+     "name": "Xiaohai Hu",
+     "batch": "PhD 2026",
+     "kind": "phd",
+     "year": 2026,
+     "decade": "2020s",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/xiaohai-hu.jpg",
+     "bio": null,
+     "note": "TBD",
+     "homepage": "https://salemon.github.io/",
+     "provisional": false,
+     "children": []
+    },
+    {
      "id": "antara-banerjee",
      "name": "Antara Banerjee",
      "batch": "PhD Candidate",
@@ -18833,6 +18869,24 @@ window.TREE_DATA = {
      "note": "PhD student, Mechanical Engineering, MACS Lab UW",
      "homepage": null,
      "provisional": true,
+     "children": []
+    },
+    {
+     "id": "devansh-bajwala",
+     "name": "Devansh Bajwala",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/devansh-bajwala.jpg",
+     "bio": "PhD student at the University of Washington's MACS Lab, working on remote physiological sensing, robotic manipulation, and precision control systems. Passionate about bringing hardware and intelligent systems together to solve real-world problems.",
+     "note": "Student @ MACS Lab, University of Washington",
+     "homepage": null,
+     "provisional": false,
      "children": []
     },
     {
@@ -18903,24 +18957,6 @@ window.TREE_DATA = {
      "photo": null,
      "bio": null,
      "note": "PhD student, Mechanical Engineering, MACS Lab UW",
-     "homepage": null,
-     "provisional": true,
-     "children": []
-    },
-    {
-     "id": "xiaohai-hu",
-     "name": "Xiaohai Hu",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": null,
-     "bio": null,
-     "note": "(Bob) PhD student, Mechanical Engineering, MACS Lab UW",
      "homepage": null,
      "provisional": true,
      "children": []
@@ -20862,7 +20898,11 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/li-jinning.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "bio": "I am a software engineer working on multimodal generation model at Google.",
+   "note": "Software Engineer at Google",
+   "homepage": "https://jinning-li.github.io/"
   },
   {
    "id": "sun-lingfeng",
