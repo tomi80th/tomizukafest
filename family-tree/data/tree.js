@@ -15232,8 +15232,12 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": null,
-   "children": []
+   "photo": "photos/chu-victor.jpg",
+   "children": [],
+   "provisional": false,
+   "bio": "AI/ML science and engineering. Co-founder/chair NTHU-NA Foundation. Tai Chi teacher.",
+   "note": "Mastering Alchemy",
+   "homepage": "https://www.linkedin.com/in/vkchu/"
   },
   {
    "id": "lee-hyeongcheol",
@@ -20156,11 +20160,11 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
+     "photo": "photos/ruixuan-liu.jpg",
      "bio": null,
-     "note": "RI PhD, started Fall 2021",
-     "homepage": null,
-     "provisional": true,
+     "note": "Carnegie Mellon University",
+     "homepage": "https://waynekyrie.github.io/",
+     "provisional": false,
      "children": []
     },
     {
