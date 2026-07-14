@@ -17269,6 +17269,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "luiz-victor-repolho-cagliari",
+     "name": "Luiz Victor Repolho Cagliari",
+     "batch": "PhD 2022",
+     "kind": "phd",
+     "year": 2022,
+     "decade": "2020s",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/luiz-victor-repolho-cagliari.jpg",
+     "bio": null,
+     "note": "Teaching Faculty at Rensselaer Polytechnic Institute",
+     "homepage": "http://www.linkedin.com/in/luizcagliari",
+     "provisional": false,
+     "children": []
+    },
+    {
      "id": "bumsoo-park",
      "name": "Bumsoo Park",
      "batch": "PhD 2023",
@@ -17409,6 +17427,24 @@ window.TREE_DATA = {
      "bio": "Electrical Engineering PhD student co-advised by Prof. Sandipan Mishra and Prof. Franck Djeumou at RPI. My research focus is shared autonomy vehicles in extreme conditions.",
      "note": "Rensselaer Polytechnic Institute",
      "homepage": "https://graceyurpi.github.io/",
+     "provisional": false,
+     "children": []
+    },
+    {
+     "id": "jayden-marvin-smith",
+     "name": "Jayden Marvin Smith",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/jayden-marvin-smith.jpg",
+     "bio": null,
+     "note": null,
+     "homepage": "https://jayden-asc5.github.io/Jayden-Smith.github.io/",
      "provisional": false,
      "children": []
     },
@@ -19619,13 +19655,13 @@ window.TREE_DATA = {
      "decade": "2020s",
      "educator": true,
      "affiliation": "University of Michigan-Dearborn",
-     "title": "Assistant Professor, Electrical and Computer Engineering",
+     "title": "Assistant Professor",
      "inMemoriam": false,
      "photo": "photos/karishma-patnaik.jpg",
      "bio": null,
      "note": null,
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
@@ -19802,10 +19838,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/max-gao.jpg",
-     "bio": null,
-     "note": "Robotics & Autonomous Systems PhD, 2025-",
+     "bio": "Current Robotics PhD student working on the intersection between foundation models and control theory.",
+     "note": "Arizona State University",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
@@ -19880,7 +19916,11 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null,
+   "bio": "I am an Associate Professor in the School of Manufacturing Systems and Networks at Arizona State University.",
+   "homepage": "https://home.riselab.info/"
   },
   {
    "id": "wang-yizhou",

@@ -1049,9 +1049,9 @@
   "ingested": "2026-07-05"
  },
  "max-gao": {
-  "source": "https://home.riselab.info/images/teampic/Max.jpeg",
+  "source": "https://drive.google.com/uc?export=download&id=1pbZT3p54tKf8NU6sxDkgoAWdxVjeVGEN",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-05"
+  "ingested": "2026-07-14"
  },
  "yizhuang-garrard": {
   "source": "https://home.riselab.info/images/teampic/YiZhuang.jpg",
@@ -2830,6 +2830,16 @@
  },
  "jaskaran-singh-grover": {
   "source": "https://drive.google.com/uc?export=download&id=1ZRiERxRrc1x-P8YE4RIFZFqn46efirOV",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
+ },
+ "jayden-marvin-smith": {
+  "source": "https://drive.google.com/uc?export=download&id=1_TWPWL3GzQSkZa68n1ibV-_MG5uoB8g2",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
+ },
+ "luiz-victor-repolho-cagliari": {
+  "source": "https://drive.google.com/uc?export=download&id=1EJ1MsXtm1GlO75n-1cob566tX9CPHsKK",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-14"
  }
