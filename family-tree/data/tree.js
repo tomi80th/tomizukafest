@@ -17258,14 +17258,14 @@ window.TREE_DATA = {
      "year": 2021,
      "decade": "2020s",
      "educator": true,
-     "affiliation": "University of Michigan, Mechanical Engineering",
+     "affiliation": "University of Michigan",
      "title": "Assistant Professor",
      "inMemoriam": false,
      "photo": "photos/uduak-inyang-udoh.jpg",
      "bio": null,
      "note": null,
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
@@ -19250,11 +19250,11 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
+     "photo": "photos/antara-banerjee.jpg",
      "bio": null,
-     "note": "PhD student, Mechanical Engineering, MACS Lab UW",
-     "homepage": null,
-     "provisional": true,
+     "note": "University of Washington",
+     "homepage": "https://antara1005.github.io/",
+     "provisional": false,
      "children": []
     },
     {
@@ -19910,10 +19910,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/yousef-soltanian.jpg",
-     "bio": null,
-     "note": "Mechanical Engineering PhD, 2021-",
+     "bio": "Working on Human-Robot Interactions, Dynamic Game Theory, Reinforcement Learning",
+     "note": "PhD Candidate ASU RISELAB",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     }
    ],

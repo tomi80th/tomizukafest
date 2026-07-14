@@ -2564,9 +2564,9 @@
   "ingested": "2026-07-05"
  },
  "uduak-inyang-udoh": {
-  "source": "https://scholar.google.com/citations?user=TeEpcZcAAAAJ&hl=en",
-  "confidence": "high (faculty-page hunt)",
-  "ingested": "2026-07-05"
+  "source": "https://drive.google.com/uc?export=download&id=1rh65tRLh1ww5Yo246npGE63aH2Qz5a75",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
  },
  "jungsu-choi": {
   "source": "https://hrc.yu.ac.kr/Principal-Investigator",
@@ -2840,6 +2840,11 @@
  },
  "luiz-victor-repolho-cagliari": {
   "source": "https://drive.google.com/uc?export=download&id=1EJ1MsXtm1GlO75n-1cob566tX9CPHsKK",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-14"
+ },
+ "antara-banerjee": {
+  "source": "https://drive.google.com/uc?export=download&id=1z7qlCfuv4T-tw9KZc_q6dRNFpJaVHkJ2",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-14"
  }
