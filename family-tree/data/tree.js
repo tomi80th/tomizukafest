@@ -17049,24 +17049,6 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "jacopo-tani",
-     "name": "Jacopo Tani",
-     "batch": "PhD 2014",
-     "kind": "phd",
-     "year": 2014,
-     "decade": "2010s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": null,
-     "bio": null,
-     "note": "Co-authored image-based sensing papers with Mishra 2013-14; later ETH Zurich / Duckietown",
-     "homepage": null,
-     "provisional": true,
-     "children": []
-    },
-    {
      "id": "sina-afshari",
      "name": "Sina Afshari",
      "batch": "PhD 2014",
@@ -17082,6 +17064,24 @@ window.TREE_DATA = {
      "note": "Also later postdoc in the lab (listed under previous postdocs)",
      "homepage": null,
      "provisional": true,
+     "children": []
+    },
+    {
+     "id": "jacopo-tani",
+     "name": "Jacopo Tani",
+     "batch": "PhD 2015",
+     "kind": "phd",
+     "year": 2015,
+     "decade": "2010s",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/jacopo-tani.jpg",
+     "bio": "Aerospace engineer, Ph. D. at RPI, Postdoc at MIT. Taught Control Systems and Robotics at ETH Zürich. I lead Duckietown to make quality robotics education accessible worldwide.",
+     "note": "Founder and CEO at Duckietown Robotics",
+     "homepage": "https://www.linkedin.com/in/jacopo-tani/",
+     "provisional": false,
      "children": []
     },
     {
@@ -19284,9 +19284,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "PhD student, Mechanical Engineering, MACS Lab UW",
+     "note": "Ph.D. Student at MACS Lab @ UW",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
