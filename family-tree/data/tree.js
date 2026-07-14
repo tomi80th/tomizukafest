@@ -9186,14 +9186,14 @@ window.TREE_DATA = {
      "year": 2018,
      "decade": "2010s",
      "educator": true,
-     "affiliation": "National Taiwan University, Department of Electrical Engineering",
+     "affiliation": "National Taiwan University",
      "title": "Associate Professor",
      "inMemoriam": false,
      "photo": "photos/cheng-wei-chen.jpg",
      "bio": null,
      "note": null,
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
