@@ -19988,6 +19988,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "jaskaran-singh-grover",
+     "name": "Jaskaran Singh Grover",
+     "batch": "PhD 2023",
+     "kind": "phd",
+     "year": 2023,
+     "decade": "2020s",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/jaskaran-singh-grover.jpg",
+     "bio": null,
+     "note": "Postdoc at CMU",
+     "homepage": "https://jaskaransgrover.github.io/",
+     "provisional": false,
+     "children": []
+    },
+    {
      "id": "tianhao-wei",
      "name": "Tianhao Wei",
      "batch": "PhD 2024",
