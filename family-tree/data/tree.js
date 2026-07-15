@@ -17297,11 +17297,11 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
-     "bio": null,
-     "note": "Thesis: Designing learning control algorithms for mechanical systems with complex dynamics; now KAIST postdoc",
+     "photo": "photos/bumsoo-park.jpg",
+     "bio": "Bumsoo Park received his Ph.D. in Mechanical Engineering from Rensselaer Polytechnic Institute in 2023 under the supervision of Professor Sandipan Mishra. He is currently an Assistant Professor at Seoul National University of Science and Technology, where his research focuses on AI-driven design and manufacturing, generative models, and physics-informed machine learning.",
+     "note": "Assistant Professor at Seoul National University of Science and Technology",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
