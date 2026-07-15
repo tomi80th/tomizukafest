@@ -17266,7 +17266,26 @@ window.TREE_DATA = {
      "note": null,
      "homepage": null,
      "provisional": false,
-     "children": []
+     "children": [
+      {
+       "id": "yuxin-tong",
+       "name": "Yuxin Tong",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": "photos/yuxin-tong.jpg",
+       "bio": "I am a second year PhD student majoring in Mechanical Engineering.",
+       "note": "University of Michigan Ann Arbor",
+       "homepage": null,
+       "provisional": false,
+       "children": []
+      }
+     ]
     },
     {
      "id": "luiz-victor-repolho-cagliari",
