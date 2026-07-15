@@ -1050,7 +1050,7 @@
   "ingested": "2026-07-05"
  },
  "max-gao": {
-  "source": "https://home.riselab.info/images/teampic/Max.jpeg",
+  "source": "https://drive.google.com/uc?export=download&id=1pbZT3p54tKf8NU6sxDkgoAWdxVjeVGEN",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-15"
  },
@@ -2848,5 +2848,10 @@
   "source": "https://drive.google.com/uc?export=download&id=1z7qlCfuv4T-tw9KZc_q6dRNFpJaVHkJ2",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-14"
+ },
+ "pham-huy-nguyen": {
+  "source": "https://drive.google.com/uc?export=download&id=1gF9sHP00eLzkR-KGe8hTgk2USrRyNiED",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-15"
  }
 }
