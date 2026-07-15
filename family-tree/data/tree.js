@@ -14252,8 +14252,11 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": null,
-   "children": []
+   "photo": "photos/chang-ping-wei.jpg",
+   "children": [],
+   "provisional": false,
+   "note": "Director at Nikon Research Corp of America (NRCA)",
+   "homepage": "https://www.linkedin.com/in/ping-wei-chang-281b359b/"
   },
   {
    "id": "patwardhan-satyajit",
