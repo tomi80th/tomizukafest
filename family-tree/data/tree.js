@@ -19841,10 +19841,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/jahnav-rokalaboina.jpg",
-     "bio": null,
-     "note": "Systems Engineering PhD, 2024-",
-     "homepage": null,
-     "provisional": true,
+     "bio": "I'm a PhD candidate in Systems Engineering at Arizona State University, where I build soft wearable robots that help people move. My research centers on soft exosuits - lightweight, pneumatically actuated device that assists humans during the walking cycle.",
+     "note": "Graduate Research Associate at RISE Lab ASU",
+     "homepage": "https://jrokalab.github.io/",
+     "provisional": false,
      "children": []
     },
     {
