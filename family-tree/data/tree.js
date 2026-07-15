@@ -19787,10 +19787,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/amirali-abazari.jpg",
-     "bio": null,
-     "note": "Systems Engineering PhD, 2024-",
+     "bio": "PhD student investigating contact-inclusive control and planning for UAVs",
+     "note": "Arizona State University",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
