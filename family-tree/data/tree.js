@@ -18456,7 +18456,9 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/stearns-hoday.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "note": "Software engineer at Google"
   },
   {
    "id": "bae-joonbum",
@@ -18519,10 +18521,10 @@ window.TREE_DATA = {
      "title": "Assistant Professor",
      "inMemoriam": false,
      "photo": "photos/yeongtae-jung.jpg",
-     "bio": null,
-     "note": null,
-     "homepage": null,
-     "provisional": true,
+     "bio": "Reinforcement Learning, Precision Control, Mechanism Design and Control, Human–Robot Interaction, Teleoperation",
+     "note": "Jeonbuk National University",
+     "homepage": "https://sites.google.com/view/ralab",
+     "provisional": false,
      "children": []
     },
     {
