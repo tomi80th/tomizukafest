@@ -319,8 +319,9 @@
   "ingested": "2026-07-06"
  },
  "haninger-kevin": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Kevin.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1_A8t6vzSU3wPIwgf_wnEuWuw5Bx7rYak",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-15"
  },
  "lu-junkai": {
   "source": "https://msc.berkeley.edu/assets/images/people/junkai.jpg",

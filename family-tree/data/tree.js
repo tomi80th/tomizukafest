@@ -19982,7 +19982,11 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/haninger-kevin.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "bio": "I work on camera-based manipulation, developing learning from demonstration algorithms and strategies for novel applications in medical, agricultural, and industrial fields.",
+   "note": "Department Lead at Fraunhofer IPK",
+   "homepage": "https://www.kevinhaninger.com/"
   },
   {
    "id": "tan-raechel",
