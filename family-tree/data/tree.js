@@ -17268,6 +17268,24 @@ window.TREE_DATA = {
      "provisional": false,
      "children": [
       {
+       "id": "isaiah-agboola",
+       "name": "Isaiah Agboola",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": "photos/isaiah-agboola.jpg",
+       "bio": null,
+       "note": null,
+       "homepage": "https://github.com/isagboola",
+       "provisional": false,
+       "children": []
+      },
+      {
        "id": "yuxin-tong",
        "name": "Yuxin Tong",
        "batch": "PhD Candidate",
