@@ -18023,6 +18023,24 @@ window.TREE_DATA = {
    "photo": "photos/wu-guoyuan.jpg",
    "children": [
     {
+     "id": "ziran-wang",
+     "name": "Ziran Wang",
+     "batch": "PhD 2019",
+     "kind": "phd",
+     "year": 2019,
+     "decade": "2010s",
+     "educator": true,
+     "affiliation": "Purdue University",
+     "title": "Assistant Professor",
+     "inMemoriam": false,
+     "photo": "photos/ziran-wang.jpg",
+     "bio": null,
+     "note": null,
+     "homepage": "https://ziranw.github.io/",
+     "provisional": false,
+     "children": []
+    },
+    {
      "id": "xishun-liao",
      "name": "Xishun Liao",
      "batch": "PhD 2023",
