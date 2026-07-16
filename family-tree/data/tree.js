@@ -17282,8 +17282,8 @@ window.TREE_DATA = {
        "title": null,
        "inMemoriam": false,
        "photo": "photos/isaiah-agboola.jpg",
-       "bio": null,
-       "note": null,
+       "bio": "PhD Candidate focusing on control in advanced manufacturing.",
+       "note": "University of Michigan",
        "homepage": "https://github.com/isagboola",
        "provisional": false,
        "children": []
@@ -17446,10 +17446,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/fardin-ishtiaq.jpg",
-     "bio": null,
-     "note": "Building energy optimization / robust control (2nd year)",
-     "homepage": null,
-     "provisional": true,
+     "bio": "I work in controls, preferably Reinforcement learning in thermal application",
+     "note": "Rensselaer Polytechnic Institute",
+     "homepage": "https://scholar.google.com/citations?user=NkTCoysAAAAJ&hl=en&authuser=2",
+     "provisional": false,
      "children": []
     },
     {
@@ -20195,8 +20195,8 @@ window.TREE_DATA = {
      "photo": null,
      "bio": null,
      "note": "PhD Summer 2026",
-     "homepage": null,
-     "provisional": true,
+     "homepage": "https://hanjianghu.net/",
+     "provisional": false,
      "children": []
     },
     {
