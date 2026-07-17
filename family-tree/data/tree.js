@@ -18691,9 +18691,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/minhyuk-lee.jpg",
      "bio": null,
-     "note": "now at Hyundai Motor Company",
+     "note": "Staff engineer at Samsung",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
