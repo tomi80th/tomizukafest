@@ -19109,7 +19109,7 @@ window.TREE_DATA = {
    "children": [],
    "provisional": false,
    "note": "Chief Algorithms Officer at Amptron Medical",
-   "bio": "Leads the development of AI-powered autonomous medical technologies for critical care."
+   "bio": "Leads AI innovation in autonomous medical technologies for critical care."
   },
   {
    "id": "yu-shu-wen",
