@@ -82,6 +82,16 @@
     background: var(--accent); color: #fff !important; padding: 8px 16px; border-radius: 5px;
     font-weight: 500 !important;
   }
+  /* Matches the "Tomizuka Academic Family Tree" button on the Tomizuka Fest page */
+  .btn-fest {
+    background: #2A2522; color: #F9F8F6 !important; padding: 8px 20px; border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+    transition: background-color .15s;
+  }
+  .btn-fest:hover { background: #000; }
+  @media (prefers-color-scheme: dark) {
+    .btn-fest { border: 1px solid var(--border); }
+  }
 
   header.hero { text-align: center; padding: 64px 24px 8px; }
   .hero-kicker {
@@ -302,7 +312,7 @@
   <div class="nav-inner">
     <span class="nav-brand">Tomizuka Academic Family Tree</span>
     <div class="nav-links">
-      <a href="https://tomi80th.github.io/tomizukafest/" target="_blank" rel="noopener">Tomizuka Fest ↗</a>
+      <a class="btn-fest" href="../index.html">Tomizuka Fest</a>
       <a class="btn-cta" href="survey.html">Join the Tree</a>
     </div>
   </div>
@@ -391,7 +401,7 @@
 
 <footer>
   Made with gratitude for Professor Masayoshi Tomizuka's 80th birthday.<br>
-  <a href="https://tomi80th.github.io/tomizukafest/" target="_blank" rel="noopener">Tomizuka Fest</a> · August 7, 2026 · UC Berkeley<br>
+  <a href="../index.html">Tomizuka Fest</a> · August 7, 2026 · UC Berkeley<br>
   <span style="font-size:11.5px">Affiliations shown are provisional until confirmed by each alum's survey response. No contact information is stored on this page.</span>
 </footer>
 
