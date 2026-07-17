@@ -18048,14 +18048,14 @@ window.TREE_DATA = {
      "year": 2023,
      "decade": "2020s",
      "educator": true,
-     "affiliation": "University of Central Florida, Dept. of Civil, Environmental and Construction Engineering",
+     "affiliation": "University of Central Florida",
      "title": "Assistant Professor",
      "inMemoriam": false,
      "photo": "photos/xishun-liao.jpg",
      "bio": null,
      "note": null,
-     "homepage": null,
-     "provisional": true,
+     "homepage": "https://xishunliao.github.io/",
+     "provisional": false,
      "children": []
     },
     {
