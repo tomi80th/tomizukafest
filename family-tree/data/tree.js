@@ -9278,13 +9278,13 @@ window.TREE_DATA = {
      "decade": "2020s",
      "educator": true,
      "affiliation": "Peking University",
-     "title": "Research Professor, directing Center of Intelligence, Laboratory of Human-Robot Systems",
+     "title": "Research Professor",
      "inMemoriam": false,
      "photo": "photos/lecheng-ruan.jpg",
      "bio": null,
      "note": null,
-     "homepage": null,
-     "provisional": true,
+     "homepage": "http://leleucla.github.io",
+     "provisional": false,
      "children": []
     },
     {
