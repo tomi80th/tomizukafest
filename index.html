@@ -127,7 +127,7 @@
                     <p class="text-gray-600 font-medium">Jarvis Auditorium</p>
                     <p class="text-gray-500 text-sm mt-1">Grimes Engineering Center</p>
                     <p class="text-gray-500 text-sm mt-1">University of California, Berkeley</p>
-                    <a href="https://maps.app.goo.gl/ZxaHjTENo8cEt7P4A" class="text-brand-accent text-sm mt-4 hover:underline uppercase tracking-wider text-xs font-semibold">Map & Directions &rarr;</a>
+                    <a href="https://maps.app.goo.gl/ZxaHjTENo8cEt7P4A" target="_blank" rel="noopener noreferrer" class="text-brand-accent text-sm mt-4 hover:underline uppercase tracking-wider text-xs font-semibold">Map & Directions &rarr;</a>
                 </div>
 
                 <!-- Format Card -->
@@ -138,7 +138,7 @@
                     <h3 class="font-serif text-xl text-brand-dark mb-3">Dinner</h3>
                     <p class="text-gray-600 font-medium">The Faculty Club</p>
                     <p class="text-gray-500 text-sm mt-1">University of California, Berkeley</p>
-                    <a href="https://maps.app.goo.gl/yQWP137apC8S1wxL7" class="text-brand-accent text-sm mt-4 hover:underline uppercase tracking-wider text-xs font-semibold">Map & Directions &rarr;</a>
+                    <a href="https://maps.app.goo.gl/yQWP137apC8S1wxL7" target="_blank" rel="noopener noreferrer" class="text-brand-accent text-sm mt-4 hover:underline uppercase tracking-wider text-xs font-semibold">Map & Directions &rarr;</a>
                 </div>
             </div>
         </section>
@@ -168,15 +168,33 @@
             </div>
         </section>
 
-        <!-- Morning Program Section -->
-        <section id="morning-program" class="py-16 md:py-24 bg-white">
+        <!-- Program Section -->
+        <section id="program" class="py-16 md:py-24 bg-white">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
+                <div class="text-center mb-10">
                     <!-- <span class="text-brand-accent font-medium tracking-widest uppercase text-sm mb-3 block">Itinerary</span> -->
-                    <h2 class="text-3xl md:text-4xl font-serif text-brand-dark mb-4">Morning Workshop Schedule</h2>
+                    <h2 class="text-3xl md:text-4xl font-serif text-brand-dark mb-4">Tentative Schedule</h2>
                     <!-- <p class="text-gray-500 font-light text-lg">(Under Construction)</p> -->
                 </div>
-                
+
+                <!-- Schedule tabs -->
+                <div role="tablist" aria-label="Event schedule" class="flex flex-wrap justify-center gap-3 sm:gap-4 mb-12 md:mb-16">
+                    <button id="tab-morning" type="button" role="tab" aria-selected="true" aria-controls="panel-morning" data-panel="panel-morning"
+                            class="schedule-tab px-4 sm:px-10 py-2.5 rounded border font-medium tracking-wide transition-colors bg-brand-accent text-white border-brand-accent shadow-sm">Morning</button>
+                    <button id="tab-afternoon" type="button" role="tab" aria-selected="false" aria-controls="panel-afternoon" data-panel="panel-afternoon"
+                            class="schedule-tab px-4 sm:px-10 py-2.5 rounded border font-medium tracking-wide transition-colors bg-white text-brand-dark border-brand-accent-light hover:border-brand-accent hover:text-brand-accent">Afternoon</button>
+                    <button id="tab-dinner" type="button" role="tab" aria-selected="false" aria-controls="panel-dinner" data-panel="panel-dinner"
+                            class="schedule-tab px-4 sm:px-10 py-2.5 rounded border font-medium tracking-wide transition-colors bg-white text-brand-dark border-brand-accent-light hover:border-brand-accent hover:text-brand-accent">Dinner</button>
+                </div>
+
+                <!-- Morning schedule -->
+                <div id="panel-morning" role="tabpanel" aria-labelledby="tab-morning">
+                <p class="text-center text-gray-600 font-light mb-10">
+                    <a href="https://maps.app.goo.gl/ZxaHjTENo8cEt7P4A" target="_blank" rel="noopener noreferrer" class="hover:text-brand-accent transition-colors">
+                        <i class="ph ph-map-pin text-brand-accent text-xl align-middle mr-1"></i>
+                        Jarvis Auditorium, Grimes Engineering Center
+                    </a>
+                </p>
                 <div class="border-l border-brand-accent/30 ml-4 md:ml-0 pl-8 space-y-12">
                     <!-- Schedule Item Placeholder -->
                     <div class="relative">
@@ -219,18 +237,16 @@
                         <p class="text-gray-600 mt-2 font-light">Speakers: Xiaodong Che, Guoxiao Guo</p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Afternoon Program Section -->
-        <section id="afternoon-program" class="py-16 md:py-24 bg-white">
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <!-- <span class="text-brand-accent font-medium tracking-widest uppercase text-sm mb-3 block">Itinerary</span> -->
-                    <h2 class="text-3xl md:text-4xl font-serif text-brand-dark mb-4">Afternoon Workshop Schedule</h2>
-                    <!-- <p class="text-gray-500 font-light text-lg">(Under Construction)</p> -->
                 </div>
-                
+
+                <!-- Afternoon schedule -->
+                <div id="panel-afternoon" role="tabpanel" aria-labelledby="tab-afternoon" class="hidden">
+                <p class="text-center text-gray-600 font-light mb-10">
+                    <a href="https://maps.app.goo.gl/ZxaHjTENo8cEt7P4A" target="_blank" rel="noopener noreferrer" class="hover:text-brand-accent transition-colors">
+                        <i class="ph ph-map-pin text-brand-accent text-xl align-middle mr-1"></i>
+                        Jarvis Auditorium, Grimes Engineering Center
+                    </a>
+                </p>
                 <div class="border-l border-brand-accent/30 ml-4 md:ml-0 pl-8 space-y-12">
                     <!-- Schedule Item Placeholder -->
                     <div class="relative">
@@ -267,18 +283,16 @@
                         <h4 class="font-serif text-xl text-brand-dark">4:20 PM - 4:35 PM: Group Photo</h4>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Dinner Section -->
-        <section id="dinner-program" class="py-16 md:py-24 bg-white">
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <!-- <span class="text-brand-accent font-medium tracking-widest uppercase text-sm mb-3 block">Itinerary</span> -->
-                    <h2 class="text-3xl md:text-4xl font-serif text-brand-dark mb-4">Dinner Schedule</h2>
-                    <!-- <p class="text-gray-500 font-light text-lg">(Under Construction)</p> -->
                 </div>
-                
+
+                <!-- Dinner schedule -->
+                <div id="panel-dinner" role="tabpanel" aria-labelledby="tab-dinner" class="hidden">
+                <p class="text-center text-gray-600 font-light mb-10">
+                    <a href="https://maps.app.goo.gl/yQWP137apC8S1wxL7" target="_blank" rel="noopener noreferrer" class="hover:text-brand-accent transition-colors">
+                        <i class="ph ph-map-pin text-brand-accent text-xl align-middle mr-1"></i>
+                        The Faculty Club
+                    </a>
+                </p>
                 <div class="border-l border-brand-accent/30 ml-4 md:ml-0 pl-8 space-y-12">
                     <!-- Schedule Item Placeholder -->
                     <div class="relative">
@@ -303,6 +317,7 @@
                         <h4 class="font-serif text-xl text-brand-dark">7:30 PM - 8:00 PM: Final Remarks</h4>
                         <p class="text-gray-600 mt-2 font-light">Speakers: Roberto Horowitz, Masayoshi Tomizuka</p>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -404,6 +419,20 @@
         mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
             mobileMenu.classList.add('hidden');
             menuButton.setAttribute('aria-expanded', 'false');
+        }));
+
+        // Schedule tabs: show the panel matching the clicked button, restyle the buttons
+        const scheduleTabs = document.querySelectorAll('.schedule-tab');
+        const TAB_ACTIVE = ['bg-brand-accent', 'text-white', 'border-brand-accent', 'shadow-sm'];
+        const TAB_INACTIVE = ['bg-white', 'text-brand-dark', 'border-brand-accent-light', 'hover:border-brand-accent', 'hover:text-brand-accent'];
+        scheduleTabs.forEach(tab => tab.addEventListener('click', () => {
+            scheduleTabs.forEach(t => {
+                const isActive = t === tab;
+                t.classList.remove(...(isActive ? TAB_INACTIVE : TAB_ACTIVE));
+                t.classList.add(...(isActive ? TAB_ACTIVE : TAB_INACTIVE));
+                t.setAttribute('aria-selected', isActive);
+                document.getElementById(t.dataset.panel).classList.toggle('hidden', !isActive);
+            });
         }));
     </script>
 
