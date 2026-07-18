@@ -15851,7 +15851,10 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/saraf-sujit.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "bio": "Ph.D. from U C Berkeley in 1997. Worked at NASA and Lockheed Martin, then a succession of software companies.",
+   "note": "I run my own software company"
   },
   {
    "id": "chee-wonshik",
@@ -18688,9 +18691,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/minhyuk-lee.jpg",
      "bio": null,
-     "note": "now at Hyundai Motor Company",
+     "note": "Staff engineer at Samsung",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
