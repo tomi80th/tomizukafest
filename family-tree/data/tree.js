@@ -8120,8 +8120,8 @@ window.TREE_DATA = {
          "title": null,
          "inMemoriam": false,
          "photo": "photos/chong-ke.jpg",
-         "bio": null,
-         "note": "Principal Servo Design Engineer at Western Digital",
+         "bio": "TAMU; dissertation 'Modeling, Optimization, and Control of Down-Hole Drilling System', Chair: Xingyong Song (co-chair Li-Jung Tai); lab page says graduated Dec 2019, degree listed in Aug 2020 commencement program; now Servo Design Engineer at Western Digital",
+         "note": "Principal Servo Design Engineer",
          "homepage": null,
          "provisional": false,
          "children": []
