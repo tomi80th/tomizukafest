@@ -19604,7 +19604,7 @@ window.TREE_DATA = {
    "children": [
     {
      "id": "prudhvi-tej-chinimilli",
-     "name": "Prudhvi Tej Chinimilli",
+     "name": "Prudhvi tej Chinimilli",
      "batch": "PhD 2018",
      "kind": "phd",
      "year": 2018,
@@ -19613,11 +19613,11 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
+     "photo": "photos/prudhvi-tej-chinimilli.jpg",
      "bio": null,
-     "note": "now co-founder and CTO at Zooly Labs; dissertation co-chaired by Sangram Redkar and Wenlong Zhang",
-     "homepage": null,
-     "provisional": true,
+     "note": "Co-founder & CTO at Zooly Labs",
+     "homepage": "https://www.linkedin.com/in/prudhvitejchinimilli",
+     "provisional": false,
      "children": []
     },
     {
