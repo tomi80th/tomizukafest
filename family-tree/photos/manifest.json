@@ -176,7 +176,7 @@
   "confidence": "high (MSC lab site)"
  },
  "zhang-xiang": {
-  "source": "https://drive.google.com/uc?export=download&id=1kHiMcSTDpcgkDXdhm75sv5BxbYhXhcMT",
+  "source": "https://drive.google.com/uc?export=download&id=1SQbsGgLXGA-U9DHDeX1cdsNPh5LEpwk6",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-20"
  },
@@ -217,7 +217,7 @@
   "confidence": "high (MSC lab site)"
  },
  "tang-chen": {
-  "source": "https://drive.google.com/uc?export=download&id=11r7VmCq3qdOK2gVQiWWcM724KiQqxAwe",
+  "source": "https://drive.google.com/uc?export=download&id=10fqGZnjSfAXi_HWMaSaD9i0I3eSqB5jl",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-20"
  },
@@ -457,7 +457,7 @@
   "confidence": "high (MSC lab site)"
  },
  "chen-yuxin": {
-  "source": "https://drive.google.com/uc?export=download&id=19Xgl2tSHkNxcbg0v_GupanpOEzK9yUsn",
+  "source": "https://drive.google.com/uc?export=download&id=1MEb3cC6wABF-RkIIkYxdVfhu74CEzkR5",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-20"
  },
@@ -511,7 +511,7 @@
   "ingested": "2026-07-20"
  },
  "ce-hao": {
-  "source": "https://drive.google.com/uc?export=download&id=1kGZRkogv9QbCy5hnAJ4ysOs_3ua9ot3D",
+  "source": "https://drive.google.com/uc?export=download&id=1InPHQmW-p-_t1LgUgifENrjEHPtWQ_rr",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-20"
  },
@@ -526,7 +526,7 @@
   "ingested": "2026-07-04"
  },
  "wenjie-li": {
-  "source": "https://drive.google.com/uc?export=download&id=1VPKyeW6WXRZ_6wjVZAzhXIV8-645J8L3",
+  "source": "https://drive.google.com/uc?export=download&id=1HLSoyN8EP5lyy-Ju48POCSEAgIdomhIc",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-20"
  },
@@ -1531,7 +1531,7 @@
   "ingested": "2026-07-05"
  },
  "dongyoung-lee": {
-  "source": "https://drive.google.com/uc?export=download&id=1yIfe5gnqXrSoKOR-iSKajgKeQ6UjFjdK",
+  "source": "https://github.com/PNUxCAMEL/camel-lab-images/blob/main/members/DongyoungLee.png?raw=true",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-20"
  },
@@ -2621,11 +2621,6 @@
   "ingested": "2026-07-10"
  },
  "yuxiao-chen": {
-  "source": "https://drive.google.com/uc?export=download&id=1NV8Y5fsFaUjpoSR91RRP1hVY03gYQJYJ",
-  "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-10"
- },
- "yuxiao-chen-us": {
   "source": "https://drive.google.com/uc?export=download&id=1bDTukCQt8EBsQ7H-RbrWHTqhPUxhRKZa",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-10"
@@ -2666,7 +2661,7 @@
   "ingested": "2026-07-13"
  },
  "dong-nancy": {
-  "source": "https://drive.google.com/uc?export=download&id=1yEc8dluMZWGQkV8McvBs8sfdgdjXAaU4",
+  "source": "https://drive.google.com/uc?export=download&id=1nFFA2DmfFsLIyCT2QP_V_7CgURail689",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-20"
  },
@@ -2861,7 +2856,7 @@
   "ingested": "2026-07-15"
  },
  "isaiah-agboola": {
-  "source": "https://drive.google.com/uc?export=download&id=1WobEFw5OZxyJggJFQElu69FkG6PFKRBk",
+  "source": "https://drive.google.com/uc?export=download&id=1CcNrS8KXA-kW_lVwSfdYJnPZDEjneQm2",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-20"
  },
@@ -2884,5 +2879,10 @@
   "source": "https://drive.google.com/uc?export=download&id=1HyIQ4OKkuzexEjSgGHECCaaW7hDaeTir",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-19"
+ },
+ "dongyoung-lee--bae-joonbu": {
+  "source": "https://drive.google.com/uc?export=download&id=1yIfe5gnqXrSoKOR-iSKajgKeQ6UjFjdK",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-20"
  }
 }

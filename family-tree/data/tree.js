@@ -4695,24 +4695,6 @@ window.TREE_DATA = {
      ]
     },
     {
-     "id": "rene-sanchez",
-     "name": "Rene Sanchez",
-     "batch": "PhD 2006",
-     "kind": "phd",
-     "year": 2006,
-     "decade": "2000s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": null,
-     "bio": null,
-     "note": "principal mechanical engineer at Multibeam Corporation",
-     "homepage": null,
-     "provisional": true,
-     "children": []
-    },
-    {
      "id": "sing-yiu-cheung",
      "name": "Sing Yiu Cheung",
      "batch": "PhD 2006",
@@ -4905,7 +4887,7 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "research engineer at Sensys Networks",
+     "note": "principal mechanical engineer at Multibeam Corporation (previously Sensys Networks)",
      "homepage": null,
      "provisional": true,
      "children": []
@@ -11205,24 +11187,6 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/yuxiao-chen.jpg",
-     "bio": "I worked on formal methods and safety-critical control during my PhD and postdoc years. Now I work on end-to-end policy training for AV.",
-     "note": "Sen. research scientist @Nvidia",
-     "homepage": null,
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "yuxiao-chen-us",
-     "name": "Yuxiao Chen US",
-     "batch": "PhD 2018",
-     "kind": "phd",
-     "year": 2018,
-     "decade": "2010s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/yuxiao-chen-us.jpg",
      "bio": "I worked on formal methods and safety-critical control during my PhD @Michigan and postdoc @Caltech. I currently work on end-to-end policy training for AV @Nvidia.",
      "note": "Sen. research scientist @Nvidia",
      "homepage": null,
@@ -17219,9 +17183,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "Data-driven control of laser powder bed fusion; multiple Mishra co-authored papers",
-     "homepage": null,
-     "provisional": true,
+     "note": "Senior Engineer at Intuitive",
+     "homepage": "https://www.linkedin.com/in/ashkoruta/",
+     "provisional": false,
      "children": []
     },
     {
@@ -18737,8 +18701,8 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "dongyeong-lee",
-     "name": "Dongyeong Lee",
+     "id": "dongyoung-lee--bae-joonbu",
+     "name": "Dongyoung Lee",
      "batch": "PhD 2024",
      "kind": "phd",
      "year": 2024,
@@ -18747,11 +18711,11 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
+     "photo": "photos/dongyoung-lee--bae-joonbu.jpg",
      "bio": null,
-     "note": "now at ETRI (lab page spells name Dongyeong, not Dongyoung as claimed)",
-     "homepage": null,
-     "provisional": true,
+     "note": "Researcher at Electronics and Telecommunications Research Institute (ETRI)",
+     "homepage": "https://sites.google.com/view/dongyounglee/home",
+     "provisional": false,
      "children": []
     },
     {

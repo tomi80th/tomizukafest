@@ -53,9 +53,9 @@ jobs:
         run: |
           pip3 install --quiet pillow
           if [ -s /tmp/live_responses.csv ]; then
-            python3 scripts/ingest_photos.py data/additions.csv data/gen_crawl.csv /tmp/live_responses.csv data/overrides.csv
+            python3 scripts/ingest_photos.py data/overrides.csv /tmp/live_responses.csv data/gen_crawl.csv data/additions.csv
           else
-            python3 scripts/ingest_photos.py data/additions.csv data/gen_crawl.csv data/overrides.csv
+            python3 scripts/ingest_photos.py data/overrides.csv data/gen_crawl.csv data/additions.csv
           fi
           # photo files may have changed -> refresh photo paths in the data
           python3 scripts/build_data.py $BUILD_ARGS

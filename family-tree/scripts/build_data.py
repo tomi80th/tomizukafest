@@ -214,6 +214,12 @@ def merge_survey(tree, path):
                 continue
         else:
             me = cands[0] if cands else None
+        # curator deletion: overrides rows with remove=yes drop the card
+        # (double-submissions, crawl phantoms). Pruned after all merges.
+        if (r.get('remove') or '').strip().lower() in ('yes', 'true', '1'):
+            if me is not None:
+                me['_removed'] = True
+            continue
         if me is not None:                      # update an existing card
             if not provisional:
                 me['provisional'] = False       # a real survey confirms the card
@@ -306,12 +312,45 @@ def merge_survey(tree, path):
     _REVIEW['mismatched'].extend(mismatched)
 
 
-_REVIEW = {'unmatched': [], 'mismatched': []}
+_REVIEW = {'unmatched': [], 'mismatched': [], 'dupes': []}
+
+
+def prune_removed(tree):
+    n = 0
+    def walk(node):
+        nonlocal n
+        ch = node.get('children', [])
+        keep = [c for c in ch if not c.get('_removed')]
+        n += len(ch) - len(keep)
+        node['children'] = keep
+        for c in keep:
+            walk(c)
+    walk(tree)
+    if n:
+        print(f'pruned {n} card(s) removed via overrides', file=sys.stderr)
+
+
+def audit_near_duplicates(tree):
+    """Roster typos vs self-reported spellings split one person into two
+    sibling cards (Satraya/Satrya, Catherin/Catherine). Flag suspiciously
+    similar names under the same advisor for the curator."""
+    from difflib import SequenceMatcher
+    def walk(node):
+        ch = node.get('children', [])
+        for i in range(len(ch)):
+            for j in range(i + 1, len(ch)):
+                a, b = norm_name(ch[i]['name']), norm_name(ch[j]['name'])
+                if a and b and a != b and SequenceMatcher(None, a, b).ratio() >= 0.86:
+                    _REVIEW['dupes'].append((node['name'], ch[i]['name'], ch[j]['name']))
+        for c in ch:
+            walk(c)
+    walk(tree)
 
 
 def write_review():
-    unmatched, mismatched = _REVIEW['unmatched'], _REVIEW['mismatched']
-    if unmatched or mismatched:
+    unmatched, mismatched, dupes = (_REVIEW['unmatched'], _REVIEW['mismatched'],
+                                    _REVIEW['dupes'])
+    if unmatched or mismatched or dupes:
         with open('data/needs-review.md', 'w') as f:
             if unmatched:
                 f.write('# Survey rows whose advisor could not be matched\n\n')
@@ -325,8 +364,15 @@ def write_review():
                 for r in mismatched:
                     f.write(f"- {r.get('name')} (row advisor: {r.get('advisor')!r}, "
                             f"{r.get('status')} {r.get('grad_year')})\n")
-        print(f'WARNING {len(unmatched)} unmatched, {len(mismatched)} advisor-mismatched '
-              f'-> data/needs-review.md', file=sys.stderr)
+            if dupes:
+                f.write('\n# Suspiciously similar sibling names '
+                        '(one person split by a typo?)\n\n')
+                f.write('Fix the roster spelling in base.json (or the crawl '
+                        'CSV) so the survey row merges back in.\n\n')
+                for adv, n1, n2 in dupes:
+                    f.write(f"- under {adv}: {n1!r} vs {n2!r}\n")
+        print(f'WARNING {len(unmatched)} unmatched, {len(mismatched)} advisor-mismatched, '
+              f'{len(dupes)} possible dupes -> data/needs-review.md', file=sys.stderr)
     elif os.path.exists('data/needs-review.md'):
         os.remove('data/needs-review.md')
 
@@ -385,6 +431,8 @@ def main():
         tree = json.load(open(base_in))
         for sv in surveys:
             merge_survey(tree, sv)
+        prune_removed(tree)
+        audit_near_duplicates(tree)
         write_review()
         refresh_photos(tree)
         write_tree(tree)
