@@ -16486,20 +16486,6 @@ window.TREE_DATA = {
   },
   {
    "id": "budiman-erwin-satraya",
-   "name": "Erwin Satraya Budiman",
-   "batch": "PhD 2001",
-   "kind": "phd",
-   "year": 2001,
-   "decade": "2000s",
-   "educator": false,
-   "affiliation": null,
-   "title": null,
-   "inMemoriam": false,
-   "photo": "photos/budiman-erwin-satraya.jpg",
-   "children": []
-  },
-  {
-   "id": "erwin-satrya-budiman",
    "name": "Erwin Satrya Budiman",
    "batch": "PhD 2001",
    "kind": "phd",
@@ -16509,12 +16495,12 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": null,
+   "photo": "photos/budiman-erwin-satraya.jpg",
+   "children": [],
+   "provisional": false,
    "bio": "Head of sensor algorithm development for Abbott's percutaneous sensing platform ( FreeStyle Libre Continuous Glucose Monitoring family of systems, Lingo, etc.)",
    "note": "Research Fellow / Director at Abbott Diabetes Care",
-   "homepage": "https://www.linkedin.com/in/erwinsatryabudiman/",
-   "provisional": false,
-   "children": []
+   "homepage": "https://www.linkedin.com/in/erwinsatryabudiman/"
   },
   {
    "id": "tai-meihua",
@@ -21389,20 +21375,6 @@ window.TREE_DATA = {
   },
   {
    "id": "weaver-catherin",
-   "name": "Catherin Weaver",
-   "batch": "PhD 2024",
-   "kind": "phd",
-   "year": 2024,
-   "decade": "2020s",
-   "educator": false,
-   "affiliation": null,
-   "title": null,
-   "inMemoriam": false,
-   "photo": "photos/weaver-catherin.jpg",
-   "children": []
-  },
-  {
-   "id": "catherine-weaver",
    "name": "Catherine Weaver",
    "batch": "PhD 2024",
    "kind": "phd",
@@ -21412,12 +21384,11 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": "photos/catherine-weaver.jpg",
-   "bio": null,
-   "note": "Scale AI",
-   "homepage": "https://www.linkedin.com/in/cwj22",
+   "photo": "photos/weaver-catherin.jpg",
+   "children": [],
    "provisional": false,
-   "children": []
+   "note": "Scale AI",
+   "homepage": "https://www.linkedin.com/in/cwj22"
   },
   {
    "id": "li-jinning",

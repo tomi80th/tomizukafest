@@ -151,8 +151,9 @@
   "confidence": "high"
  },
  "weaver-catherin": {
-  "source": "https://msc.berkeley.edu/people/alumni.html",
-  "confidence": "high"
+  "source": "https://drive.google.com/uc?export=download&id=1m9auaRrthSuiT-BGMV0x0OcYYOg5-DYT",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-13"
  },
  "tian-ran": {
   "source": "https://msc.berkeley.edu/assets/images/people/ran.jpg",
@@ -2658,11 +2659,6 @@
   "source": "https://drive.google.com/uc?export=download&id=1ZQMgrmZqqqYNlvlW5SsgN7dUAFtkuQaa",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-11"
- },
- "catherine-weaver": {
-  "source": "https://drive.google.com/uc?export=download&id=1m9auaRrthSuiT-BGMV0x0OcYYOg5-DYT",
-  "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-13"
  },
  "md-hossain-toufiq-imam": {
   "source": "https://drive.google.com/uc?export=download&id=1EZ81MavHVEa4S6t3SBOZuNZ2kHJQ4r-p",
