@@ -19099,7 +19099,7 @@ window.TREE_DATA = {
    "children": [],
    "provisional": false,
    "note": "Chief Algorithms Officer at Amptron Medical",
-   "bio": "Leads AI innovation in autonomous medical technologies for critical care."
+   "bio": "Leads AI-powered autonomous medical technologies for critical care."
   },
   {
    "id": "yu-shu-wen",
@@ -21199,7 +21199,10 @@ window.TREE_DATA = {
    "title": "Incoming Assistant Professor",
    "inMemoriam": false,
    "photo": "photos/hu-yeping.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "note": "Research Scientist at Lawrence Livermore National Laboratory",
+   "homepage": "https://yeping-hu.github.io/"
   },
   {
    "id": "cheng-yujiao",
