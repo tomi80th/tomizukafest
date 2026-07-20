@@ -17954,6 +17954,24 @@ window.TREE_DATA = {
    ]
   },
   {
+   "id": "nora-han",
+   "name": "Nora Han",
+   "batch": "PhD 2009",
+   "kind": "phd",
+   "year": 2009,
+   "decade": "2000s",
+   "educator": false,
+   "affiliation": null,
+   "title": null,
+   "inMemoriam": false,
+   "photo": "photos/nora-han.jpg",
+   "bio": null,
+   "note": "Global Head of Sales, Renewable Business, ABB",
+   "homepage": null,
+   "provisional": false,
+   "children": []
+  },
+  {
    "id": "zheng-qixing",
    "name": "Qixing Zheng",
    "batch": "PhD 2009",
