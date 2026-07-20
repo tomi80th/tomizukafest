@@ -9267,7 +9267,26 @@ window.TREE_DATA = {
      "note": null,
      "homepage": "http://leleucla.github.io",
      "provisional": false,
-     "children": []
+     "children": [
+      {
+       "id": "wenduo-zhu",
+       "name": "Wenduo Zhu",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": "photos/wenduo-zhu.jpg",
+       "bio": null,
+       "note": "Peking University",
+       "homepage": null,
+       "provisional": false,
+       "children": []
+      }
+     ]
     },
     {
      "id": "shahin-rouhani",
