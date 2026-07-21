@@ -111,7 +111,6 @@ def main():
     idx = name_index(load_tree())
     manifest = json.load(open(MANIFEST)) if os.path.exists(MANIFEST) else {}
     blocked = load_blocklist()
-    seen = set()   # first file to land a photo wins — pass overrides first
 
     for pid in sorted(blocked):
         p = f'photos/{pid}.jpg'
@@ -120,18 +119,27 @@ def main():
             print(f'blocklist: removed {p}')
         manifest.pop(pid, None)
 
-    for path in sys.argv[1:]:
+    # decide ONE url per person before downloading anything: earlier FILES
+    # outrank later ones (pass overrides first, so curator pins always win),
+    # but within a file the LATEST row wins — people fix their photo by
+    # resubmitting the survey, and their newest upload must be the one
+    # that lands (Nancy resubmitted 18 times against the old logic)
+    chosen = {}   # pid -> (file_rank, url)
+    for rank, path in enumerate(sys.argv[1:]):
         for r in csv.DictReader(open(path)):
             url = (r.get('photo_url') or '').strip()
             name = (r.get('name') or '').strip()
             if not name or not url.lower().startswith('http'):
                 continue
             pid = resolve(idx, name, r.get('advisor'))
-            if pid is None or pid in blocked or pid in seen:
+            if pid is None or pid in blocked:
                 continue
+            if pid not in chosen or rank <= chosen[pid][0]:
+                chosen[pid] = (rank, url)
+
+    for pid, (rank, url) in sorted(chosen.items()):
             dst = f'photos/{pid}.jpg'
             if (manifest.get(pid) or {}).get('source') == url and os.path.exists(dst):
-                seen.add(pid)
                 continue  # this exact photo is already in
             tmp = f'/tmp/ingest_{pid}'
 
@@ -178,7 +186,6 @@ def main():
                 'confidence': 'self-submitted (survey)',
                 'ingested': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
             }
-            seen.add(pid)
             print(f'ingested {dst} <- {url}')
 
     json.dump(manifest, open(MANIFEST, 'w'), indent=1, ensure_ascii=False)
