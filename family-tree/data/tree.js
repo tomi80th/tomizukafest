@@ -20608,7 +20608,10 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/zhao-yu.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "bio": "Senior research engineer.\nOne of founding members of FANUC Advanced Research Lab.",
+   "note": "FANUC"
   },
   {
    "id": "peng-cheng",
