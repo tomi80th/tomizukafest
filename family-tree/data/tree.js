@@ -16654,14 +16654,14 @@ window.TREE_DATA = {
   },
   {
    "id": "hsiao-te-sheng",
-   "name": "Te-Sheng Hsiao",
+   "name": "Tesheng Hsiao",
    "batch": "PhD 2005",
    "kind": "phd",
    "year": 2005,
    "decade": "2000s",
    "educator": true,
-   "affiliation": "National Yang Ming Chiao Tung University",
-   "title": "Associate Professor",
+   "affiliation": "National Yang Ming Chiao Tung University, Taiwan",
+   "title": "Professor",
    "inMemoriam": false,
    "photo": "photos/hsiao-te-sheng.jpg",
    "children": [
@@ -16755,7 +16755,9 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ]
+   ],
+   "provisional": false,
+   "note": null
   },
   {
    "id": "koo-shiang-lung",
