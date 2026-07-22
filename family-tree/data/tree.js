@@ -19357,11 +19357,11 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
+     "photo": "photos/jonas-beachy.jpg",
      "bio": null,
      "note": "PhD student, Mechanical Engineering, MACS Lab UW",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
