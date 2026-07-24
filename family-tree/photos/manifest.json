@@ -2128,9 +2128,9 @@
   "ingested": "2026-07-05"
  },
  "tsung-lin-tony-chen": {
-  "source": "https://me.nycu.edu.tw/people/people2/Tsung-Lin-Chen-42669445",
-  "confidence": "high (faculty-page hunt)",
-  "ingested": "2026-07-05"
+  "source": "https://drive.google.com/uc?export=download&id=1OQjjKYuDZDmiehWIY0YZ0ve9Wr1itkFK",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-24"
  },
  "jingang-yi": {
   "source": "https://mae.rutgers.edu/jingang-yi",
@@ -2901,5 +2901,10 @@
   "source": "https://drive.google.com/uc?export=download&id=1Z62pkGQVDjzNF1XWQIWRpqhisgOYIQio",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-22"
+ },
+ "cheng-yang-chang": {
+  "source": "https://drive.google.com/uc?export=download&id=1CV8eUF6GYcLYBVpR06isW8PuWfv-z8pS",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-24"
  }
 }
