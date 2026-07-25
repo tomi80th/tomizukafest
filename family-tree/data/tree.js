@@ -9305,6 +9305,24 @@ window.TREE_DATA = {
        "children": []
       },
       {
+       "id": "mengchen-cai",
+       "name": "Mengchen Cai",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": "photos/mengchen-cai.jpg",
+       "bio": "Embodied AI, Robotics",
+       "note": "Peking University",
+       "homepage": null,
+       "provisional": false,
+       "children": []
+      },
+      {
        "id": "wenduo-zhu",
        "name": "Wenduo Zhu",
        "batch": "PhD Candidate",
