@@ -9339,6 +9339,24 @@ window.TREE_DATA = {
        "homepage": null,
        "provisional": false,
        "children": []
+      },
+      {
+       "id": "zuxin-fan",
+       "name": "Zuxin Fan",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": "photos/zuxin-fan.jpg",
+       "bio": null,
+       "note": "Peking University",
+       "homepage": null,
+       "provisional": false,
+       "children": []
       }
      ]
     },
