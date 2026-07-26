@@ -9269,6 +9269,24 @@ window.TREE_DATA = {
      "provisional": false,
      "children": [
       {
+       "id": "haocheng-lu",
+       "name": "Haocheng Lu",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": null,
+       "bio": null,
+       "note": null,
+       "homepage": null,
+       "provisional": false,
+       "children": []
+      },
+      {
        "id": "haofei-hou",
        "name": "Haofei Hou",
        "batch": "PhD Candidate",
@@ -9301,6 +9319,24 @@ window.TREE_DATA = {
        "bio": null,
        "note": "Peking University",
        "homepage": null,
+       "provisional": false,
+       "children": []
+      },
+      {
+       "id": "kairui-yang",
+       "name": "Kairui Yang",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": null,
+       "bio": null,
+       "note": "Peking University",
+       "homepage": "https://kryang03.github.io",
        "provisional": false,
        "children": []
       },
@@ -20636,7 +20672,9 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/lin-hsien-chung.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "note": "Sr. Robotics Algorithms and Controls Engineer"
   },
   {
    "id": "tang-te",

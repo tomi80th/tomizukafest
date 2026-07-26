@@ -291,8 +291,9 @@
   "confidence": "high (MSC lab site)"
  },
  "lin-hsien-chung": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Hsien-chung.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1N6dyEqDHzz7TWhOrnaOIvjoKvnoTCxnA",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-26"
  },
  "tang-te": {
   "source": "https://drive.google.com/uc?export=download&id=1kuR79Sn6As6I4fTXxYuO4QRjgI16K2jh",
