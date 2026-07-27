@@ -20443,7 +20443,9 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/chan-chen-yu.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "note": "Taiwan Space Agency (TASA)"
   },
   {
    "id": "zheng-minghui",

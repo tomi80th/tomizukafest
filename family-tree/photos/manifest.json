@@ -287,8 +287,9 @@
   "confidence": "high (MSC lab site)"
  },
  "chan-chen-yu": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Chen-Yu.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1UJjb6wF5TGAIFqmcIOn0ICO4WKfqhbAP",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-27"
  },
  "lin-hsien-chung": {
   "source": "https://drive.google.com/uc?export=download&id=1N6dyEqDHzz7TWhOrnaOIvjoKvnoTCxnA",
