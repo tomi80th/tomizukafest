@@ -9269,6 +9269,24 @@ window.TREE_DATA = {
      "provisional": false,
      "children": [
       {
+       "id": "fanxu-meng",
+       "name": "Fanxu Meng",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": null,
+       "bio": null,
+       "note": null,
+       "homepage": null,
+       "provisional": false,
+       "children": []
+      },
+      {
        "id": "haocheng-lu",
        "name": "Haocheng Lu",
        "batch": "PhD Candidate",
