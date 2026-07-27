@@ -9359,6 +9359,24 @@ window.TREE_DATA = {
        "children": []
       },
       {
+       "id": "shunyi-zhao",
+       "name": "Shunyi Zhao",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": null,
+       "bio": null,
+       "note": null,
+       "homepage": null,
+       "provisional": false,
+       "children": []
+      },
+      {
        "id": "wenduo-zhu",
        "name": "Wenduo Zhu",
        "batch": "PhD Candidate",
@@ -18106,8 +18124,9 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": null,
-   "children": []
+   "photo": "photos/nagata-takashi.jpg",
+   "children": [],
+   "provisional": false
   },
   {
    "id": "wu-guoyuan",
