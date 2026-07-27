@@ -14342,17 +14342,20 @@ window.TREE_DATA = {
   },
   {
    "id": "lee-ho-seong",
-   "name": "Ho-Seong Lee",
+   "name": "Ho Seong Lee",
    "batch": "PhD 1994",
    "kind": "phd",
    "year": 1994,
    "decade": "1990s",
-   "educator": false,
+   "educator": true,
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
    "photo": "photos/lee-ho-seong.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "bio": "IBM, Seagate, Maxtor, HGST\nSamsung Electronics (Vice President)\nGyeongsang National University",
+   "note": "Cybernetic Imaging Systems"
   },
   {
    "id": "huang-liang-jong",
