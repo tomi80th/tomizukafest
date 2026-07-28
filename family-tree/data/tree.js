@@ -3665,7 +3665,7 @@ window.TREE_DATA = {
       },
       {
        "id": "chien-chang-wu",
-       "name": "Chien-Chang Wu (吳健彰)",
+       "name": "Chien-Chang Wu",
        "batch": "PhD 2020",
        "kind": "phd",
        "year": 2020,
@@ -3675,10 +3675,10 @@ window.TREE_DATA = {
        "title": null,
        "inMemoriam": false,
        "photo": null,
-       "bio": null,
-       "note": "PhD thesis: Modeling and Control of Solid Oxide Fuel Cell Systems, NCTU ME",
+       "bio": "I received my PhD in Mechanical Engineering from National Chiao Tung University in 2020. I currently work on CubeSat attitude determination and control system modeling and verification at the Taiwan Space Agency.",
+       "note": "ADCS Engineer at Taiwan Space Agency (TASA)",
        "homepage": null,
-       "provisional": true,
+       "provisional": false,
        "children": []
       },
       {
