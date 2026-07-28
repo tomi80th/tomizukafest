@@ -371,8 +371,9 @@
   "confidence": "high (MSC lab site)"
  },
  "chen-wenjie": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Wenjie.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1nr8qBQHYB9tZULSyU7ouc3oXboAGBMsP",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-28"
  },
  "kim-sanggyum": {
   "source": "https://msc.berkeley.edu/assets/images/people/Sanggyum.jpg",

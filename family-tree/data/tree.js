@@ -19293,7 +19293,10 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/chen-wenjie.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "note": "Director of Robotics Institute at Midea Group",
+   "homepage": "https://wjchen84.github.io/"
   },
   {
    "id": "chang-siu-evan",
