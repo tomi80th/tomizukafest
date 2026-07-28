@@ -1,3 +1,6 @@
+# Survey rows whose advisor could not be matched
+
+- Alexander Tarvo (advisor given: 'Steven Reiss')
 
 # Name exists under a different advisor (homonym, or co-advised duplicate?)
 
@@ -14,3 +17,5 @@ If a real namesake: re-add the row with distinct=yes. If co-advised: safe to ign
 - John Viljoen (row advisor: 'Negar Mehr', current )
 - Dongjun (DJ) Lee (row advisor: 'Perry Y. Li', graduated 2004)
 - Chen Zhang (row advisor: 'Z.X. Sun', graduated 2017)
+- Aleksandr Shkoruta (row advisor: 'sandipa', graduated 2021)
+- Dongyoung Lee (row advisor: 'Joonbum Bae', graduated 2024)
