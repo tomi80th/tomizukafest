@@ -20338,9 +20338,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "now at Nuro",
-     "homepage": null,
-     "provisional": true,
+     "note": "Research Scientist at Nuro",
+     "homepage": "https://ravipandya.com/",
+     "provisional": false,
      "children": []
     },
     {
