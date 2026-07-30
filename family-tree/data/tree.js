@@ -3665,7 +3665,7 @@ window.TREE_DATA = {
       },
       {
        "id": "chien-chang-wu",
-       "name": "Chien-Chang Wu (吳健彰)",
+       "name": "Chien-Chang Wu",
        "batch": "PhD 2020",
        "kind": "phd",
        "year": 2020,
@@ -3675,10 +3675,10 @@ window.TREE_DATA = {
        "title": null,
        "inMemoriam": false,
        "photo": null,
-       "bio": null,
-       "note": "PhD thesis: Modeling and Control of Solid Oxide Fuel Cell Systems, NCTU ME",
+       "bio": "I received my PhD in Mechanical Engineering from National Chiao Tung University in 2020. I currently work on CubeSat attitude determination and control system modeling and verification at the Taiwan Space Agency.",
+       "note": "ADCS Engineer at Taiwan Space Agency (TASA)",
        "homepage": null,
-       "provisional": true,
+       "provisional": false,
        "children": []
       },
       {
@@ -9269,6 +9269,24 @@ window.TREE_DATA = {
      "provisional": false,
      "children": [
       {
+       "id": "fanxu-meng",
+       "name": "Fanxu Meng",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": null,
+       "bio": null,
+       "note": null,
+       "homepage": null,
+       "provisional": false,
+       "children": []
+      },
+      {
        "id": "haocheng-lu",
        "name": "Haocheng Lu",
        "batch": "PhD Candidate",
@@ -9354,6 +9372,24 @@ window.TREE_DATA = {
        "photo": "photos/mengchen-cai.jpg",
        "bio": "Embodied AI, Robotics",
        "note": "Peking University",
+       "homepage": null,
+       "provisional": false,
+       "children": []
+      },
+      {
+       "id": "shunyi-zhao",
+       "name": "Shunyi Zhao",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": null,
+       "bio": null,
+       "note": null,
        "homepage": null,
        "provisional": false,
        "children": []
@@ -14306,17 +14342,20 @@ window.TREE_DATA = {
   },
   {
    "id": "lee-ho-seong",
-   "name": "Ho-Seong Lee",
+   "name": "Ho Seong Lee",
    "batch": "PhD 1994",
    "kind": "phd",
    "year": 1994,
    "decade": "1990s",
-   "educator": false,
+   "educator": true,
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
    "photo": "photos/lee-ho-seong.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "bio": "IBM, Seagate, Maxtor, HGST\nSamsung Electronics (Vice President)\nGyeongsang National University",
+   "note": "Cybernetic Imaging Systems"
   },
   {
    "id": "huang-liang-jong",
@@ -18106,8 +18145,9 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": null,
-   "children": []
+   "photo": "photos/nagata-takashi.jpg",
+   "children": [],
+   "provisional": false
   },
   {
    "id": "wu-guoyuan",
@@ -19253,7 +19293,10 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/chen-wenjie.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "note": "Director of Robotics Institute at Midea Group",
+   "homepage": "https://wjchen84.github.io/"
   },
   {
    "id": "chang-siu-evan",
@@ -20295,9 +20338,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "now at Nuro",
-     "homepage": null,
-     "provisional": true,
+     "note": "Research Scientist at Nuro",
+     "homepage": "https://ravipandya.com/",
+     "provisional": false,
      "children": []
     },
     {
@@ -20443,7 +20486,9 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/chan-chen-yu.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "note": "Taiwan Space Agency (TASA)"
   },
   {
    "id": "zheng-minghui",
@@ -21427,7 +21472,11 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/zhou-yiyang.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "bio": "Building general purpose robot for industries!",
+   "note": "Anyware Robotics Inc.",
+   "homepage": "https://www.linkedin.com/in/samuel-zhou-67b47074/"
   },
   {
    "id": "ce-hao",

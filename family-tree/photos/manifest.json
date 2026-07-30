@@ -287,8 +287,9 @@
   "confidence": "high (MSC lab site)"
  },
  "chan-chen-yu": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Chen-Yu.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1UJjb6wF5TGAIFqmcIOn0ICO4WKfqhbAP",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-27"
  },
  "lin-hsien-chung": {
   "source": "https://drive.google.com/uc?export=download&id=1N6dyEqDHzz7TWhOrnaOIvjoKvnoTCxnA",
@@ -370,8 +371,9 @@
   "confidence": "high (MSC lab site)"
  },
  "chen-wenjie": {
-  "source": "https://msc.berkeley.edu/assets/images/people/Wenjie.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1nr8qBQHYB9tZULSyU7ouc3oXboAGBMsP",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-28"
  },
  "kim-sanggyum": {
   "source": "https://msc.berkeley.edu/assets/images/people/Sanggyum.jpg",
@@ -501,17 +503,17 @@
  "zehao-wang": {
   "source": "https://zehaowang983.github.io/",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "mingxuan-yan": {
   "source": "https://waterhyacinthinnanhu.github.io/",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "junge-zhang": {
   "source": "https://andy-zd.github.io/",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "ce-hao": {
   "source": "https://drive.google.com/uc?export=download&id=1kGZRkogv9QbCy5hnAJ4ysOs_3ua9ot3D",
@@ -751,7 +753,7 @@
  "yanjiang-guo": {
   "source": "https://drive.google.com/uc?export=download&id=1kwktTCi8w5ssxsKUQoEmAFvkVCQilriv",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "zheyuan-jiang": {
   "source": "https://group.iiis.tsinghua.edu.cn/~isrlab/author/zheyuan-jiang/avatar_hud7ff50c38c0b6078374d05458d12f451_297180_270x270_fill_lanczos_center_3.png",
@@ -776,12 +778,12 @@
  "xiang-zhu": {
   "source": "https://drive.google.com/uc?export=download&id=1D9fk57kJiWVlJJ3K2ctXFir-eqHuxyGN",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "yeongtae-jung": {
   "source": "https://drive.google.com/uc?export=download&id=1ZoNDAL6Wjoc6sQja9-0wFwf6iZ446x7Z",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "suin-kim": {
   "source": "https://birc.korea.ac.kr/images/Suin%20Kim.jpg",
@@ -801,7 +803,7 @@
  "jeongsoo-lee": {
   "source": "https://drive.google.com/uc?export=download&id=1N7LdWO1EVbQ6g69wfPCOzv61tvbXMxMC",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "bokeon-kwak": {
   "source": "https://birc.korea.ac.kr/images/Bokeon%20Kwak.jpeg",
@@ -981,7 +983,7 @@
  "fardin-ishtiaq": {
   "source": "https://drive.google.com/uc?export=download&id=1x96w0HtdyjNqBSkLWTRW-zQDktPYu-OL",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "jinhan-ren": {
   "source": "https://rpi-isaac-lab.github.io/assets/profiles/jinhanren.png",
@@ -991,12 +993,12 @@
  "john-marcotte": {
   "source": "https://drive.google.com/uc?export=download&id=1QHRd9yGZRy8aQ5LeaPF1IW_giKQXU0T0",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "rene-mai": {
   "source": "https://drive.google.com/uc?export=download&id=1HzyZmAa0h0QWZKybRAZe8QGyq546FSzl",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "arnab-joardar": {
   "source": "https://uwaterloo.ca/waterloo-mechanical-systems-control-lab/sites/default/files/uploads/images/arnab_joardar.jpg",
@@ -1056,7 +1058,7 @@
  "max-gao": {
   "source": "https://drive.google.com/uc?export=download&id=1pbZT3p54tKf8NU6sxDkgoAWdxVjeVGEN",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "yizhuang-garrard": {
   "source": "https://home.riselab.info/images/teampic/YiZhuang.jpg",
@@ -1071,7 +1073,7 @@
  "jahnav-rokalaboina": {
   "source": "https://drive.google.com/uc?export=download&id=1t4PLU8iN7zTbTZi3H0-_n0mVve7xD87Y",
   "confidence": "self-submitted (survey)",
-  "ingested": "2026-07-20"
+  "ingested": "2026-07-28"
  },
  "mason-smith": {
   "source": "https://home.riselab.info/images/teampic/Mason.jpg",
@@ -2927,5 +2929,10 @@
   "source": "https://drive.google.com/uc?export=download&id=18Ny1W5dg_mk74IHB2oNjc3ieWBABC4mE",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-07-25"
+ },
+ "nagata-takashi": {
+  "source": "https://drive.google.com/uc?export=download&id=1Q55PD3DEdt1cLuF1jsf0MA9JchG3XnJB",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-07-27"
  }
 }
