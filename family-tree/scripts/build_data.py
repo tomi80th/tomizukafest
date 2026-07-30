@@ -74,8 +74,9 @@ EDUCATORS = {
     'li-jiachen':            ('UC Riverside', 'Assistant Professor'),
     'tang-chen':             ('UCLA', 'Assistant Professor'),
     'ding-mingyu':           ('UNC Chapel Hill', 'Assistant Professor'),
-    'hu-yeping':             ('UCLA', 'Incoming Assistant Professor'),
     # Dropped after verification (retired / left academia / could not confirm):
+    # hu-yeping — we had her as an incoming UCLA AP; she is a Senior ML
+    # Research Scientist at LLNL (her survey + her homepage, 2026-07-21).
     # lee-gun-bok, tarn-jiun-haur, al-majed-mohammed, tai-meihua,
     # anwar-george (Lecturer), chang-siu-evan (now industry).
     # ding-mingyu and kurkcu-burak are professors but joined as postdoc/visitor,

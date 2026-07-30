@@ -1846,9 +1846,9 @@
    "kind": "phd",
    "year": 2021,
    "decade": "2020s",
-   "educator": true,
-   "affiliation": "UCLA",
-   "title": "Incoming Assistant Professor",
+   "educator": false,
+   "affiliation": null,
+   "title": null,
    "inMemoriam": false,
    "photo": "photos/hu-yeping.jpg",
    "children": []
