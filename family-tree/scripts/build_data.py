@@ -220,15 +220,34 @@ def merge_survey(tree, path):
             if me is not None:
                 me['_removed'] = True
             continue
+        curator = (r.get('source') or '').strip() == 'curator'
         if me is not None:                      # update an existing card
+            if curator:
+                _CURATOR_IDS.add(me.get('id'))
             if not provisional:
                 me['provisional'] = False       # a real survey confirms the card
                 if name != me['name']:
                     me['name'] = name           # self-reported name wins
-            if is_prof and not me.get('educator'):
-                me['educator'] = True
             aff_in = (r.get('affiliation') or '').strip()
             title_in = (r.get('title') or '').strip()
+            if is_prof and not me.get('educator'):
+                me['educator'] = True
+            elif not is_prof and me.get('educator'):
+                # Our bootstrap research can be wrong or stale (an offer not
+                # taken, a title read off an old page). Only the curator may
+                # retire a professorship — an unticked checkbox is weak
+                # evidence on its own: plenty of real professors leave it
+                # blank because they have no students to add yet.
+                if curator:
+                    me['educator'] = False
+                    if not aff_in:
+                        me['affiliation'] = None    # described the professorship
+                    if not title_in:
+                        me['title'] = None
+                elif not provisional:
+                    _REVIEW['prof_conflict'].append(
+                        (me.get('id'), name, me.get('affiliation'), me.get('title'),
+                         (r.get('affiliation') or r.get('note') or '').strip()))
             if aff_in:
                 me['affiliation'] = aff_in
                 me['note'] = None   # structured affiliation supersedes freetext
@@ -312,7 +331,8 @@ def merge_survey(tree, path):
     _REVIEW['mismatched'].extend(mismatched)
 
 
-_REVIEW = {'unmatched': [], 'mismatched': [], 'dupes': []}
+_REVIEW = {'unmatched': [], 'mismatched': [], 'dupes': [], 'prof_conflict': []}
+_CURATOR_IDS = set()
 
 
 def prune_removed(tree):
@@ -350,7 +370,9 @@ def audit_near_duplicates(tree):
 def write_review():
     unmatched, mismatched, dupes = (_REVIEW['unmatched'], _REVIEW['mismatched'],
                                     _REVIEW['dupes'])
-    if unmatched or mismatched or dupes:
+    # a curator row for that person IS the resolution — stop re-reporting
+    profs = [c for c in _REVIEW['prof_conflict'] if c[0] not in _CURATOR_IDS]
+    if unmatched or mismatched or dupes or profs:
         with open('data/needs-review.md', 'w') as f:
             if unmatched:
                 f.write('# Survey rows whose advisor could not be matched\n\n')
@@ -371,8 +393,19 @@ def write_review():
                         'CSV) so the survey row merges back in.\n\n')
                 for adv, n1, n2 in dupes:
                     f.write(f"- under {adv}: {n1!r} vs {n2!r}\n")
+            if profs:
+                f.write('\n# Tree says professor, their own survey says no\n\n')
+                f.write("They may have left the checkbox blank (having no students yet) "
+                        "or our bootstrap research may be wrong. Confirm, then settle it "
+                        "with a curator row in overrides.csv (source=curator, "
+                        "is_professor=no retires the branch; is_professor=yes just "
+                        "silences this).\n\n")
+                for pid, nm, aff, title, said in profs:
+                    f.write(f"- {nm}: tree has {title or '?'} at {aff or '?'}; "
+                            f"they wrote {said or '(nothing)'!r}\n")
         print(f'WARNING {len(unmatched)} unmatched, {len(mismatched)} advisor-mismatched, '
-              f'{len(dupes)} possible dupes -> data/needs-review.md', file=sys.stderr)
+              f'{len(dupes)} possible dupes, {len(profs)} professor-flag conflicts '
+              f'-> data/needs-review.md', file=sys.stderr)
     elif os.path.exists('data/needs-review.md'):
         os.remove('data/needs-review.md')
 

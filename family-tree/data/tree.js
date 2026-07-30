@@ -18720,7 +18720,7 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/yeongtae-jung.jpg",
      "bio": "Reinforcement Learning, Precision Control, Mechanism Design and Control, Human–Robot Interaction, Teleoperation",
-     "note": "Jeonbuk National University",
+     "note": null,
      "homepage": "https://sites.google.com/view/ralab",
      "provisional": false,
      "children": []
@@ -21354,14 +21354,14 @@ window.TREE_DATA = {
    "kind": "phd",
    "year": 2021,
    "decade": "2020s",
-   "educator": true,
-   "affiliation": "UCLA",
-   "title": "Incoming Assistant Professor",
+   "educator": false,
+   "affiliation": "Lawrence Livermore National Laboratory",
+   "title": "Research Scientist",
    "inMemoriam": false,
    "photo": "photos/hu-yeping.jpg",
    "children": [],
    "provisional": false,
-   "note": "Research Scientist at Lawrence Livermore National Laboratory",
+   "note": null,
    "homepage": "https://yeping-hu.github.io/"
   },
   {
