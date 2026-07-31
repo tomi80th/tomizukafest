@@ -16908,7 +16908,7 @@ window.TREE_DATA = {
   },
   {
    "id": "koo-shiang-lung",
-   "name": "Shiang-Lung Koo",
+   "name": "Shianglung Koo",
    "batch": "PhD 2007",
    "kind": "phd",
    "year": 2007,
@@ -16917,8 +16917,10 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": null,
-   "children": []
+   "photo": "photos/koo-shiang-lung.jpg",
+   "children": [],
+   "provisional": false,
+   "note": "Associated Director at Nikon Research Corp. of America"
   },
   {
    "id": "jeon-soo",
