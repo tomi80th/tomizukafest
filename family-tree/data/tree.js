@@ -17241,11 +17241,11 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
+     "photo": "photos/yijie-guo.jpg",
      "bio": null,
-     "note": null,
+     "note": "Head of Humanoid Innovation at Beijing Innovation Center of Humanoid Robotics",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
