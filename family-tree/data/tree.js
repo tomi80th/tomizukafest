@@ -3558,20 +3558,20 @@ window.TREE_DATA = {
     },
     {
      "id": "tsung-lin-tony-chen",
-     "name": "Tsung-Lin Chen",
-     "batch": "PhD 2002",
+     "name": "Tsung-Lin (Tony) Chen",
+     "batch": "PhD 2001",
      "kind": "phd",
-     "year": 2002,
+     "year": 2001,
      "decade": "2000s",
      "educator": true,
-     "affiliation": "National Yang Ming Chiao Tung University",
-     "title": "Professor",
+     "affiliation": "National Yang Ming Chiao Tung University (formerly National Chiao Tung University), Dept. of Mechanical Engineering, Taiwan",
+     "title": "Professor and Associate Dean",
      "inMemoriam": false,
      "photo": "photos/tsung-lin-tony-chen.jpg",
      "bio": null,
      "note": null,
-     "homepage": "https://me.nycu.edu.tw/en/people/teacher/%E9%99%B3%E5%AE%97%E9%BA%9F-42669445",
-     "provisional": false,
+     "homepage": null,
+     "provisional": true,
      "children": [
       {
        "id": "chien-yu-chi",
@@ -3647,7 +3647,7 @@ window.TREE_DATA = {
       },
       {
        "id": "cheng-yang-chang",
-       "name": "Cheng-Yang Chang",
+       "name": "Cheng-Yang Chang (張正暘)",
        "batch": "PhD 2020",
        "kind": "phd",
        "year": 2020,
@@ -3657,15 +3657,15 @@ window.TREE_DATA = {
        "title": null,
        "inMemoriam": false,
        "photo": "photos/cheng-yang-chang.jpg",
-       "bio": "Currently working at the Taiwan Semiconductor Research Institute (TSRI), specializing in MEMS technologies, device design, and characterization. Experienced in CMOS MEMS and piezoelectric MEMS (PZT) process integration, PDK development, and technology promotion. Actively involved in international collaborative projects and dedicated to advancing MEMS research, technology development, and industry–academia collaboration in Taiwan.",
-       "note": "Taiwan Semiconductor Research Institute (TSRI)",
+       "bio": null,
+       "note": "PhD thesis: Dual-Axis Control Input, Dual-Axis Position Measurement Piezoelectric Gyroscope, NCTU ME",
        "homepage": null,
-       "provisional": false,
+       "provisional": true,
        "children": []
       },
       {
        "id": "chien-chang-wu",
-       "name": "Chien-Chang Wu",
+       "name": "Chien-Chang Wu (吳健彰)",
        "batch": "PhD 2020",
        "kind": "phd",
        "year": 2020,
@@ -3675,10 +3675,10 @@ window.TREE_DATA = {
        "title": null,
        "inMemoriam": false,
        "photo": null,
-       "bio": "I received my PhD in Mechanical Engineering from National Chiao Tung University in 2020. I currently work on CubeSat attitude determination and control system modeling and verification at the Taiwan Space Agency.",
-       "note": "ADCS Engineer at Taiwan Space Agency (TASA)",
+       "bio": null,
+       "note": "PhD thesis: Modeling and Control of Solid Oxide Fuel Cell Systems, NCTU ME",
        "homepage": null,
-       "provisional": false,
+       "provisional": true,
        "children": []
       },
       {
@@ -4761,9 +4761,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "Apple",
+     "note": "senior research engineer at Apple",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -8093,19 +8093,19 @@ window.TREE_DATA = {
         {
          "id": "chong-ke",
          "name": "Chong Ke",
-         "batch": "PhD 2020",
+         "batch": "PhD 2019",
          "kind": "phd",
-         "year": 2020,
-         "decade": "2020s",
+         "year": 2019,
+         "decade": "2010s",
          "educator": false,
          "affiliation": null,
          "title": null,
          "inMemoriam": false,
          "photo": "photos/chong-ke.jpg",
-         "bio": "TAMU; dissertation 'Modeling, Optimization, and Control of Down-Hole Drilling System', Chair: Xingyong Song (co-chair Li-Jung Tai); lab page says graduated Dec 2019, degree listed in Aug 2020 commencement program; now Servo Design Engineer at Western Digital",
-         "note": "Principal Servo Design Engineer",
+         "bio": null,
+         "note": "PhD Mechanical Engineering, TAMU; dissertation 'Modeling, Optimization, and Control of Down-Hole Drilling System', Chair: Xingyong Song (co-chair Li-Jung Tai); lab page says graduated Dec 2019, degree listed in Aug 2020 commencement program; now Servo Design Engineer at Western Digital",
          "homepage": null,
-         "provisional": false,
+         "provisional": true,
          "children": []
         },
         {
@@ -9168,14 +9168,14 @@ window.TREE_DATA = {
      "year": 2018,
      "decade": "2010s",
      "educator": true,
-     "affiliation": "National Taiwan University",
+     "affiliation": "National Taiwan University, Department of Electrical Engineering",
      "title": "Associate Professor",
      "inMemoriam": false,
      "photo": "photos/cheng-wei-chen.jpg",
      "bio": null,
      "note": null,
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -9260,177 +9260,14 @@ window.TREE_DATA = {
      "decade": "2020s",
      "educator": true,
      "affiliation": "Peking University",
-     "title": "Research Professor",
+     "title": "Research Professor, directing Center of Intelligence, Laboratory of Human-Robot Systems",
      "inMemoriam": false,
      "photo": "photos/lecheng-ruan.jpg",
      "bio": null,
      "note": null,
-     "homepage": "http://leleucla.github.io",
-     "provisional": false,
-     "children": [
-      {
-       "id": "fanxu-meng",
-       "name": "Fanxu Meng",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": null,
-       "bio": null,
-       "note": null,
-       "homepage": null,
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "haocheng-lu",
-       "name": "Haocheng Lu",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": null,
-       "bio": null,
-       "note": null,
-       "homepage": null,
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "haofei-hou",
-       "name": "Haofei Hou",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/haofei-hou.jpg",
-       "bio": null,
-       "note": "Peking University",
-       "homepage": "https://yuechuhaoxi020609.github.io/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "haoyang-song",
-       "name": "Haoyang Song",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/haoyang-song.jpg",
-       "bio": null,
-       "note": "Peking University",
-       "homepage": null,
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "kairui-yang",
-       "name": "Kairui Yang",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": null,
-       "bio": null,
-       "note": "Peking University",
-       "homepage": "https://kryang03.github.io",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "mengchen-cai",
-       "name": "Mengchen Cai",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/mengchen-cai.jpg",
-       "bio": "Embodied AI, Robotics",
-       "note": "Peking University",
-       "homepage": null,
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "shunyi-zhao",
-       "name": "Shunyi Zhao",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": null,
-       "bio": null,
-       "note": null,
-       "homepage": null,
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "wenduo-zhu",
-       "name": "Wenduo Zhu",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/wenduo-zhu.jpg",
-       "bio": null,
-       "note": "Peking University",
-       "homepage": null,
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "zuxin-fan",
-       "name": "Zuxin Fan",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/zuxin-fan.jpg",
-       "bio": null,
-       "note": "Peking University",
-       "homepage": null,
-       "provisional": false,
-       "children": []
-      }
-     ]
+     "homepage": null,
+     "provisional": true,
+     "children": []
     },
     {
      "id": "shahin-rouhani",
@@ -10953,390 +10790,10 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/ding-zhao.jpg",
      "bio": null,
-     "note": "Carnegie Mellon University",
-     "homepage": "https://safeai-lab.github.io/",
-     "provisional": false,
-     "children": [
-      {
-       "id": "wenhao-ding",
-       "name": "Wenhao Ding",
-       "batch": "PhD 2024",
-       "kind": "phd",
-       "year": 2024,
-       "decade": "2020s",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/wenhao-ding.jpg",
-       "bio": "I am a Senior Research Scientist at the Autonomous Vehicle Group of NVIDIA Research. I work on reasoning foundation models for autonomous systems.",
-       "note": "NVIDIA",
-       "homepage": "https://wenhao.pub/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "changyi-lin",
-       "name": "Changyi Lin",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/changyi-lin.jpg",
-       "bio": "Research: physical AI for critical applications.",
-       "note": "PhD Student, Carnegie Mellon University",
-       "homepage": "https://linchangyi1.github.io/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "diana-gomez",
-       "name": "Diana Gomez",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/diana-gomez.jpg",
-       "bio": "Research: fairness of multi-modal AI generalists.",
-       "note": "PhD Student, Carnegie Mellon University",
-       "homepage": "https://www.linkedin.com/in/diana-gomez-437097256/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "haohong-lin",
-       "name": "Haohong Lin",
-       "batch": "PhD",
-       "kind": "phd",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/haohong-lin.jpg",
-       "bio": "PhD thesis: Causality-Driven Physical AI for Safety and Generalizability.",
-       "note": "Senior Engineer, Tesla AI (FSD)",
-       "homepage": "https://hhlin.info/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "jiacheng-zhu",
-       "name": "Jiacheng Zhu",
-       "batch": "PhD",
-       "kind": "phd",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/jiacheng-zhu.jpg",
-       "bio": "PhD thesis: Generalizable Machine Learning on Heterogeneous Domains.",
-       "note": "Research Scientist, Meta GenAI Llama team",
-       "homepage": "https://jiachengzhuml.github.io/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "mansur-arief",
-       "name": "Mansur Arief",
-       "batch": "PhD",
-       "kind": "phd",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/mansur-arief.jpg",
-       "bio": "PhD thesis: Certifiable Evaluation for Safe Intelligent Autonomy.",
-       "note": "Executive Director, Center of AI Safety, Stanford University",
-       "homepage": "https://mansurarief.github.io/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "mengdi-xu",
-       "name": "Mengdi Xu",
-       "batch": "PhD",
-       "kind": "phd",
-       "year": null,
-       "decade": "Current",
-       "educator": true,
-       "affiliation": "Tsinghua University",
-       "title": "Assistant Professor",
-       "inMemoriam": false,
-       "photo": "photos/mengdi-xu.jpg",
-       "bio": "PhD thesis: Building Adaptable Generalist Robots.",
-       "note": null,
-       "homepage": "https://mxu34.github.io/",
-       "provisional": false,
-       "children": [
-        {
-         "id": "chenyu-zhang",
-         "name": "Chenyu Zhang",
-         "batch": "PhD Candidate",
-         "kind": "current",
-         "year": null,
-         "decade": "Current",
-         "educator": false,
-         "affiliation": null,
-         "title": null,
-         "inMemoriam": false,
-         "photo": "photos/chenyu-zhang.jpg",
-         "bio": "PhD student at Tsinghua IIIS since 2025.",
-         "note": "PhD Student, Tsinghua University IIIS",
-         "homepage": "https://chenyuzhangx.github.io/",
-         "provisional": false,
-         "children": []
-        },
-        {
-         "id": "liu-cao",
-         "name": "Liu Cao",
-         "batch": "PhD Candidate",
-         "kind": "current",
-         "year": null,
-         "decade": "Current",
-         "educator": false,
-         "affiliation": null,
-         "title": null,
-         "inMemoriam": false,
-         "photo": "photos/liu-cao.jpg",
-         "bio": "PhD student at Tsinghua IIIS since 2025.",
-         "note": "PhD Student, Tsinghua University IIIS",
-         "homepage": "https://xiaohu-art.github.io/",
-         "provisional": false,
-         "children": []
-        },
-        {
-         "id": "ruoqu-chen",
-         "name": "Ruoqu Chen",
-         "batch": "PhD Candidate",
-         "kind": "current",
-         "year": null,
-         "decade": "Current",
-         "educator": false,
-         "affiliation": null,
-         "title": null,
-         "inMemoriam": false,
-         "photo": "photos/ruoqu-chen.jpg",
-         "bio": "PhD student at Tsinghua IIIS since 2026.",
-         "note": "PhD Student, Tsinghua University IIIS",
-         "homepage": "https://gcfy63821.github.io/",
-         "provisional": false,
-         "children": []
-        }
-       ]
-      },
-      {
-       "id": "miao-li",
-       "name": "Miao Li",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/miao-li.jpg",
-       "bio": "Research: generative AI and privacy-aware learning.",
-       "note": "PhD Student, Carnegie Mellon University",
-       "homepage": "https://scholar.google.com/citations?user=nJ7rGfMAAAAJ&hl=en",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "peide-huang",
-       "name": "Peide Huang",
-       "batch": "PhD",
-       "kind": "phd",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/peide-huang.jpg",
-       "bio": "PhD thesis: Co-evolving Environments and Agents for Physical-World Deployments.",
-       "note": "Research Scientist, Google DeepMind",
-       "homepage": "https://peidehuang.github.io/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "shiqi-liu",
-       "name": "Shiqi Liu",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/shiqi-liu.jpg",
-       "bio": "Research: embodied AI for healthcare and AI safety.",
-       "note": "PhD Student, Carnegie Mellon University",
-       "homepage": "https://shiqiliu-67.github.io",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "william-jongwon-han",
-       "name": "William Jongwon Han",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/william-jongwon-han.jpg",
-       "bio": "Research: generative AI and digital twins of humans.",
-       "note": "PhD Student, Carnegie Mellon University",
-       "homepage": "https://willxxy.github.io/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "yan-chang",
-       "name": "Yan Chang",
-       "batch": "PhD",
-       "kind": "phd",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/yan-chang.jpg",
-       "bio": "Building foundation models, data pipelines, and simulation workflows for humanoid robots.",
-       "note": "Principal Engineer, NVIDIA",
-       "homepage": "https://www.linkedin.com/in/yanchang1/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "yaru-niu",
-       "name": "Yaru Niu",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/yaru-niu.jpg",
-       "bio": "Research: robot learning, multi-agent systems, reinforcement learning, and AI safety.",
-       "note": "PhD Student, Carnegie Mellon University",
-       "homepage": "https://yaruniu.com/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "yihang-yao",
-       "name": "Yihang Yao",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/yihang-yao.jpg",
-       "bio": "Research: safe reinforcement learning and robot learning.",
-       "note": "PhD Student, Carnegie Mellon University",
-       "homepage": "https://www.linkedin.com/in/yihang-yao-3a7658249/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "yikai-wang",
-       "name": "Yikai Wang",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/yikai-wang.jpg",
-       "bio": "Research: humanoid motion generation.",
-       "note": "PhD Student, Carnegie Mellon University",
-       "homepage": "https://www.linkedin.com/in/yikai-wang-b81497283/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "yuyou-zhang",
-       "name": "Yuyou Zhang",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/yuyou-zhang.jpg",
-       "bio": null,
-       "note": null,
-       "homepage": "https://zhangyuyou-10.github.io/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "zhepeng-cen",
-       "name": "Zhepeng Cen",
-       "batch": "PhD",
-       "kind": "phd",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/zhepeng-cen.jpg",
-       "bio": "PhD thesis: Reinforcement Learning with Sparsity.",
-       "note": "Research Scientist, Salesforce",
-       "homepage": "https://czp16.github.io/",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "zuxin-liu",
-       "name": "Zuxin Liu",
-       "batch": "PhD",
-       "kind": "phd",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/zuxin-liu.jpg",
-       "bio": "PhD thesis: Towards Deployable Reinforcement Learning: Safety, Robustness, Adaptivity, and Scalability.",
-       "note": "Research Scientist, OpenAI",
-       "homepage": "https://zuxin.me/",
-       "provisional": false,
-       "children": []
-      }
-     ]
+     "note": null,
+     "homepage": null,
+     "provisional": true,
+     "children": []
     },
     {
      "id": "yuxiao-chen",
@@ -14342,20 +13799,17 @@ window.TREE_DATA = {
   },
   {
    "id": "lee-ho-seong",
-   "name": "Ho Seong Lee",
+   "name": "Ho-Seong Lee",
    "batch": "PhD 1994",
    "kind": "phd",
    "year": 1994,
    "decade": "1990s",
-   "educator": true,
+   "educator": false,
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
    "photo": "photos/lee-ho-seong.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "IBM, Seagate, Maxtor, HGST\nSamsung Electronics (Vice President)\nGyeongsang National University",
-   "note": "Cybernetic Imaging Systems"
+   "children": []
   },
   {
    "id": "huang-liang-jong",
@@ -14383,10 +13837,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/chang-ping-wei.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Director at Nikon Research Corp of America (NRCA)",
-   "homepage": "https://www.linkedin.com/in/ping-wei-chang-281b359b/"
+   "children": []
   },
   {
    "id": "patwardhan-satyajit",
@@ -15366,11 +14817,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/chu-victor.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "AI/ML science and engineering. Co-founder/chair NTHU-NA Foundation. Tai Chi teacher.",
-   "note": "Mastering Alchemy",
-   "homepage": "https://www.linkedin.com/in/vkchu/"
+   "children": []
   },
   {
    "id": "lee-hyeongcheol",
@@ -15981,10 +15428,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/saraf-sujit.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "Ph.D. from U C Berkeley in 1997. Worked at NASA and Lockheed Martin, then a succession of software companies.",
-   "note": "I run my own software company"
+   "children": []
   },
   {
    "id": "chee-wonshik",
@@ -16397,11 +15841,7 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null,
-   "bio": "My research interests encompass wireless networking and communications, wireless sensing, localization, tracking, and human gesture detection.",
-   "homepage": "https://sites.google.com/nycu.edu.tw/mintlab/"
+   ]
   },
   {
    "id": "ozaki-motoyoshi",
@@ -16626,11 +16066,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/budiman-erwin-satraya.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "Head of sensor algorithm development for Abbott's percutaneous sensing platform ( FreeStyle Libre Continuous Glucose Monitoring family of systems, Lingo, etc.)",
-   "note": "Research Fellow / Director at Abbott Diabetes Care",
-   "homepage": "https://www.linkedin.com/in/erwinsatryabudiman/"
+   "children": []
   },
   {
    "id": "tai-meihua",
@@ -16801,14 +16237,14 @@ window.TREE_DATA = {
   },
   {
    "id": "hsiao-te-sheng",
-   "name": "Tesheng Hsiao",
+   "name": "Te-Sheng Hsiao",
    "batch": "PhD 2005",
    "kind": "phd",
    "year": 2005,
    "decade": "2000s",
    "educator": true,
-   "affiliation": "National Yang Ming Chiao Tung University, Taiwan",
-   "title": "Professor",
+   "affiliation": "National Yang Ming Chiao Tung University",
+   "title": "Associate Professor",
    "inMemoriam": false,
    "photo": "photos/hsiao-te-sheng.jpg",
    "children": [
@@ -16902,13 +16338,11 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null
+   ]
   },
   {
    "id": "koo-shiang-lung",
-   "name": "Shianglung Koo",
+   "name": "Shiang-Lung Koo",
    "batch": "PhD 2007",
    "kind": "phd",
    "year": 2007,
@@ -16918,9 +16352,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/koo-shiang-lung.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Associated Director at Nikon Research Corp. of America"
+   "children": []
   },
   {
    "id": "jeon-soo",
@@ -17197,6 +16629,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "jacopo-tani",
+     "name": "Jacopo Tani",
+     "batch": "PhD 2014",
+     "kind": "phd",
+     "year": 2014,
+     "decade": "2010s",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/jacopo-tani.jpg",
+     "bio": null,
+     "note": "Co-authored image-based sensing papers with Mishra 2013-14; later ETH Zurich / Duckietown",
+     "homepage": null,
+     "provisional": true,
+     "children": []
+    },
+    {
      "id": "sina-afshari",
      "name": "Sina Afshari",
      "batch": "PhD 2014",
@@ -17215,24 +16665,6 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "jacopo-tani",
-     "name": "Jacopo Tani",
-     "batch": "PhD 2015",
-     "kind": "phd",
-     "year": 2015,
-     "decade": "2010s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/jacopo-tani.jpg",
-     "bio": "Aerospace engineer, Ph. D. at RPI, Postdoc at MIT. Taught Control Systems and Robotics at ETH Zürich. I lead Duckietown to make quality robotics education accessible worldwide.",
-     "note": "Founder and CEO at Duckietown Robotics",
-     "homepage": "https://www.linkedin.com/in/jacopo-tani/",
-     "provisional": false,
-     "children": []
-    },
-    {
      "id": "yijie-guo",
      "name": "Yijie Guo",
      "batch": "PhD 2017",
@@ -17245,9 +16677,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/yijie-guo.jpg",
      "bio": null,
-     "note": "Head of Humanoid Innovation at Beijing Innovation Center of Humanoid Robotics",
+     "note": null,
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -17262,10 +16694,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": null,
-     "bio": "I am the Motion team leader for XYZ Robotics. I am responsible for developing motion planning algorithms at XYZ Robotics.",
-     "note": "Software Engineer at XYZ Robotics (Inc)",
+     "bio": null,
+     "note": null,
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -17302,24 +16734,6 @@ window.TREE_DATA = {
      "note": null,
      "homepage": null,
      "provisional": true,
-     "children": []
-    },
-    {
-     "id": "md-hossain-toufiq-imam",
-     "name": "Md Hossain Toufiq Imam",
-     "batch": "PhD 2019",
-     "kind": "phd",
-     "year": 2019,
-     "decade": "2010s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/md-hossain-toufiq-imam.jpg",
-     "bio": null,
-     "note": "Principle Design Engineer at ASML",
-     "homepage": null,
-     "provisional": false,
      "children": []
     },
     {
@@ -17371,9 +16785,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "Senior Flight Control Systems Engineer at Garmin",
+     "note": "Tailsitter/helicopter trajectory control; now at Garmin",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -17384,69 +16798,14 @@ window.TREE_DATA = {
      "year": 2021,
      "decade": "2020s",
      "educator": true,
-     "affiliation": "University of Michigan",
+     "affiliation": "University of Michigan, Mechanical Engineering",
      "title": "Assistant Professor",
      "inMemoriam": false,
      "photo": "photos/uduak-inyang-udoh.jpg",
      "bio": null,
      "note": null,
      "homepage": null,
-     "provisional": false,
-     "children": [
-      {
-       "id": "isaiah-agboola",
-       "name": "Isaiah Agboola",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/isaiah-agboola.jpg",
-       "bio": "PhD Candidate focusing on control in advanced manufacturing.",
-       "note": "University of Michigan",
-       "homepage": "https://github.com/isagboola",
-       "provisional": false,
-       "children": []
-      },
-      {
-       "id": "yuxin-tong",
-       "name": "Yuxin Tong",
-       "batch": "PhD Candidate",
-       "kind": "current",
-       "year": null,
-       "decade": "Current",
-       "educator": false,
-       "affiliation": null,
-       "title": null,
-       "inMemoriam": false,
-       "photo": "photos/yuxin-tong.jpg",
-       "bio": "I am a second year PhD student majoring in Mechanical Engineering.",
-       "note": "University of Michigan Ann Arbor",
-       "homepage": null,
-       "provisional": false,
-       "children": []
-      }
-     ]
-    },
-    {
-     "id": "luiz-victor-repolho-cagliari",
-     "name": "Luiz Victor Repolho Cagliari",
-     "batch": "PhD 2022",
-     "kind": "phd",
-     "year": 2022,
-     "decade": "2020s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/luiz-victor-repolho-cagliari.jpg",
-     "bio": null,
-     "note": "Teaching Faculty at Rensselaer Polytechnic Institute",
-     "homepage": "http://www.linkedin.com/in/luizcagliari",
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -17461,10 +16820,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/bumsoo-park.jpg",
-     "bio": "Bumsoo Park received his Ph.D. in Mechanical Engineering from Rensselaer Polytechnic Institute in 2023 under the supervision of Professor Sandipan Mishra. He is currently an Assistant Professor at Seoul National University of Science and Technology, where his research focuses on AI-driven design and manufacturing, generative models, and physics-informed machine learning.",
-     "note": "Assistant Professor at Seoul National University of Science and Technology",
+     "bio": null,
+     "note": "Thesis: Designing learning control algorithms for mechanical systems with complex dynamics; now KAIST postdoc",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -17486,24 +16845,6 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "rene-mai",
-     "name": "Rene Mai",
-     "batch": "PhD 2026",
-     "kind": "phd",
-     "year": 2026,
-     "decade": "2020s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/rene-mai.jpg",
-     "bio": null,
-     "note": "Postdoctoral Scholar, University of Michigan",
-     "homepage": "https://relisemai.github.io/",
-     "provisional": false,
-     "children": []
-    },
-    {
      "id": "abigail-rolen",
      "name": "Abigail Rolen",
      "batch": "PhD Candidate",
@@ -17516,9 +16857,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/abigail-rolen.jpg",
      "bio": null,
-     "note": "PhD student at RPI",
-     "homepage": "https://www.linkedin.com/in/abigail-rolen-784904201/",
-     "provisional": false,
+     "note": "Aerospace eng; control, modeling/simulation, sustainability (3rd year)",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -17569,46 +16910,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/fardin-ishtiaq.jpg",
-     "bio": "I work in controls, preferably Reinforcement learning in thermal application",
-     "note": "Rensselaer Polytechnic Institute",
-     "homepage": "https://scholar.google.com/citations?user=NkTCoysAAAAJ&hl=en&authuser=2",
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "grace-yu",
-     "name": "Grace Yu",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": null,
-     "bio": "Electrical Engineering PhD student co-advised by Prof. Sandipan Mishra and Prof. Franck Djeumou at RPI. My research focus is shared autonomy vehicles in extreme conditions.",
-     "note": "Rensselaer Polytechnic Institute",
-     "homepage": "https://graceyurpi.github.io/",
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "jayden-marvin-smith",
-     "name": "Jayden Marvin Smith",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/jayden-marvin-smith.jpg",
      "bio": null,
-     "note": null,
-     "homepage": "https://jayden-asc5.github.io/Jayden-Smith.github.io/",
-     "provisional": false,
+     "note": "Building energy optimization / robust control (2nd year)",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -17641,10 +16946,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/john-marcotte.jpg",
-     "bio": "I am a PhD student at RPI doing research on wire arc additive manufacturing (WAAM) process control.",
-     "note": "Rensselaer Polytechnic Institute",
-     "homepage": "https://www.linkedin.com/in/jmarcotte227/",
-     "provisional": false,
+     "bio": null,
+     "note": "Robotics and control for advanced manufacturing",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -17666,8 +16971,8 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "nathaniel-d-mcquiston",
-     "name": "Nathaniel D McQuiston",
+     "id": "rene-mai",
+     "name": "Rene Mai",
      "batch": "PhD Candidate",
      "kind": "current",
      "year": null,
@@ -17676,34 +16981,14 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
+     "photo": "photos/rene-mai.jpg",
      "bio": null,
-     "note": "RPI",
+     "note": "Human-autonomy teaming / human modeling for urban air mobility",
      "homepage": null,
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "sanjaya-senarathna",
-     "name": "Sanjaya Senarathna",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": null,
-     "bio": null,
-     "note": null,
-     "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null
+   ]
   },
   {
    "id": "wu-shang-chen",
@@ -18105,24 +17390,6 @@ window.TREE_DATA = {
    ]
   },
   {
-   "id": "nora-han",
-   "name": "Nora Han",
-   "batch": "PhD 2009",
-   "kind": "phd",
-   "year": 2009,
-   "decade": "2000s",
-   "educator": false,
-   "affiliation": null,
-   "title": null,
-   "inMemoriam": false,
-   "photo": "photos/nora-han.jpg",
-   "bio": null,
-   "note": "Global Head of Sales, Renewable Business, ABB",
-   "homepage": null,
-   "provisional": false,
-   "children": []
-  },
-  {
    "id": "zheng-qixing",
    "name": "Qixing Zheng",
    "batch": "PhD 2009",
@@ -18148,8 +17415,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/nagata-takashi.jpg",
-   "children": [],
-   "provisional": false
+   "children": []
   },
   {
    "id": "wu-guoyuan",
@@ -18159,29 +17425,11 @@ window.TREE_DATA = {
    "year": 2010,
    "decade": "2010s",
    "educator": true,
-   "affiliation": "University of California at Riverside",
-   "title": "Adjunct Professor and Researcher",
+   "affiliation": "UC Riverside",
+   "title": "Adjunct Professor, Research Faculty",
    "inMemoriam": false,
    "photo": "photos/wu-guoyuan.jpg",
    "children": [
-    {
-     "id": "ziran-wang",
-     "name": "Ziran Wang",
-     "batch": "PhD 2019",
-     "kind": "phd",
-     "year": 2019,
-     "decade": "2010s",
-     "educator": true,
-     "affiliation": "Purdue University",
-     "title": "Assistant Professor",
-     "inMemoriam": false,
-     "photo": "photos/ziran-wang.jpg",
-     "bio": null,
-     "note": null,
-     "homepage": "https://ziranw.github.io/",
-     "provisional": false,
-     "children": []
-    },
     {
      "id": "xishun-liao",
      "name": "Xishun Liao",
@@ -18190,14 +17438,14 @@ window.TREE_DATA = {
      "year": 2023,
      "decade": "2020s",
      "educator": true,
-     "affiliation": "University of Central Florida",
+     "affiliation": "University of Central Florida, Dept. of Civil, Environmental and Construction Engineering",
      "title": "Assistant Professor",
      "inMemoriam": false,
      "photo": "photos/xishun-liao.jpg",
      "bio": null,
      "note": null,
-     "homepage": "https://xishunliao.github.io/",
-     "provisional": false,
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -18208,14 +17456,14 @@ window.TREE_DATA = {
      "year": 2023,
      "decade": "2020s",
      "educator": false,
-     "affiliation": "Loyola Marymount University",
-     "title": "Assistant Professor",
+     "affiliation": null,
+     "title": null,
      "inMemoriam": false,
      "photo": "photos/zhouqiao-zhao.jpg",
-     "bio": "Zhouqiao (Bridge) Zhao received his Ph.D. in Electrical and Computer Engineering from UC Riverside in 2023, advised by Guoyuan Wu and Matthew Barth. He is currently a Postdoctoral Associate at MIT and will join Loyola Marymount University as an Assistant Professor in 2026, working on human-centered AI and intelligent transportation systems.",
-     "note": null,
-     "homepage": "https://bridgee.github.io/",
-     "provisional": false,
+     "bio": null,
+     "note": "co-advised with Matthew Barth; went to MIT AgeLab as postdoc",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -18272,10 +17520,7 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null,
-   "homepage": "https://profiles.ucr.edu/app/home/profile/guoyuanw"
+   ]
   },
   {
    "id": "cheng-haifei",
@@ -18656,9 +17901,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/stearns-hoday.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Software engineer at Google"
+   "children": []
   },
   {
    "id": "bae-joonbum",
@@ -18668,7 +17911,7 @@ window.TREE_DATA = {
    "year": 2011,
    "decade": "2010s",
    "educator": true,
-   "affiliation": "Korea University",
+   "affiliation": "UNIST",
    "title": "Professor",
    "inMemoriam": false,
    "photo": "photos/bae-joonbum.jpg",
@@ -18721,7 +17964,7 @@ window.TREE_DATA = {
      "title": "Assistant Professor",
      "inMemoriam": false,
      "photo": "photos/yeongtae-jung.jpg",
-     "bio": "Reinforcement Learning, Precision Control, Mechanism Design and Control, Human–Robot Interaction, Teleoperation",
+     "bio": null,
      "note": null,
      "homepage": "https://sites.google.com/view/ralab",
      "provisional": false,
@@ -18757,10 +18000,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/bokeon-kwak.jpg",
-     "bio": "Soft roboticist",
-     "note": "Postdoc at EPFL",
+     "bio": null,
+     "note": "now postdoc at Laboratory of Intelligent Systems, EPFL",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -18775,10 +18018,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/jeongsoo-lee.jpg",
-     "bio": "Design and Control of Wearable Hand Systems and Humanoid Hands",
-     "note": "Staff Engineer at Samsung Electronics",
+     "bio": null,
+     "note": "now at LG Electronics",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -18830,9 +18073,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/minhyuk-lee.jpg",
      "bio": null,
-     "note": "Staff engineer at Samsung",
+     "note": "now at Hyundai Motor Company",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -18940,7 +18183,7 @@ window.TREE_DATA = {
      "bio": null,
      "note": "combined MS/PhD track; B.S. UNIST",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -19231,10 +18474,7 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null,
-   "homepage": "https://birc.korea.ac.kr/"
+   ]
   },
   {
    "id": "dong-nancy",
@@ -19248,14 +18488,11 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/dong-nancy.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Chief Algorithms Officer at Amptron Medical",
-   "bio": "Leads the development of advanced AI-driven algorithms for autonomous therapy optimization in critical care and next-generation wearable medical devices."
+   "children": []
   },
   {
    "id": "yu-shu-wen",
-   "name": "Shuwen Yu",
+   "name": "Shu-Wen Yu",
    "batch": "PhD 2011",
    "kind": "phd",
    "year": 2011,
@@ -19265,9 +18502,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/yu-shu-wen.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Staff Engineer at Intuitive"
+   "children": []
   },
   {
    "id": "kim-sanggyum",
@@ -19295,10 +18530,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/chen-wenjie.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Director of Robotics Institute at Midea Group",
-   "homepage": "https://wjchen84.github.io/"
+   "children": []
   },
   {
    "id": "chang-siu-evan",
@@ -19351,16 +18583,16 @@ window.TREE_DATA = {
    "decade": "2010s",
    "educator": true,
    "affiliation": "University of Washington",
-   "title": "Professor",
+   "title": "Associate Professor",
    "inMemoriam": false,
    "photo": "photos/chen-xu.jpg",
    "children": [
     {
      "id": "dan-wang",
      "name": "Dan Wang",
-     "batch": "PhD 2020",
+     "batch": "PhD 2021",
      "kind": "phd",
-     "year": 2020,
+     "year": 2021,
      "decade": "2020s",
      "educator": false,
      "affiliation": null,
@@ -19368,9 +18600,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/dan-wang.jpg",
      "bio": null,
-     "note": "Firmware Engineer at Western Digital",
-     "homepage": "https://www.linkedin.com/in/dan-wang-81ba9112b/",
-     "provisional": false,
+     "note": "PhD Summer 2021, MACS Lab",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -19386,9 +18618,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/hui-xiao.jpg",
      "bio": null,
-     "note": "Software Engineer at Medtronic",
-     "homepage": "https://www.linkedin.com/in/hui-xiao/",
-     "provisional": false,
+     "note": "PhD Summer 2021, MACS Lab",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -19428,24 +18660,6 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "xiaohai-hu",
-     "name": "Xiaohai Hu",
-     "batch": "PhD 2026",
-     "kind": "phd",
-     "year": 2026,
-     "decade": "2020s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/xiaohai-hu.jpg",
-     "bio": null,
-     "note": "TBD",
-     "homepage": "https://salemon.github.io/",
-     "provisional": false,
-     "children": []
-    },
-    {
      "id": "antara-banerjee",
      "name": "Antara Banerjee",
      "batch": "PhD Candidate",
@@ -19458,9 +18672,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/antara-banerjee.jpg",
      "bio": null,
-     "note": "University of Washington",
-     "homepage": "https://antara1005.github.io/",
-     "provisional": false,
+     "note": "PhD student, Mechanical Engineering, MACS Lab UW",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -19482,24 +18696,6 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "devansh-bajwala",
-     "name": "Devansh Bajwala",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/devansh-bajwala.jpg",
-     "bio": "PhD student at the University of Washington's MACS Lab, working on remote physiological sensing, robotic manipulation, and precision control systems. Passionate about bringing hardware and intelligent systems together to solve real-world problems.",
-     "note": "Student @ MACS Lab, University of Washington",
-     "homepage": null,
-     "provisional": false,
-     "children": []
-    },
-    {
      "id": "jonas-beachy",
      "name": "Jonas Beachy",
      "batch": "PhD Candidate",
@@ -19514,7 +18710,7 @@ window.TREE_DATA = {
      "bio": null,
      "note": "PhD student, Mechanical Engineering, MACS Lab UW",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -19548,27 +18744,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "Ph.D. Student at MACS Lab @ UW",
+     "note": "PhD student, Mechanical Engineering, MACS Lab UW",
      "homepage": null,
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "shuan-cheng",
-     "name": "Shuan Cheng",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/shuan-cheng.jpg",
-     "bio": null,
-     "note": "University of Washington",
-     "homepage": "https://www.linkedin.com/in/shuan-cheng-397a4321b/",
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -19585,6 +18763,24 @@ window.TREE_DATA = {
      "photo": null,
      "bio": null,
      "note": "PhD student, Mechanical Engineering, MACS Lab UW",
+     "homepage": null,
+     "provisional": true,
+     "children": []
+    },
+    {
+     "id": "xiaohai-hu",
+     "name": "Xiaohai Hu",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/xiaohai-hu.jpg",
+     "bio": null,
+     "note": "(Bob) PhD student, Mechanical Engineering, MACS Lab UW",
      "homepage": null,
      "provisional": true,
      "children": []
@@ -19643,11 +18839,7 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null,
-   "bio": "Xu Chen is the Bryan T. McMinn Endowed Professor of Mechanical Engineering at the University of Washington, Seattle. His research encompasses dynamic systems, robotics, AI, and additive manufacturing. He currently directs the Boeing Advanced Research Collaboration (BARC) at UW, and advises UK’s EPSRC Centre for Doctoral Training in Digital Engineering. His accolades include the NSF CAREER Award, 2024 ARM Champion Award, 2022 SME Sandra L. Bouckley Outstanding Young Manufacturing Engineer Award, and the 2022 IFAC Mechatronic Systems Outstanding Young Researcher Award. He has served to organize major domain conferences for over 10 times.",
-   "homepage": "https://faculty.washington.edu/chx/"
+   ]
   },
   {
    "id": "tsai-chi-shen",
@@ -19712,10 +18904,7 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null,
-   "homepage": "https://www.linkedin.com/in/cong-wang-6721a01a"
+   ]
   },
   {
    "id": "kanjanapas-kan",
@@ -19746,7 +18935,7 @@ window.TREE_DATA = {
    "children": [
     {
      "id": "prudhvi-tej-chinimilli",
-     "name": "Prudhvi tej Chinimilli",
+     "name": "Prudhvi Tej Chinimilli",
      "batch": "PhD 2018",
      "kind": "phd",
      "year": 2018,
@@ -19757,9 +18946,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/prudhvi-tej-chinimilli.jpg",
      "bio": null,
-     "note": "Co-founder & CTO at Zooly Labs",
-     "homepage": "https://www.linkedin.com/in/prudhvitejchinimilli",
-     "provisional": false,
+     "note": "now co-founder and CTO at Zooly Labs; dissertation co-chaired by Sangram Redkar and Wenlong Zhang",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -19769,15 +18958,15 @@ window.TREE_DATA = {
      "kind": "phd",
      "year": 2020,
      "decade": "2020s",
-     "educator": true,
-     "affiliation": "Empa/EPFL",
-     "title": "Research Scientist",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
      "inMemoriam": false,
      "photo": "photos/pham-huy-nguyen.jpg",
-     "bio": "Dr. Pham Huy Nguyen is currently a Research Scientist at the Laboratory of Sustainability Robotics at Empa, Switzerland and a visiting researcher at the Aerial Robotics Lab at Imperial College London, UK. His research is focused on the development of various novel physically intelligent, bio-inspired robotic platforms that utilize soft sensing and actuation schemes. Previously, he received the B.S.E in Mechatronics from the Asian Institute of Technology in Bangkok, Thailand in 2013 and the M.Sc. degree in Robotics from the EMARO (European Masters in Advanced Robotics) program in 2015. The EMARO program is a two year program, with the first year at École Centrale de Nantes, France, and the second year at Università Degli Studi di Genova, Italy. He received the Ph.D. in Systems Engineering from the Arizona State University, USA, in Fall 2020. His research interest includes the fields of bio-inspired, soft, aerial, sustainable supernumerary, continuum, and wearable robotics.",
-     "note": null,
-     "homepage": "https://mechphnguyen.com/",
-     "provisional": false,
+     "bio": null,
+     "note": "postdoctoral research associate at EPFL",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -19861,31 +19050,13 @@ window.TREE_DATA = {
      "decade": "2020s",
      "educator": true,
      "affiliation": "University of Michigan-Dearborn",
-     "title": "Assistant Professor",
+     "title": "Assistant Professor, Electrical and Computer Engineering",
      "inMemoriam": false,
      "photo": "photos/karishma-patnaik.jpg",
      "bio": null,
      "note": null,
      "homepage": null,
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "mostafa-rezayat",
-     "name": "Mostafa Rezayat",
-     "batch": "PhD 2023",
-     "kind": "phd",
-     "year": 2023,
-     "decade": "2020s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": null,
-     "bio": null,
-     "note": "Senior Engineer at Siemens Healthineers",
-     "homepage": "https://scholar.google.com/citations?user=bc6Gll8AAAAJ&hl=en",
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -19943,24 +19114,6 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "yizhuang-garrard",
-     "name": "YiZhuang Garrard",
-     "batch": "PhD 2026",
-     "kind": "phd",
-     "year": 2026,
-     "decade": "2020s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/yizhuang-garrard.jpg",
-     "bio": null,
-     "note": "Engineer at Northrop Grumman",
-     "homepage": null,
-     "provisional": false,
-     "children": []
-    },
-    {
      "id": "amirali-abazari",
      "name": "Amirali Abazari",
      "batch": "PhD Candidate",
@@ -19972,10 +19125,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/amirali-abazari.jpg",
-     "bio": "PhD student investigating contact-inclusive control and planning for UAVs",
-     "note": "Arizona State University",
+     "bio": null,
+     "note": "Systems Engineering PhD, 2024-",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -20026,10 +19179,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/jahnav-rokalaboina.jpg",
-     "bio": "I'm a PhD candidate in Systems Engineering at Arizona State University, where I build soft wearable robots that help people move. My research centers on soft exosuits - lightweight, pneumatically actuated device that assists humans during the walking cycle.",
-     "note": "Graduate Research Associate at RISE Lab ASU",
-     "homepage": "https://jrokalab.github.io/",
-     "provisional": false,
+     "bio": null,
+     "note": "Systems Engineering PhD, 2024-",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -20080,10 +19233,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/max-gao.jpg",
-     "bio": "Current Robotics PhD student working on the intersection between foundation models and control theory.",
-     "note": "Arizona State University",
+     "bio": null,
+     "note": "Robotics & Autonomous Systems PhD, 2025-",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -20123,6 +19276,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "yizhuang-garrard",
+     "name": "Yizhuang Garrard",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/yizhuang-garrard.jpg",
+     "bio": null,
+     "note": "Systems Engineering PhD, 2019-",
+     "homepage": null,
+     "provisional": true,
+     "children": []
+    },
+    {
      "id": "yousef-soltanian",
      "name": "Yousef Soltanian",
      "batch": "PhD Candidate",
@@ -20134,17 +19305,13 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/yousef-soltanian.jpg",
-     "bio": "Working on Human-Robot Interactions, Dynamic Game Theory, Reinforcement Learning",
-     "note": "PhD Candidate ASU RISELAB",
+     "bio": null,
+     "note": "Mechanical Engineering PhD, 2021-",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null,
-   "bio": "I am an Associate Professor in the School of Manufacturing Systems and Networks at Arizona State University.",
-   "homepage": "https://home.riselab.info/"
+   ]
   },
   {
    "id": "wang-yizhou",
@@ -20204,11 +19371,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/haninger-kevin.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "I work on camera-based manipulation, developing learning from demonstration algorithms and strategies for novel applications in medical, agricultural, and industrial fields.",
-   "note": "Department Lead at Fraunhofer IPK",
-   "homepage": "https://www.kevinhaninger.com/"
+   "children": []
   },
   {
    "id": "tan-raechel",
@@ -20222,6 +19385,20 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/tan-raechel.jpg",
+   "children": []
+  },
+  {
+   "id": "tang-te",
+   "name": "Te Tang",
+   "batch": "PhD 2016",
+   "kind": "phd",
+   "year": 2016,
+   "decade": "2010s",
+   "educator": false,
+   "affiliation": null,
+   "title": null,
+   "inMemoriam": false,
+   "photo": "photos/tang-te.jpg",
    "children": []
   },
   {
@@ -20256,24 +19433,6 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "jaskaran-singh-grover",
-     "name": "Jaskaran Singh Grover",
-     "batch": "PhD 2023",
-     "kind": "phd",
-     "year": 2023,
-     "decade": "2020s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/jaskaran-singh-grover.jpg",
-     "bio": null,
-     "note": "Postdoc at CMU",
-     "homepage": "https://jaskaransgrover.github.io/",
-     "provisional": false,
-     "children": []
-    },
-    {
      "id": "tianhao-wei",
      "name": "Tianhao Wei",
      "batch": "PhD 2024",
@@ -20303,10 +19462,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/weiye-zhao.jpg",
-     "bio": "Weiye Zhao earned his PhD in Electrical and Computer Engineering from Carnegie Mellon University in 2024, where he worked with Dr. Changliu Liu. His research lies at the intersection of provable safe reinforcement learning and control theory. He is now the founder and CEO of Instinct Robotics, a startup dedicated to developing foundational robotics model for manufacturing skills.",
-     "note": "CEO at Instinct Robotics",
-     "homepage": "https://scholar.google.com/citations?user=P-79KOcAAAAJ&hl=en",
-     "provisional": false,
+     "bio": null,
+     "note": "now at Instinct Robotics",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -20322,9 +19481,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/abulikemu-abuduweili.jpg",
      "bio": null,
-     "note": "Research Scientist at Apple",
-     "homepage": "https://walleclipse.github.io/",
-     "provisional": false,
+     "note": "now at Apple",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -20340,9 +19499,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "Research Scientist at Nuro",
-     "homepage": "https://ravipandya.com/",
-     "provisional": false,
+     "note": "now at Nuro",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -20377,8 +19536,8 @@ window.TREE_DATA = {
      "photo": null,
      "bio": null,
      "note": "PhD Summer 2026",
-     "homepage": "https://hanjianghu.net/",
-     "provisional": false,
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -20429,10 +19588,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/peiqi-yu.jpg",
-     "bio": "My research focuses on long-horizon robotic manipulation using neuro-symbolic skill representations.",
-     "note": "Carnegie Mellon University",
-     "homepage": "https://patricia1019.github.io/",
-     "provisional": false,
+     "bio": null,
+     "note": "ECE PhD, started Fall 2024",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -20448,9 +19607,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/ruixuan-liu.jpg",
      "bio": null,
-     "note": "Carnegie Mellon University",
-     "homepage": "https://waynekyrie.github.io/",
-     "provisional": false,
+     "note": "RI PhD, started Fall 2021",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -20465,16 +19624,13 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/yifan-sun.jpg",
-     "bio": "My research focuses on developing intelligent decision making and motion control methods that enable complex robotic systems to perform tasks such as human–robot collaboration and dexterous manipulation, while satisfying critical constraints such as safety and contact-rich interactions.",
-     "note": "Robotics Institute, CMU",
-     "homepage": "https://yifansun98.github.io/",
-     "provisional": false,
+     "bio": null,
+     "note": "RI PhD, started Fall 2024 (prev. MS in lab)",
+     "homepage": null,
+     "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null,
-   "homepage": "https://icontrol.ri.cmu.edu/people/changliu.html"
+   ]
   },
   {
    "id": "chan-chen-yu",
@@ -20488,9 +19644,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/chan-chen-yu.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Taiwan Space Agency (TASA)"
+   "children": []
   },
   {
    "id": "zheng-minghui",
@@ -20685,10 +19839,7 @@ window.TREE_DATA = {
      "provisional": true,
      "children": []
     }
-   ],
-   "provisional": false,
-   "note": null,
-   "homepage": "https://zh.engr.tamu.edu/"
+   ]
   },
   {
    "id": "zhou-shiying",
@@ -20702,10 +19853,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/zhou-shiying.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "I lead the Didi autonomous planning and simulation team. I am the US Labs site lead.",
-   "note": "US site lead Didi Labs"
+   "children": []
   },
   {
    "id": "lin-hsien-chung",
@@ -20719,27 +19867,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/lin-hsien-chung.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Sr. Robotics Algorithms and Controls Engineer"
-  },
-  {
-   "id": "tang-te",
-   "name": "Te Tang",
-   "batch": "PhD 2018",
-   "kind": "phd",
-   "year": 2018,
-   "decade": "2010s",
-   "educator": false,
-   "affiliation": null,
-   "title": null,
-   "inMemoriam": false,
-   "photo": "photos/tang-te.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "Founding member of FANUC Advanced Research Lab. Co-founder and CEO of Anyware Robotics.",
-   "note": "CEO of Anyware Robotics",
-   "homepage": "https://thomas-tang.com/"
+   "children": []
   },
   {
    "id": "yu-xiaowen",
@@ -20767,10 +19895,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/zhao-yu.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "Senior research engineer.\nOne of founding members of FANUC Advanced Research Lab.",
-   "note": "FANUC"
+   "children": []
   },
   {
    "id": "peng-cheng",
@@ -20854,11 +19979,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/fan-yongxiang.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "Pre-FANUC Sr. Research Scientist, \nCofounder and CTO of Anyware Robotics, building general purpose robot for industrial applications",
-   "note": "CTO at Anyware Robotics",
-   "homepage": "https://www.linkedin.com/in/bruce-fan-9a949487"
+   "children": []
   },
   {
    "id": "yu-chu-huang",
@@ -20887,28 +20008,10 @@ window.TREE_DATA = {
    "decade": "2020s",
    "educator": true,
    "affiliation": "Tsinghua University",
-   "title": "Associate Professor",
+   "title": "Assistant Professor",
    "inMemoriam": false,
    "photo": "photos/chen-jianyu.jpg",
    "children": [
-    {
-     "id": "yanjiang-guo",
-     "name": "Yanjiang Guo",
-     "batch": "PhD 2027",
-     "kind": "phd",
-     "year": 2027,
-     "decade": "2020s",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/yanjiang-guo.jpg",
-     "bio": null,
-     "note": "Tsinghua University",
-     "homepage": "https://robert-gyj.github.io/",
-     "provisional": false,
-     "children": []
-    },
     {
      "id": "chengming-shi",
      "name": "Chengming Shi",
@@ -20946,42 +20049,6 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "hezhong-li",
-     "name": "Hezhong Li",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": null,
-     "bio": null,
-     "note": null,
-     "homepage": null,
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "jianke-zhang",
-     "name": "Jianke Zhang",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/jianke-zhang.jpg",
-     "bio": "Currently working on VLA and WM, scaling the embodied foundation models with various type of data using VQA, Video and Actions.",
-     "note": "Tsinghua University",
-     "homepage": "https://cladernyjorn.github.io/",
-     "provisional": false,
-     "children": []
-    },
-    {
      "id": "jingyue-gao",
      "name": "Jingyue Gao",
      "batch": "PhD Candidate",
@@ -21000,78 +20067,6 @@ window.TREE_DATA = {
      "children": []
     },
     {
-     "id": "kun-feng",
-     "name": "Kun Feng",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/kun-feng.jpg",
-     "bio": "Specializing in Embodied AI. The main research content involves embodied models such as the World Model, World Action Model and VLA.",
-     "note": "Institute for Interdisciplinary Information Sciences, Tsinghua University",
-     "homepage": "https://github.com/Fengk20",
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "puzhen-yuan",
-     "name": "Puzhen Yuan",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/puzhen-yuan.jpg",
-     "bio": null,
-     "note": "Tsinghua University, IIIS",
-     "homepage": "https://github.com/PuzhenYuan",
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "qingzhou-lu",
-     "name": "Qingzhou Lu",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/qingzhou-lu.jpg",
-     "bio": null,
-     "note": "IIIS, Tsinghua University",
-     "homepage": "https://me.axell.top/",
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "xiang-ji",
-     "name": "Xiang Ji",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/xiang-ji.jpg",
-     "bio": null,
-     "note": "incoming PhD student of College of AI, Tsinghua University",
-     "homepage": null,
-     "provisional": false,
-     "children": []
-    },
-    {
      "id": "xiang-zhu",
      "name": "Xiang Zhu",
      "batch": "PhD Candidate",
@@ -21084,9 +20079,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/xiang-zhu.jpg",
      "bio": null,
-     "note": "PhD student at Tsinghua University",
-     "homepage": "https://canva4.github.io/",
-     "provisional": false,
+     "note": "PhD at IIIS advised by Prof. Jianyu Chen per own homepage (canva4.github.io); contact-rich manipulation (IROS 2022)",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -21108,6 +20103,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "yanjiang-guo",
+     "name": "Yanjiang Guo",
+     "batch": "PhD Candidate",
+     "kind": "current",
+     "year": null,
+     "decade": "Current",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/yanjiang-guo.jpg",
+     "bio": null,
+     "note": "4th-year PhD, advised by Jianyu Chen per own homepage (robert-gyj.github.io); Stanford visit Mar 2025-Jan 2026",
+     "homepage": null,
+     "provisional": true,
+     "children": []
+    },
+    {
      "id": "yichen-liu",
      "name": "Yichen Liu",
      "batch": "PhD Candidate",
@@ -21120,9 +20133,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/yichen-liu.jpg",
      "bio": null,
-     "note": "St",
+     "note": "On official ISR Lab page; coauthor with Chen on RAL 2023 neural-barrier-certificate and 2025 VLA papers; PhD vs MS not independently confirmed",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -21142,29 +20155,8 @@ window.TREE_DATA = {
      "homepage": null,
      "provisional": true,
      "children": []
-    },
-    {
-     "id": "yucheng-hu",
-     "name": "yucheng hu",
-     "batch": "PhD",
-     "kind": "phd",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": null,
-     "bio": null,
-     "note": null,
-     "homepage": null,
-     "provisional": false,
-     "children": []
     }
-   ],
-   "provisional": false,
-   "note": null,
-   "homepage": "https://cjy1992.github.io/"
+   ]
   },
   {
    "id": "shin-kiwoo",
@@ -21220,9 +20212,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/junge-zhang.jpg",
      "bio": null,
-     "note": "GT TASL Lab",
-     "homepage": "https://andy-zd.github.io/",
-     "provisional": false,
+     "note": "Ph.D. student, Fall 2024–present",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -21238,9 +20230,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/litian-gong.jpg",
      "bio": null,
-     "note": "PhD student, GT TASL Lab",
-     "homepage": "https://litiangong.com/",
-     "provisional": false,
+     "note": "Incoming Ph.D. student, Fall 2026 (not yet started as of Jul 2026); M.S. from same lab in 2026",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -21255,10 +20247,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/mingxuan-yan.jpg",
-     "bio": "I am Mingxuan Yan (pron: Ming-shwen Yen), a second-year PhD student. I am currently a member of GT TASL Lab under the supervision of Prof. Jiachen Li.",
-     "note": "PhD student, GT TASL Lab",
-     "homepage": "https://waterhyacinthinnanhu.github.io/",
-     "provisional": false,
+     "bio": null,
+     "note": "Ph.D. student, Fall 2024–present",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -21274,9 +20266,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/xiaopan-zhang.jpg",
      "bio": null,
-     "note": "PhD student, GT TASL Lab",
+     "note": "Ph.D. student, Spring 2024–present",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     },
     {
@@ -21292,9 +20284,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/zehao-wang.jpg",
      "bio": null,
-     "note": "Ph.D. Student at GT TASL Lab",
-     "homepage": "https://zehaowang983.github.io/",
-     "provisional": false,
+     "note": "Ph.D. candidate, Fall 2023–present",
+     "homepage": null,
+     "provisional": true,
      "children": []
     },
     {
@@ -21310,16 +20302,14 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/zhixu-li.jpg",
      "bio": null,
-     "note": "PhD student, GT TASL Lab",
+     "note": "Ph.D. candidate, Fall 2023–present (followed Li from UCR to Georgia Tech)",
      "homepage": null,
-     "provisional": false,
+     "provisional": true,
      "children": []
     }
    ],
    "provisional": false,
-   "note": null,
-   "bio": "Dr. Jiachen Li is currently an Assistant Professor at Georgia Tech. He received his Ph.D. from UC Berkeley and was a Postdoctoral Scholar at Stanford.",
-   "homepage": "https://www.linkedin.com/in/jiachen-li/"
+   "note": null
   },
   {
    "id": "fahandezhsaadi-saman",
@@ -21406,47 +20396,7 @@ window.TREE_DATA = {
    "title": "Assistant Professor",
    "inMemoriam": false,
    "photo": "photos/tang-chen.jpg",
-   "children": [
-    {
-     "id": "ruopeng-huang",
-     "name": "Ruopeng Huang",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/ruopeng-huang.jpg",
-     "bio": "I am a PhD student working on robotics at UCLA, advised by Professor Chen Tang.",
-     "note": "Phd student at UCLA",
-     "homepage": "https://huangruopeng.github.io/",
-     "provisional": false,
-     "children": []
-    },
-    {
-     "id": "seunghun-oh",
-     "name": "Seunghun Oh",
-     "batch": "PhD Candidate",
-     "kind": "current",
-     "year": null,
-     "decade": "Current",
-     "educator": false,
-     "affiliation": null,
-     "title": null,
-     "inMemoriam": false,
-     "photo": "photos/seunghun-oh.jpg",
-     "bio": "Researching Safe Physical AI to enable trustworthy robots in real-world environments.",
-     "note": "Ph.D. student at UCLA CEE",
-     "homepage": "https://alvin0808.github.io",
-     "provisional": false,
-     "children": []
-    }
-   ],
-   "provisional": false,
-   "note": null,
-   "homepage": "https://chentangmark.github.io"
+   "children": []
   },
   {
    "id": "leu-jessica",
@@ -21474,46 +20424,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/zhou-yiyang.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "Building general purpose robot for industries!",
-   "note": "Anyware Robotics Inc.",
-   "homepage": "https://www.linkedin.com/in/samuel-zhou-67b47074/"
-  },
-  {
-   "id": "ce-hao",
-   "name": "Ce Hao",
-   "batch": "PhD 2023",
-   "kind": "phd",
-   "year": 2023,
-   "decade": "2020s",
-   "educator": true,
-   "affiliation": "Beijing Zhongguancun Academy",
-   "title": "Assistant professor",
-   "inMemoriam": false,
-   "photo": "photos/ce-hao.jpg",
-   "bio": "I jointed MSC Lab in 2019 as an RA, and enrolled as a PhD student on 2021. \nI left on 2023 and went to NUS at Singapore.\n\nI studied autonomous driving control system with Catherine Weaver, superviosed by Chen Tang, Wei Zhan, Liting Sun and Professor Tomizuka.\n\nNow I am working in Beijing as an assistant professor.",
-   "note": null,
-   "homepage": "https://cehao1.github.io/",
-   "provisional": false,
    "children": []
-  },
-  {
-   "id": "wang-changhao",
-   "name": "Changhao Wang",
-   "batch": "PhD 2023",
-   "kind": "phd",
-   "year": 2023,
-   "decade": "2020s",
-   "educator": false,
-   "affiliation": null,
-   "title": null,
-   "inMemoriam": false,
-   "photo": "photos/wang-changhao.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Postdoc at Stanford",
-   "homepage": "https://changhaowang.github.io/"
   },
   {
    "id": "ma-hengbo",
@@ -21555,10 +20466,21 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/weaver-catherin.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Scale AI",
-   "homepage": "https://www.linkedin.com/in/cwj22"
+   "children": []
+  },
+  {
+   "id": "wang-changhao",
+   "name": "Changhao Wang",
+   "batch": "PhD 2024",
+   "kind": "phd",
+   "year": 2024,
+   "decade": "2020s",
+   "educator": false,
+   "affiliation": null,
+   "title": null,
+   "inMemoriam": false,
+   "photo": "photos/wang-changhao.jpg",
+   "children": []
   },
   {
    "id": "li-jinning",
@@ -21572,11 +20494,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/li-jinning.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "I am a software engineer working on multimodal generation model at Google.",
-   "note": "Software Engineer at Google",
-   "homepage": "https://jinning-li.github.io/"
+   "children": []
   },
   {
    "id": "sun-lingfeng",
@@ -21618,10 +20536,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/zhang-xiang.jpg",
-   "children": [],
-   "provisional": false,
-   "note": "Fanuc",
-   "homepage": "https://xiang-zhang-98.github.io/"
+   "children": []
   },
   {
    "id": "zhu-xinghao",
@@ -21672,15 +20587,12 @@ window.TREE_DATA = {
    "kind": "phd",
    "year": 2025,
    "decade": "2020s",
-   "educator": true,
-   "affiliation": "UT Austin",
-   "title": "Assistant Professor",
+   "educator": false,
+   "affiliation": null,
+   "title": null,
    "inMemoriam": false,
    "photo": "photos/xu-chenfeng.jpg",
-   "children": [],
-   "provisional": false,
-   "note": null,
-   "homepage": "https://www.cs.utexas.edu/people/faculty-researchers/chenfeng-xu"
+   "children": []
   },
   {
    "id": "li-chenran",
@@ -21783,9 +20695,7 @@ window.TREE_DATA = {
    "inMemoriam": false,
    "photo": "photos/li-yiheng.jpg",
    "children": [],
-   "provisional": false,
-   "note": "Research Scientist at Waymo",
-   "homepage": "https://yihengli.com"
+   "provisional": false
   },
   {
    "id": "liang-boyuan",
@@ -21841,9 +20751,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/wang-pengcheng.jpg",
-   "children": [],
-   "provisional": false,
-   "homepage": "https://outsider86.github.io/"
+   "children": []
   },
   {
    "id": "qian-qiyang",
@@ -21875,7 +20783,7 @@ window.TREE_DATA = {
   },
   {
    "id": "wenjie-li",
-   "name": "Wenjie (Jeff) Li",
+   "name": "Wenjie Li",
    "batch": "PhD Candidate",
    "kind": "current",
    "year": null,
@@ -21885,10 +20793,10 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/wenjie-li.jpg",
-   "bio": "Jeff is currently a Ph.D. student at UC Berkeley. His current work centers on tactile-enabled dexterous manipulation.",
-   "note": "UC Berkeley",
-   "homepage": "https://jeffwli.github.io/",
-   "provisional": false,
+   "bio": null,
+   "note": null,
+   "homepage": null,
+   "provisional": true,
    "children": []
   },
   {
@@ -21931,11 +20839,7 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/chen-yuxin.jpg",
-   "children": [],
-   "provisional": false,
-   "bio": "Yuxin Chen is currently a Ph.D. candidate at UC Berkeley. He received his M.S. in Robotics and B.S. in Aerospace degrees from the University of Michigan, as well as a B.S. in Mechanical Engineering degree from Shanghai Jiao Tong University.",
-   "note": "UC Berkeley",
-   "homepage": "https://thomaschen98.github.io/"
+   "children": []
   }
  ]
 };
