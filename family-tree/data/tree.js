@@ -14865,7 +14865,26 @@ window.TREE_DATA = {
      "note": null,
      "homepage": null,
      "provisional": true,
-     "children": []
+     "children": [
+      {
+       "id": "jiook-chung",
+       "name": "Jiook Chung",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": null,
+       "bio": null,
+       "note": "PhD student in Purdue",
+       "homepage": null,
+       "provisional": false,
+       "children": []
+      }
+     ]
     },
     {
      "id": "chao-li",
