@@ -14646,9 +14646,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "PhD 2010; adaptive robust control of hydraulic manipulators; multiple IEEE journal papers co-authored with Yao",
+     "note": "Start-up",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
