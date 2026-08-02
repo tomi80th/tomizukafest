@@ -14901,6 +14901,24 @@ window.TREE_DATA = {
        "homepage": null,
        "provisional": false,
        "children": []
+      },
+      {
+       "id": "marshall-chang",
+       "name": "Marshall Chang",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": "photos/marshall-chang.jpg",
+       "bio": null,
+       "note": "Purdue",
+       "homepage": null,
+       "provisional": false,
+       "children": []
       }
      ]
     },
