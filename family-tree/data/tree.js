@@ -14697,7 +14697,7 @@ window.TREE_DATA = {
        "affiliation": null,
        "title": null,
        "inMemoriam": false,
-       "photo": null,
+       "photo": "photos/jichuan-yu.jpg",
        "bio": null,
        "note": "Tsinghua University",
        "homepage": "https://jichuan-yu.github.io/",
@@ -15024,11 +15024,11 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
+     "photo": "photos/jianfeng-liao.jpg",
      "bio": null,
-     "note": "co-advised (Zhejiang University, PhD 2018)",
+     "note": "Staff engineer at AGIBOT",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
