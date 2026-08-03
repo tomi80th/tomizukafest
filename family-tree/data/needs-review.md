@@ -20,3 +20,4 @@ If a real namesake: re-add the row with distinct=yes. If co-advised: safe to ign
 - Aleksandr Shkoruta (row advisor: 'sandipa', graduated 2021)
 - Dongyoung Lee (row advisor: 'Joonbum Bae', graduated 2024)
 - Zijian He (row advisor: 'Yan Gu', current )
+- Zijian He (row advisor: 'Yan Gu', current )
