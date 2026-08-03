@@ -14563,7 +14563,7 @@ window.TREE_DATA = {
     },
     {
      "id": "phanindra-v-garimella",
-     "name": "Phanindra V. Garimella",
+     "name": "Phanindra V Garimella",
      "batch": "PhD 2005",
      "kind": "phd",
      "year": 2005,
@@ -14573,10 +14573,10 @@ window.TREE_DATA = {
      "title": null,
      "inMemoriam": false,
      "photo": "photos/phanindra-v-garimella.jpg",
-     "bio": null,
-     "note": "now at Cummins Inc., Indiana (also MS 2002 under Yao)",
+     "bio": "Currently lead global teams delivering power-train solutions for Industrial applications at Cummins Inc.,. Previously, have led teams which work on Control Systems Design, Systems Integration while incorporating cutting-edge technologies.",
+     "note": "Exec Director - Engineering, Cummins Inc.,",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
@@ -14885,6 +14885,24 @@ window.TREE_DATA = {
      "provisional": false,
      "children": [
       {
+       "id": "i-chia-chang",
+       "name": "I-Chia Chang",
+       "batch": "PhD Candidate",
+       "kind": "current",
+       "year": null,
+       "decade": "Current",
+       "educator": false,
+       "affiliation": null,
+       "title": null,
+       "inMemoriam": false,
+       "photo": null,
+       "bio": null,
+       "note": "Purdue University",
+       "homepage": "https://scholar.google.com.tw/citations?user=LBpJi8kAAAAJ&hl=zh-TW&oi=ao",
+       "provisional": false,
+       "children": []
+      },
+      {
        "id": "jiook-chung",
        "name": "Jiook Chung",
        "batch": "PhD Candidate",
@@ -14974,6 +14992,24 @@ window.TREE_DATA = {
      "note": "co-advised (Zhejiang University, PhD 2018)",
      "homepage": null,
      "provisional": true,
+     "children": []
+    },
+    {
+     "id": "jinfei-hu",
+     "name": "Jinfei Hu",
+     "batch": "PhD 2021",
+     "kind": "phd",
+     "year": 2021,
+     "decade": "2020s",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/jinfei-hu.jpg",
+     "bio": "Jinfei Hu is a postdoctoral fellow at the Hong Kong Centre for Logistics Robotics, The Chinese University of Hong Kong. His research focuses on robot system identification, adaptive and robust control, vibration control, trajectory planning, and intelligent robotic systems.",
+     "note": "Postdoctoral Fellow  at Hong Kong Centre for Logistics Robotics",
+     "homepage": "https://scholar.google.com/citations?user=I77LVH4AAAAJ&hl=zh-CN",
+     "provisional": false,
      "children": []
     },
     {
