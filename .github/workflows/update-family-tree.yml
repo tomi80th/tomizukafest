@@ -39,7 +39,12 @@ jobs:
             echo "SURVEY_CSV_URL not set — committed data only."; exit 0
           fi
           for attempt in 1 2 3 4 5; do
-            curl -sL --max-time 60 "$SURVEY_CSV_URL" -o /tmp/live_responses.csv || true
+            # unique query string per attempt: Google's frontend caches the
+            # /exec response by URL and has served runners hours-old
+            # snapshots, so the newest responses never reached the build
+            bust="$(date +%s)-$RANDOM-$attempt"
+            curl -sL --max-time 60 "${SURVEY_CSV_URL}?nocache=${bust}" \
+                 -H 'Cache-Control: no-cache' -o /tmp/live_responses.csv || true
             head=$(head -c 22 /tmp/live_responses.csv 2>/dev/null || true)
             rows=$(grep -c "" /tmp/live_responses.csv 2>/dev/null || echo 0)
             if [ "$head" = "timestamp,name,advisor" ] && [ "$rows" -ge 100 ]; then
