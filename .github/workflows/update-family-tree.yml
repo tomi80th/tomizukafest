@@ -27,18 +27,49 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Google sometimes answers a runner with a sign-in interstitial instead
+      # of the CSV. A merely non-empty file used to be good enough, so those
+      # runs rebuilt the tree WITHOUT anyone's survey answers and committed
+      # the regression — the tree flip-flopped by ~1200 lines for days.
+      # Validate the payload, retry, and fail the run rather than publish a
+      # tree that has silently forgotten people.
       - name: Pull live survey responses
         run: |
-          if [ -n "$SURVEY_CSV_URL" ]; then
-            curl -sL --max-time 60 "$SURVEY_CSV_URL" -o /tmp/live_responses.csv || true
-            echo "live rows: $(wc -l < /tmp/live_responses.csv 2>/dev/null || echo 0)"
-          else
-            echo "SURVEY_CSV_URL not set — committed data only."
+          if [ -z "$SURVEY_CSV_URL" ]; then
+            echo "SURVEY_CSV_URL not set — committed data only."; exit 0
           fi
+          for attempt in 1 2 3 4 5; do
+            # unique query string per attempt: Google's frontend caches the
+            # /exec response by URL and has served runners hours-old
+            # snapshots, so the newest responses never reached the build
+            bust="$(date +%s)-$RANDOM-$attempt"
+            curl -sL --max-time 60 "${SURVEY_CSV_URL}?nocache=${bust}" \
+                 -H 'Cache-Control: no-cache' -o /tmp/live_responses.csv || true
+            head=$(head -c 22 /tmp/live_responses.csv 2>/dev/null || true)
+            rows=$(grep -c "" /tmp/live_responses.csv 2>/dev/null || echo 0)
+            if [ "$head" = "timestamp,name,advisor" ] && [ "$rows" -ge 100 ]; then
+              echo "live rows: $rows (attempt $attempt)"; exit 0
+            fi
+            echo "attempt $attempt: bad payload (rows=$rows, head='$head') — retrying"
+            rm -f /tmp/live_responses.csv
+            sleep $((attempt * 10))
+          done
+          echo "::error::survey CSV unavailable after 5 attempts; refusing to rebuild without it"
+          exit 1
 
       - name: Rebuild tree data
         working-directory: family-tree
         run: |
+          python3 - <<'PY' > /tmp/people_before.txt
+          import json, re
+          s = open('data/tree.js').read()
+          j = json.loads(re.sub(r'^.*?window\.TREE_DATA = ', '', s, flags=re.S).rstrip(';\n'))
+          n = 0
+          stack = list(j.get('children', []))
+          while stack:
+              p = stack.pop(); n += 1; stack.extend(p.get('children', []))
+          print(n)
+          PY
           ARGS="--base data/base.json --survey data/additions.csv --survey data/gen_crawl.csv --survey data/sample_responses.csv"
           if [ -s /tmp/live_responses.csv ]; then
             ARGS="$ARGS --survey /tmp/live_responses.csv"
@@ -59,6 +90,29 @@ jobs:
           fi
           # photo files may have changed -> refresh photo paths in the data
           python3 scripts/build_data.py $BUILD_ARGS
+
+      # last line of defence: people join the tree, they never vanish. A drop
+      # means a source failed to load, so stop before the commit.
+      - name: Guard against a shrinking tree
+        working-directory: family-tree
+        run: |
+          before=$(cat /tmp/people_before.txt)
+          after=$(python3 - <<'PY'
+          import json, re
+          s = open('data/tree.js').read()
+          j = json.loads(re.sub(r'^.*?window\.TREE_DATA = ', '', s, flags=re.S).rstrip(';\n'))
+          n = 0
+          stack = list(j.get('children', []))
+          while stack:
+              p = stack.pop(); n += 1; stack.extend(p.get('children', []))
+          print(n)
+          PY
+          )
+          echo "people: $before -> $after"
+          if [ "$after" -lt $((before - 2)) ]; then
+            echo "::error::tree shrank from $before to $after — not committing"
+            exit 1
+          fi
 
       - name: Commit if changed
         run: |
