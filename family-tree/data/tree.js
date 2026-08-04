@@ -16996,6 +16996,24 @@ window.TREE_DATA = {
    ]
   },
   {
+   "id": "soichi-ibarakiibaraki-hiroshima-u-ac-jp",
+   "name": "Soichi Ibarakiibaraki@hiroshima-u.ac.jp",
+   "batch": "PhD 2000",
+   "kind": "phd",
+   "year": 2000,
+   "decade": "2000s",
+   "educator": true,
+   "affiliation": "Hiroshima University",
+   "title": "Professor",
+   "inMemoriam": false,
+   "photo": "photos/soichi-ibarakiibaraki-hiroshima-u-ac-jp.jpg",
+   "bio": "2001-2016 assistant and associate professor at Kyoto University, 2016-now professor at Hiroshima University",
+   "note": null,
+   "homepage": "https://mecdes.hiroshima-u.ac.jp/~ibaraki.h0523/",
+   "provisional": false,
+   "children": []
+  },
+  {
    "id": "li-yi",
    "name": "Yi Li",
    "batch": "PhD 2000",
