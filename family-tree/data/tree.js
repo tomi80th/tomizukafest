@@ -15258,9 +15258,9 @@ window.TREE_DATA = {
      "affiliation": null,
      "title": null,
      "inMemoriam": false,
-     "photo": null,
-     "bio": null,
-     "note": null,
+     "photo": "photos/zeshen-chen.jpg",
+     "bio": "Zeshen Chen received his Ph.D. in Mechanical Engineering from Purdue University in 2025 under the supervision of Prof. Bin Yao. He is currently a Staff Engineer at Western Digital in San Jose, California.",
+     "note": "Staff Engineer at Western Digital",
      "homepage": null,
      "provisional": false,
      "children": []
