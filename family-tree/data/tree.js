@@ -20741,9 +20741,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "now at Instinct Robotics",
+     "note": "COO at Instinct Robotics",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
