@@ -14538,9 +14538,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": "photos/jianqin-gong.jpg",
      "bio": null,
-     "note": "now at Maxtor Inc., California",
+     "note": "Mechatronics Engineer at KLA",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
