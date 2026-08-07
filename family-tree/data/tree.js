@@ -4815,9 +4815,9 @@ window.TREE_DATA = {
      "inMemoriam": false,
      "photo": null,
      "bio": null,
-     "note": "research engineer at Apple",
+     "note": "Camera Control System Engineer at Apple",
      "homepage": null,
-     "provisional": true,
+     "provisional": false,
      "children": []
     },
     {
