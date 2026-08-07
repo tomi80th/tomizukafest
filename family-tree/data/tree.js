@@ -16494,8 +16494,11 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": null,
-   "children": []
+   "photo": "photos/wang-jeng-yu.jpg",
+   "children": [],
+   "provisional": false,
+   "bio": "My experience is in the areas of mechatronic system from concept design to volume production focusing on embedded firmware development, software application development, and dynamic motion control",
+   "note": "Director of Engineering, Western Digital"
   },
   {
    "id": "feng-kai-ten",
