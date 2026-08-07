@@ -17071,7 +17071,10 @@ window.TREE_DATA = {
    "title": null,
    "inMemoriam": false,
    "photo": "photos/zhu-bo.jpg",
-   "children": []
+   "children": [],
+   "provisional": false,
+   "bio": "Ventured through various startups and worked at leading semiconductor equipment companies before becoming an investor supporting innovations",
+   "note": "Managing Partner at Richland Capital"
   },
   {
    "id": "cloet-carlo",
