@@ -1448,14 +1448,14 @@ window.TREE_DATA = {
      "year": 1992,
      "decade": "1990s",
      "educator": true,
-     "affiliation": "Tufts University (2012-2023, Mechanical Engineering); previously Carnegie Mellon (19 years); currently Adjunct Professor, Carnegie Mellon",
-     "title": "Professor (retired from Tufts); Adjunct Professor at CMU",
+     "affiliation": "Carnegie Mellon, Tufts University",
+     "title": "Professor",
      "inMemoriam": false,
      "photo": "photos/william-messner.jpg",
-     "bio": null,
+     "bio": "Grew up in Amesbury, MA. BS in mathematics (MIT 1985), MS and PhD in mechanical engineering (UC Berkeley, 1989, 1992). Professor of mechanical (Carnegie Mellon 1993-2012) and (Tufts 2012-2019). Currently a self-employed consultant, advisor to several start-ups, and an adjunct professor of ME.",
      "note": null,
-     "homepage": null,
-     "provisional": true,
+     "homepage": "https://www.linkedin.com/in/williammessner/",
+     "provisional": false,
      "children": []
     },
     {
@@ -15266,6 +15266,24 @@ window.TREE_DATA = {
      "children": []
     },
     {
+     "id": "sesha-charla",
+     "name": "Sesha Charla",
+     "batch": "PhD 2026",
+     "kind": "phd",
+     "year": 2026,
+     "decade": "2020s",
+     "educator": false,
+     "affiliation": null,
+     "title": null,
+     "inMemoriam": false,
+     "photo": "photos/sesha-charla.jpg",
+     "bio": null,
+     "note": "System Analyst at Intuitive Surgical",
+     "homepage": "https://seshacharla.github.io/",
+     "provisional": false,
+     "children": []
+    },
+    {
      "id": "sesha-n-charla",
      "name": "Sesha N Charla",
      "batch": "PhD 2026",
@@ -22208,7 +22226,9 @@ window.TREE_DATA = {
    "inMemoriam": false,
    "photo": "photos/chang-wei-jer.jpg",
    "children": [],
-   "provisional": false
+   "provisional": false,
+   "note": "Autopilot Engineer at Tesla",
+   "homepage": "https://weijer-chang.github.io/"
   },
   {
    "id": "xie-yichen",

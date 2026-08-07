@@ -443,8 +443,9 @@
   "confidence": "high (MSC lab site)"
  },
  "chang-wei-jer": {
-  "source": "https://msc.berkeley.edu/assets/images/people/weijer.jpg",
-  "confidence": "high (MSC lab site)"
+  "source": "https://drive.google.com/uc?export=download&id=1JYfYjpF6ghbzeieBWjZ09AwBOblsdj2_",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-08-07"
  },
  "kobashi-keita": {
   "source": "https://msc.berkeley.edu/assets/images/people/kobashi.jpg",
@@ -2062,9 +2063,9 @@
   "ingested": "2026-07-05"
  },
  "william-messner": {
-  "source": "https://theconversation.com/profiles/william-c-messner-288376",
-  "confidence": "high (faculty-page hunt)",
-  "ingested": "2026-07-05"
+  "source": "https://drive.google.com/uc?export=download&id=1BoV0o_euAg-hjaPF5cTFO8nOO0nInAqw",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-08-07"
  },
  "perry-y-li": {
   "source": "https://cse.umn.edu/me/perry-li",
@@ -2995,5 +2996,10 @@
   "source": "https://drive.google.com/uc?export=download&id=1g3owjOGmxfmjtSj_XNsmnVgKGmKI8XGu",
   "confidence": "self-submitted (survey)",
   "ingested": "2026-08-04"
+ },
+ "sesha-charla": {
+  "source": "https://drive.google.com/uc?export=download&id=1QMTx1HaRPuUjZeZ7FwyIbIcDC4QxvhbM",
+  "confidence": "self-submitted (survey)",
+  "ingested": "2026-08-07"
  }
 }

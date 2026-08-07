@@ -21,3 +21,9 @@ If a real namesake: re-add the row with distinct=yes. If co-advised: safe to ign
 - Dongyoung Lee (row advisor: 'Joonbum Bae', graduated 2024)
 - Zijian He (row advisor: 'Yan Gu', current )
 - Zijian He (row advisor: 'Yan Gu', current )
+
+# Suspiciously similar sibling names (one person split by a typo?)
+
+Fix the roster spelling in base.json (or the crawl CSV) so the survey row merges back in.
+
+- under Bin Yao: 'Sesha Charla' vs 'Sesha N Charla'
