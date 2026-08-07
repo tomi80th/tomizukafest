@@ -22243,7 +22243,9 @@ window.TREE_DATA = {
    "inMemoriam": false,
    "photo": "photos/xie-yichen.jpg",
    "children": [],
-   "provisional": false
+   "provisional": false,
+   "note": "Research Scientist at Luma AI",
+   "homepage": "https://yichen928.github.io/"
   },
   {
    "id": "li-yiheng",
