@@ -16466,8 +16466,10 @@ window.TREE_DATA = {
    "affiliation": null,
    "title": null,
    "inMemoriam": false,
-   "photo": null,
-   "children": []
+   "photo": "photos/niu-weiguang.jpg",
+   "children": [],
+   "provisional": false,
+   "note": "IC Engineer at Broadcom"
   },
   {
    "id": "smith-craig",
